@@ -2,6 +2,7 @@
 CS 224U Project
 
 ## Directory Setup
+```
 |-- data
   |-- MSR   (Get data from here: https://www.kaggle.com/c/mlsd-hw3/data)
     |-- Holmes_Training_data
@@ -10,4 +11,5 @@ CS 224U Project
   |-- SAT   (No data yet)
   |-- WSJ   (No data yet)
 |-- code
+```
 
