@@ -6,6 +6,7 @@ import operator
 from sklearn.model_selection import train_test_split
 from collections import defaultdict
 from tqdm import tqdm
+from multithreading import run_in_parallel
 
 data_path = '../data'
 MSR_folder = 'MSR'
@@ -23,7 +24,7 @@ class MSR:
     def __init__(self, path=MSR_path, seed=345):
         self.root_path = path
         self.train_path = os.path.join(path, 'Holmes_Training_Data')
-        self.test_path = os.path.join(path, 'testing_data.txt')
+        #self.test_path = os.path.join(path, 'testing_data.txt')
         self.train_files = glob.glob(os.path.join(self.train_path, '*.TXT'))
         self.seed = seed
         self.TEST_DEV_SPLIT = 0.6
@@ -68,66 +69,47 @@ class MSR:
             doc += l
         return doc
     
-    def parse_question(self, line):
-        question_number = line.split()[0]
-        answer = line.split()[1:]
-        for i, c in enumerate(question_number):
-            if c.isalpha():
-                number = int(question_number[:i])
-                letter = question_number[i]
-                return number, answer
-        raise IOError
-
-    def read_questions(self):
-        test = []
-        # Read in as a list of lines
-        with open(self.test_path) as f:
-            test_lines = f.readlines()
-        test_lines = [x.strip() for x in test_lines]
-
-        # Process data into a usable test set
-        current = 1
-        ex = []
-        for line in test_lines:
-            number, answer = self.parse_question(line)
-            if current != number:
-                test.append(ex)
-                ex = []
-            current = number
-            ex.append(answer)
-        test.append(ex)
-        return test
-    
-    def dev(self):
-        questions = self.read_questions()
-        test, dev = train_test_split(questions, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
-        return dev
-    
     def test(self):
-        questions = self.read_questions()
-        test, dev = train_test_split(questions, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
+        questions_path = os.path.join(self.root_path, 'testing_data.csv')
+        answers_path = os.path.join(self.root_path, 'test_answer.csv')
+        questions = pd.read_csv(questions_path)
+        answers = pd.read_csv(answers_path)
+        dataset = questions.join(answers)
+        test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
         return test
-    
+
+    def dev(self):
+        questions_path = os.path.join(self.root_path, 'testing_data.csv')
+        answers_path = os.path.join(self.root_path, 'test_answer.csv')
+        questions = pd.read_csv(questions_path, index_col='id')
+        answers = pd.read_csv(answers_path, index_col='id')
+        dataset = questions.join(answers)
+        test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
+        return dev
+
     # Returns a word-word co-occurance matrix
-    def train_word_word_cooccurance(self, window=5, vocab_size=5000):
+    def train_word_word_cooccurance(self, window=5, vocab_size=5000, n_threads=4):
         print('Loading vocab')
         vocab, reverse_vocab = self.vocab(vocab_size)
-        
-        print('Generating matrix. WARNING: This takes a VERY long time.')
-        matrix = np.zeros((vocab_size, vocab_size))
-        for path in tqdm(self.train_files):
+
+        def word_word_coocurrance(self, doc_path):
+            m = np.zeros((vocab_size, vocab_size))
             doc = self.load_document(path, verbose=False)
             for i in range(window, len(doc) - window):  # Iterate over words in document
                 index_i = reverse_vocab[doc[i]]  # Get vocab index for the word in doc at index i
-                if index_i == None:  # i is not in the vocab
+                if index_i is None:  # i is not in the vocab
                     continue
                 for j in range(i - window, i + window + 1):  # Interate over a window for word i
                     index_j = reverse_vocab[doc[j]]
-                    if i == j or index_j == None:
+                    if i == j or index_j is None:
                         continue
-                    matrix[index_i, index_j] += 1
+                    m[index_i, index_j] += 1
                     if index_i != index_j:
-                        matrix[index_j, index_i] += 1
+                        m[index_j, index_i] += 1
+            return m
+        
+        print('Generating matrix. n_threads={}. WARNING: This takes a VERY long time.'.format(n_threads))
+        matrix = sum(run_in_parallel(word_word_coocurrance, n_threads, self.train_files))
         return pd.DataFrame(matrix, index=vocab, columns=vocab)
 
     def train_word_document_cooccurance(self, vocab_size=5000):
