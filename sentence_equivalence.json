@@ -1,0 +1,268 @@
+[
+    {
+        "id": "None",
+        "question": "Although it does contain some pioneering ideas, one would hardly characterize the work as $BLANK.",
+        "candidates": ["orthodox",
+            "eccentric",
+            "original",
+            "trifling",
+            "conventional",
+            "innovative"],
+        "solution_indices": [2, 5],
+        "source": "ETS Sample Questions",
+        "URL": "https://www.ets.org/gre/institutions/about/general/verbal_reasoning_sample_questions/"
+    },
+
+    {
+        "id": "None",
+        "question": "The corporation expects only $BLANK increases in sales next year despite a yearlong effort to revive its retailing business.",
+        "candidates": ["dynamic",
+            "predictable",
+            "explanding",
+            "modest",
+            "slight",
+            "volatile"],
+        "solution_indices": [3, 4],
+        "source": "ETS Sample Questions",
+        "URL": "https://www.ets.org/gre/institutions/about/general/verbal_reasoning_sample_questions/"
+    },
+
+    {
+        "id": "None",
+        "question": "Early critics of Emily Dickinson’s poetry mistook for simplemindedness the surface of artlessness that in fact she constructed with such $BLANK.",
+        "candidates": ["astonishment",
+            "craft",
+            "cunning",
+            "innocence",
+            "naivete",
+            "vexation"],
+        "solution_indices": [1, 2],
+        "source": "Kaplan Sample Questions",
+        "URL": "https://www.kaptest.com/study/gre/gre-verbal-sentence-equivalence/"
+    },
+
+    {
+        "id": "None",
+        "question": "Dreams are $BLANK in and of themselves, but, when combined with other data, they can tell us much about the dreamer.",
+        "candidates": ["astonishing",
+            "disordered",
+            "harmless",
+            "inscrutable",
+            "revealing",
+            "uninformative"],
+        "solution_indices": [3, 5],
+        "source": "Kaplan Sample Questions",
+        "URL": "https://www.kaptest.com/study/gre/gre-verbal-sentence-equivalence/"
+    },
+
+    {
+        "id": "None",
+        "question": "Nancy’s landlord told her and her housemates that because of their failure to pay rent for the previous two months, they would need to $BLANK possession of the residence by the end of the week.",
+        "candidates": ["allocate",
+            "surrender",
+            "mandate",
+            "designate",
+            "relinquish",
+            "circumvent"],
+        "solution_indices": [1, 4],
+        "source": "Kaplan Sample Questions",
+        "URL": "https://www.kaptest.com/study/gre/gre-verbal-sentence-equivalence/"
+    },
+
+
+     {
+        "id": "None",
+        "question": "After being bedridden for months, James found that his muscles had atrophied, which initially $BLANK his ability to walk or lift heavy objects.",
+        "candidates": ["belittled",
+            "castigated",
+            "hampered",
+            "bolstered",
+            "curtailed",
+            "improved"],
+        "solution_indices": [2, 4],
+        "source": "Kaplan Sample Questions",
+        "URL": "https://www.kaptest.com/study/gre/gre-verbal-sentence-equivalence/"
+    },
+
+    {
+        "id": "None",
+        "question": "After a 12-year imprisonment under false treason charges, Alfred Dreyfus was justly $BLANK, effectively putting an end to the French political scandal known as the Dreyfus Affair.",
+        "candidates": ["abrogated",
+            "exonerated",
+            "acquitted",
+            "interred",
+            "assassinated",
+            "shunned"],
+        "solution_indices": [1, 2],
+        "source": "Kaplan 20 Minute Quiz",
+        "URL": "http://kaplanquizzes.com/review/gre/?success=yes"
+    },
+
+    {
+        "id": "None",
+        "question": "The protest at the capital yesterday was an absolute $BLANK; while the activists had the best of intentions, the demonstration showed a complete lack of organization and was actually counterproductive to their cause.",
+        "candidates": ["stalemate",
+            "debacle",
+            "impasse",
+            "fiasco",
+            "obstacle",
+            "enigma"],
+        "solution_indices": [1, 3],
+        "source": "Kaplan 20 Minute Quiz",
+        "URL": "http://kaplanquizzes.com/review/gre/?success=yes"
+    },
+
+    {
+        "id": "None",
+        "question": "In response to recent criticism of inhumane and unhygienic practices throughout the agricultural industry, farmers resolved to commission an advertising campaign portraying virtuous ranchers that would $BLANK the industry.",
+        "candidates": ["recriminate",
+            "exonerate",
+            "vindicate",
+            "repudiate",
+            "eradicate",
+            "adulterate"],
+        "solution_indices": [1, 2],
+        "source": "Kaplan 20 Minute Quiz",
+        "URL": "http://kaplanquizzes.com/review/gre/?success=yes"
+    },
+
+
+    {
+        "id": "None",
+        "question": "Since her parents were distracted by their guests after dinner, the child $BLANK escaped to the kitchen and proceeded to devour all of the remaining cookies.",
+        "candidates": ["stealthily",
+            "resiliently",
+            "scornfully",
+            "cheerfully",
+            "furtively",
+            "benevolently"],
+        "solution_indices": [0, 4],
+        "source": "Kaplan Free Practice Test",
+        "URL": "https://atom.kaptest.com/assignment/jasper/test.fulllength/start?path=main%2Fgre2015%2Fassessments%2Fdiag%2Fgre2015MST01&title=GRE%20Practice%20Test&extension=jasper-product-code%3DGRE2015&isReviewMode=false"
+    },
+
+
+    {
+        "id": "None",
+        "question": "As she stepped down from the podium, the candidate was lauded by an enthusiastic audience of supporters who were gratified not only by the fervency of her delivery but also by the $BLANK words of her speechwriter.",
+        "candidates": ["stentorian",
+            "expository",
+            "felicitous",
+            "garrulous",
+            "poignant",
+            "vociferous"],
+        "solution_indices": [2, 4],
+        "source": "Kaplan Free Practice Test",
+        "URL": "https://atom.kaptest.com/assignment/jasper/test.fulllength/start?path=main%2Fgre2015%2Fassessments%2Fdiag%2Fgre2015MST01&title=GRE%20Practice%20Test&extension=jasper-product-code%3DGRE2015&isReviewMode=false"
+    },
+
+    {
+        "id": "None",
+        "question": "While attempting to take a photograph, Miguel inadvertently stumbled forward and became partially submerged in the pond, causing him to $BLANK a significant quantity of dirty water.",
+        "candidates": ["absorb",
+            "imbibe",
+            "regurgitate",
+            "dispatch",
+            "ingest",
+            "spew"],
+        "solution_indices": [1, 4],
+        "source": "Kaplan Free Practice Test",
+        "URL": "https://atom.kaptest.com/assignment/jasper/test.fulllength/start?path=main%2Fgre2015%2Fassessments%2Fdiag%2Fgre2015MST01&title=GRE%20Practice%20Test&extension=jasper-product-code%3DGRE2015&isReviewMode=false"
+    },
+
+    {
+        "id": "None",
+        "question": "A number of double-blind lab studies have confirmed that soothing activities such as knitting and cooking can counteract the deleterious effects of $BLANK on the human body.",
+        "candidates": ["dispassion",
+            "sedation",
+            "apprehension",
+            "trepidation",
+            "intoxication",
+            "imperturbation"],
+        "solution_indices": [2, 3],
+        "source": "Kaplan Free Practice Test",
+        "URL": "https://atom.kaptest.com/assignment/jasper/test.fulllength/start?path=main%2Fgre2015%2Fassessments%2Fdiag%2Fgre2015MST01&title=GRE%20Practice%20Test&extension=jasper-product-code%3DGRE2015&isReviewMode=false"
+    },
+
+    {
+        "id": "None",
+        "question": "The fact that Louis is $BLANK chess almost certainly contributed to his long string of losses in a recent tournament.",
+        "candidates": ["an authority on",
+            "impervious to",
+            "an amateur at",
+            "exceptional at",
+            "brand new at",
+            "daunting in"],
+        "solution_indices": [2, 4],
+        "source": "Kaplan Free Practice Test",
+        "URL": "https://atom.kaptest.com/assignment/jasper/test.fulllength/start?path=main%2Fgre2015%2Fassessments%2Fdiag%2Fgre2015MST01&title=GRE%20Practice%20Test&extension=jasper-product-code%3DGRE2015&isReviewMode=false"
+    },
+
+    {
+        "id": "None",
+        "question": "Despite several failed attempts and repeated admonishment by the restaurant owner, the $BLANK sous chef at last perfected the dish.",
+        "candidates": ["oblivious",
+            "cordial",
+            "negligent",
+            "resolute",
+            "submissive",
+            "tenacious"],
+        "solution_indices": [3, 5],
+        "source": "Kaplan Free Practice Test",
+        "URL": "https://atom.kaptest.com/assignment/jasper/test.fulllength/start?path=main%2Fgre2015%2Fassessments%2Fdiag%2Fgre2015MST01&title=GRE%20Practice%20Test&extension=jasper-product-code%3DGRE2015&isReviewMode=false"
+    },
+
+    {
+        "id": "None",
+        "question": "The company’s goal in introducing the new product is for it to be less expensive and more $BLANK than competing products.",
+        "candidates": ["serviceable",
+            "effective",
+            "extravagant",
+            "common",
+            "arduous",
+            "complex"],
+        "solution_indices": [0, 1],
+        "source": "Kaplan Free Practice Test",
+        "URL": "https://atom.kaptest.com/assignment/jasper/test.fulllength/start?path=main%2Fgre2015%2Fassessments%2Fdiag%2Fgre2015MST01&title=GRE%20Practice%20Test&extension=jasper-product-code%3DGRE2015&isReviewMode=false"
+    },
+
+    {
+        "id": "None",
+        "question": "Some economists believe that current international trade policies favor the interests of the more developed countries and may keep nations with struggling economies weak. Such policies, these economists argue, benefit wealthy countries by allowing them to exploit the cheap labor of increasingly $BLANK populations in developing nations.",
+        "candidates": ["destitute",
+            "indigent",
+            "lackadaisical",
+            "morose",
+            "affluent",
+            "docile"],
+        "solution_indices": [0, 1],
+        "source": "Kaplan Free Practice Test",
+        "URL": "https://atom.kaptest.com/assignment/jasper/test.fulllength/start?path=main%2Fgre2015%2Fassessments%2Fdiag%2Fgre2015MST01&title=GRE%20Practice%20Test&extension=jasper-product-code%3DGRE2015&isReviewMode=false"
+    },
+
+    {
+        "id": "None",
+        "question": "Our tour guide was obviously more capable than we thought; after the avalanche, he assumed $BLANK role, leading us quickly out of danger, checking us all for injury, and assuaging our fright.",
+        "candidates": ["an assuming",
+            "a guarded",
+            "a pretentious",
+            "a protective",
+            "a moralizing",
+            "a tutelary"],
+        "solution_indices": [3, 5],
+        "source": "Kaplan Pop Quiz",
+        "URL": "http://kaplanquizzes.com/quiz/review/quiz_gre.php?page=success"
+    }
+
+]
+
+
+
+
+
+
+
+
+
+
+
