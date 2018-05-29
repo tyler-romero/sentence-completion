@@ -11,6 +11,9 @@ CS 224U Project
       |-- * lots of txt files *
     |-- testing_data.txt
   |-- SAT   (No data yet)
+  |-- GRE
+    |-- gre_sentence_completion.json
+    |-- sentence_equivalence.json
   |-- WSJ   (No data yet)
   |-- vsmdata (The one from class)
 |-- code
