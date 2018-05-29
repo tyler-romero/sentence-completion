@@ -6,20 +6,15 @@ import operator
 from sklearn.model_selection import train_test_split
 from collections import defaultdict
 from tqdm import tqdm
-from multithreading import run_in_parallel
 
 data_path = '../data'
-MSR_folder = 'MSR'
-SAT_folder = 'SAT'
-WSJ_folder = 'WSJ'
 
-MSR_path = os.path.join(data_path, MSR_folder)
-SAT_path = os.path.join(data_path, SAT_folder)
-WSJ_path = os.path.join(data_path, WSJ_folder)
+MSR_path = os.path.join(data_path, 'MSR')
+SAT_path = os.path.join(data_path, 'SAT')
+WSJ_path = os.path.join(data_path, 'WSJ')
+
 
 # TODO: Data loading for SAT and WSJ
-
-
 class MSR:
     def __init__(self, path=MSR_path, seed=345):
         self.root_path = path
@@ -51,22 +46,13 @@ class MSR:
         return vocab, reverse_vocab
         
     def load_document(self, path, verbose=False):
-        with open(path) as f:
-            try:
-                lines = f.readlines()
-            except UnicodeDecodeError:
-                if verbose:
-                    print("Warning: Could not load {}".format(path))
-                return []
-        # Remove Preamble
-        for i, l in enumerate(lines):
-            if '*END*THE SMALL PRINT!' in l:
-                break
-        lines = lines[i + 1:]
         doc = []
-        for l in lines:
-            l = l.split()
-            doc += l
+        with open(path) as f:
+            for line in f:
+                l = line.split()
+                for word in l:
+                    word = word.strip()
+                    doc.append(word)
         return doc
     
     def test(self):
@@ -88,29 +74,39 @@ class MSR:
         return dev
 
     # Returns a word-word co-occurance matrix
-    def train_word_word_cooccurance(self, window=5, vocab_size=5000, n_threads=4):
+    # Caches each new matrix once it has been computed, to save time in the future
+    def train_word_word_cooccurance(self, window=5, vocab_size=5000):
+        # Load co-occurance matrix if it already exists
+        file_name = "gutenberg{}_{}.pkl".format(window, vocab_size)
+        file_path = os.path.join(self.root_path, file_name)
+        if os.path.isfile(file_path):
+            print("Loading existing co-occurance matrix")
+            return pd.read_pickle(file_path)
+
         print('Loading vocab')
         vocab, reverse_vocab = self.vocab(vocab_size)
-
-        def word_word_coocurrance(self, doc_path):
-            m = np.zeros((vocab_size, vocab_size))
+        
+        print('Generating matrix')
+        matrix = np.zeros((vocab_size, vocab_size))
+        for path in tqdm(self.train_files):
             doc = self.load_document(path, verbose=False)
             for i in range(window, len(doc) - window):  # Iterate over words in document
                 index_i = reverse_vocab[doc[i]]  # Get vocab index for the word in doc at index i
-                if index_i is None:  # i is not in the vocab
+                if index_i == None:  # i is not in the vocab
                     continue
                 for j in range(i - window, i + window + 1):  # Interate over a window for word i
                     index_j = reverse_vocab[doc[j]]
-                    if i == j or index_j is None:
+                    if i == j or index_j == None:
                         continue
-                    m[index_i, index_j] += 1
+                    matrix[index_i, index_j] += 1
                     if index_i != index_j:
-                        m[index_j, index_i] += 1
-            return m
-        
-        print('Generating matrix. n_threads={}. WARNING: This takes a VERY long time.'.format(n_threads))
-        matrix = sum(run_in_parallel(word_word_coocurrance, n_threads, self.train_files))
-        return pd.DataFrame(matrix, index=vocab, columns=vocab)
+                        matrix[index_j, index_i] += 1
+        # Save co-occurance matrix
+        df = pd.DataFrame(matrix, index=vocab, columns=vocab)
+        print("Saving co-occurance matrix to {}".format(file_path))
+        df.to_pickle(file_path)
+        print("Successfully saved co-occurance matrix")
+        return df
 
     def train_word_document_cooccurance(self, vocab_size=5000):
         print('Loading vocab')
@@ -127,4 +123,4 @@ class MSR:
                     continue
                 matrix[word_index, doc_index] += 1
         file_names = [os.path.basename(path) for path in self.train_files]
-        return pd.DataFrame(matrix, index=vocab, columns=file_names)
+        return pd.DataFrame(matrix, index=vocab, columns=file_names) 
