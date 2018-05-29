@@ -1,10 +1,9 @@
 import pandas as pd
 import numpy as np
-import json
-from pprint import pprint
 import os
 import glob
-import operator 
+import operator
+import string
 from sklearn.model_selection import train_test_split
 from collections import defaultdict
 from tqdm import tqdm
@@ -26,6 +25,7 @@ class MSR:
         self.train_files = glob.glob(os.path.join(self.train_path, '*.TXT'))
         self.seed = seed
         self.TEST_DEV_SPLIT = 0.6
+        self.punctuation_table = str.maketrans({key: None for key in string.punctuation})
         
     def vocab(self, MAX_VOCAB_SIZE):
         word_counts = defaultdict(int)
@@ -52,6 +52,7 @@ class MSR:
         doc = []
         with open(path) as f:
             for line in f:
+                line = line.translate(self.punctuation_table)  # Strip punctuation
                 l = line.split()
                 for word in l:
                     word = word.strip()
@@ -84,7 +85,7 @@ class MSR:
         file_path = os.path.join(self.root_path, file_name)
         if os.path.isfile(file_path):
             print("Loading existing co-occurance matrix")
-            return pd.read_csv(file_path)
+            return pd.read_csv(file_path, index_col=0)
 
         print('Loading vocab')
         vocab, reverse_vocab = self.vocab(vocab_size)
@@ -156,3 +157,7 @@ class GRE:
         dataset = pd.read_json(self.sentence_equivalence_path)
         test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
         return test
+
+msr = MSR()
+df = msr.train_word_word_cooccurance(window=5, vocab_size=10000)
+print(df.head())
