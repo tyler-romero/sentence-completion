@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import json
+from pprint import pprint
 import os
 import glob
 import operator 
@@ -11,6 +13,7 @@ data_path = '../data'
 
 MSR_path = os.path.join(data_path, 'MSR')
 SAT_path = os.path.join(data_path, 'SAT')
+GRE_path = os.path.join(data_path, 'GRE')
 WSJ_path = os.path.join(data_path, 'WSJ')
 
 
@@ -77,11 +80,11 @@ class MSR:
     # Caches each new matrix once it has been computed, to save time in the future
     def train_word_word_cooccurance(self, window=5, vocab_size=5000):
         # Load co-occurance matrix if it already exists
-        file_name = "gutenberg{}_{}.pkl".format(window, vocab_size)
+        file_name = "gutenberg{}_{}.csv".format(window, vocab_size)
         file_path = os.path.join(self.root_path, file_name)
         if os.path.isfile(file_path):
             print("Loading existing co-occurance matrix")
-            return pd.read_pickle(file_path)
+            return pd.read_csv(file_path)
 
         print('Loading vocab')
         vocab, reverse_vocab = self.vocab(vocab_size)
@@ -104,7 +107,7 @@ class MSR:
         # Save co-occurance matrix
         df = pd.DataFrame(matrix, index=vocab, columns=vocab)
         print("Saving co-occurance matrix to {}".format(file_path))
-        df.to_pickle(file_path)
+        df.to_csv(file_path)
         print("Successfully saved co-occurance matrix")
         return df
 
@@ -123,4 +126,33 @@ class MSR:
                     continue
                 matrix[word_index, doc_index] += 1
         file_names = [os.path.basename(path) for path in self.train_files]
-        return pd.DataFrame(matrix, index=vocab, columns=file_names) 
+        return pd.DataFrame(matrix, index=vocab, columns=file_names)
+
+
+class GRE:
+    def __init__(self, path=GRE_path, seed=345):
+        self.root_path = path
+        self.sentence_completion_path = os.path.join(path, 'gre_sentence_completion.json')
+        self.sentence_equivalence_path = os.path.join(path, 'sentence_equivalence.json')
+        self.seed = seed
+        self.TEST_DEV_SPLIT = 0.6
+
+    def dev_sentence_completion(self):
+        dataset = pd.read_json(self.sentence_completion_path)
+        test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
+        return dev
+
+    def test_sentence_completion(self):
+        dataset = pd.read_json(self.sentence_completion_path)
+        test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
+        return test
+
+    def dev_sentence_equivalence(self):
+        dataset = pd.read_json(self.sentence_equivalence_path)
+        test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
+        return dev
+
+    def test_sentence_equivalence(self):
+        dataset = pd.read_json(self.sentence_equivalence_path)
+        test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
+        return test
