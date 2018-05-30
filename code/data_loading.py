@@ -5,6 +5,7 @@ import glob
 import operator
 import string
 from sklearn.model_selection import train_test_split
+import pickle
 from collections import defaultdict
 from tqdm import tqdm
 
@@ -81,11 +82,11 @@ class MSR:
     # Caches each new matrix once it has been computed, to save time in the future
     def train_word_word_cooccurance(self, window=5, vocab_size=5000):
         # Load co-occurance matrix if it already exists
-        file_name = "gutenberg{}_{}.csv".format(window, vocab_size)
+        file_name = "gutenberg{}_{}.csv.gz".format(window, vocab_size)
         file_path = os.path.join(self.root_path, file_name)
         if os.path.isfile(file_path):
             print("Loading existing co-occurance matrix")
-            return pd.read_csv(file_path, index_col=0)
+            return pd.read_csv(file_path, index_col=0, compression='gzip')
 
         print('Loading vocab')
         vocab, reverse_vocab = self.vocab(vocab_size)
@@ -108,7 +109,7 @@ class MSR:
         # Save co-occurance matrix
         df = pd.DataFrame(matrix, index=vocab, columns=vocab)
         print("Saving co-occurance matrix to {}".format(file_path))
-        df.to_csv(file_path)
+        df.to_csv(file_path, compression='gzip')
         print("Successfully saved co-occurance matrix")
         return df
 
@@ -157,7 +158,3 @@ class GRE:
         dataset = pd.read_json(self.sentence_equivalence_path)
         test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
         return test
-
-msr = MSR()
-df = msr.train_word_word_cooccurance(window=5, vocab_size=10000)
-print(df.head())
