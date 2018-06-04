@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import spacy
+from spacy.tokenizer import Tokenizer
 import os
 import glob
 import operator
@@ -11,6 +12,7 @@ from collections import defaultdict
 from tqdm import tqdm
 
 nlp = spacy.load('en_core_web_sm')
+tokenizer = Tokenizer(nlp.vocab)
 
 data_path = '../data'
 
@@ -57,7 +59,7 @@ class MSR:
         doc = []
         with open(path) as f:
             full_text = f.read()
-            doc = nlp(full_text)  # Use spacy
+            doc = tokenizer(full_text)  # Use spacy
         return doc
     
     def test(self):
