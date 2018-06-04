@@ -42,7 +42,7 @@ class MSR:
             doc = self.load_document(path)
             for token in doc:
                 if not (token.is_punct or token.is_space):
-                    word_counts[token.lemma_] += 1
+                    word_counts[token.norm_] += 1
                 
         # Order by count
         wc_sorted = sorted(word_counts.items(), key=operator.itemgetter(1), reverse=True)
@@ -98,7 +98,7 @@ class MSR:
         for path in tqdm(self.train_files):
             doc = self.load_document(path, verbose=False)
             for i in range(window, len(doc) - window):  # Iterate over words in document
-                index_i = reverse_vocab[doc[i].lemma_]  # Get vocab index for the word in doc at index i
+                index_i = reverse_vocab[doc[i].norm_]  # Get vocab index for the word in doc at index i
                 if index_i == None:  # i is not in the vocab
                     continue
                 for j in range(i - window, i + window + 1):  # Iterate over a window for word i
@@ -125,7 +125,7 @@ class MSR:
         for doc_index, path in tqdm(enumerate(self.train_files)):
             doc = self.load_document(path, verbose=False)
             for token in doc:  # Iterate over words in document
-                word_index = reverse_vocab[token.lemma_]
+                word_index = reverse_vocab[token.norm_]
                 if word_index == None:  # if i is not in the vocab
                     continue
                 matrix[word_index, doc_index] += 1
