@@ -1,0 +1,1727 @@
+[
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Scientific discoveries are often thought of as the result of $BLANK0 effor, but many discoveries have, in fact, arisen from $BLANK1 or a mistake.",
+        "candidates": ["conscientious, a method",
+            "incidental, a mishap",
+            "collaborative, a design",
+            "persistent, an extension",
+            "systematic, an accident"],
+        "solution_index": [4],
+        "source": "SAT 5-03 Section 4 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Natios that share a border are, by definition, $BLANK",
+        "candidates": ["allied",
+            "partisan",
+            "contiguous",
+            "pluralistic",
+            "sovereign"],
+        "solution_index": [2],
+        "source": "SAT 5-03 Section 4 Q2",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Much of this author's work, unfortunately, is $BLANK0, with $BLANK1 chapter often immediately following a sublime one.",
+        "candidates": ["mystical, a superior",
+            "uneven, a mediocre",
+            "predictable, an eloquent",
+            "enthralling, a vapid",
+            "flippant, an intelligible"],
+        "solution_index": [1],
+        "source": "SAT 5-03 Section 4 Q3",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "In young children, some brain cells have a $BLANK that enables them to take over the functions of damaged or missing brain cells.",
+        "candidates": ["fragility",
+            "reminiscence",
+            "perniciousness",
+            "whimsicality",
+            "plasticity"],
+        "solution_index": [4],
+        "source": "SAT 5-03 Section 4 Q4",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "\"Less government spending\" is $BLANK of this political party, a belief shared by most party members.",
+        "candidates": ["an acronym",
+            "a retraction",
+            "a tenet",
+            "a plight",
+            "a prospectus"],
+        "solution_index": [2],
+        "source": "SAT 5-03 Section 4 Q5",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Common garlic has $BLANK properties; during the First World War British medics saved thousands of lives by wrapping wounds with garlic-soaked bandages.",
+        "candidates": ["curative",
+            "flavoring",
+            "inferior",
+            "questionable",
+            "infamous"],
+        "solution_index": [0],
+        "source": "SAT 5-03 Section 6 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "In her poems, Alice Walker retrieves and $BLANK0 parts of Black culture that some have been all too quick to $BLANK1 the past as fossilized artifiacts.",
+        "candidates": ["revitalizes, consign to",
+            "conjoins, exclude from",
+            "realigns, salvage from",
+            "diffuses, defer to",
+            "refracts, impose on"],
+        "solution_index": [0],
+        "source": "SAT 5-03 Section 6 Q2",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The modest acceptance of the Academy Award-winning actress revealed a $BLANK that contrasted with her uninhibited screen performances.",
+        "candidates": ["theatricality",
+            "sullenness",
+            "flamboyance",
+            "reserve",
+            "nonchalance"],
+        "solution_index": [3],
+        "source": "SAT 5-03 Section 6 Q3",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Because howler monkeys rarely come out of the trees in their arboreal habitat, the continued well-being of the rain forest is $BLANK to their survival.",
+        "candidates": ["inadequate",
+            "tangential",
+            "indispensable",
+            "baneful",
+            "expeditious"],
+        "solution_index": [2],
+        "source": "SAT 5-03 Section 6 Q4",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Doug was both $BLANK0 and $BLANK1: he possessed penetrating acuity and discernment and was also extremely humble.",
+        "candidates": ["diligent, supercilious",
+            "perspicacious, unpretentious",
+            "obtuse, penitent",
+            "sagacious, imposing",
+            "apologetic, unassuming"],
+        "solution_index": [1],
+        "source": "SAT 5-03 Section 6 Q5",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The Mona Lisa, shipped in a private cabin and received by important dignitaries, was treated more like $BLANK than a painting upon its arrival in the United States.",
+        "candidates": ["a perfectionist",
+            "a maverick",
+            "a potentate",
+            "an ascetic",
+            "an interloper"],
+        "solution_index": [2],
+        "source": "SAT 5-03 Section 6 Q6",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Despite its patent $BLANK0, this belief has become so $BLANK1 that no amount of rational argument will suffice to eradicate it.",
+        "candidates": ["validity, inconsequential",
+            "implausibility, entrenched",
+            "credibility, prevalent",
+            "absurdity, outmoded",
+            "novelty, infrequent"],
+        "solution_index": [1],
+        "source": "SAT 5-03 Section 6 Q7",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The charlatan's seemingly frank and open demeanor was actually a $BLANK means of enlisting his patient's confidence.",
+        "candidates": ["disingenuous",
+            "debilitating",
+            "diminutive",
+            "cathartic",
+            "prosaic"],
+        "solution_index": [0],
+        "source": "SAT 5-03 Section 6 Q8",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Unable to discover how the fire started, the inspectors filed a tentative report stating that the cause was $BLANK.",
+        "candidates": ["noteworthy",
+            "definitive",
+            "fundamental",
+            "conclusive",
+            "indeterminate"],
+        "solution_index": [4],
+        "source": "SAT 5-03 Section 9 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "The celebrants at the $BLANK0 party for Cinco De Mayo were understantably $BLANK1 by the spectacle of the mariachi bands and the colorful pinatas for the children.",
+        "candidates": ["somber, amused",
+            "lavish, dazzled",
+            "novel, jaded",
+            "mundane, astonished",
+            "joyous, stymied"],
+        "solution_index": [1],
+        "source": "SAT 5-03 Section 9 Q2",
+        "URL": "",
+        "Difficulty": 2
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "\"Hawaii\" refers both to the group of islands known as the Hawaiian islands and to the largest island in that $BLANK.",
+        "candidates": ["flora",
+            "sierra",
+            "archipelago",
+            "flotilla",
+            "savanna"],
+        "solution_index": [2],
+        "source": "SAT 5-03 Section 9 Q3",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Given the exponential growth of scientific knowledge, medicine is far less $BLANK0 unsubstantiated fads than it used to be; its record of folly, however, remains an undeniable $BLANK1.",
+        "candidates": ["suspiscious of, qualifications",
+            "averse to, encumberance",
+            "vulnerable to, embarrassment",
+            "dependent on, impossibility",
+            "ignorant of, oversight"],
+        "solution_index": [2],
+        "source": "SAT 5-03 Section 9 Q4",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "The aspiring writer, who remained $BLANK0 even after being rejected by several major publishers, felt certain of achieving literary $BLANK1.",
+        "candidates": ["hopeless, vindication",
+            "disgruntled, talent",
+            "optimistic, abasement",
+            "undaunted, celebrity",
+            "obsequious, neglect"],
+        "solution_index": [3],
+        "source": "SAT 5-03 Section 9 Q5",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Fred often used $BLANK to achieve his professional goals, even though such artful subterfuge alienated his colleagues.",
+        "candidates": ["chicanery",
+            "diligence",
+            "bombast",
+            "disputation",
+            "consensus"],
+        "solution_index": [0],
+        "source": "SAT 5-03 Section 9 Q6",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Many private universities depend heavily on $BLANK, the wealthy individuals who support them with gifts and bequests.",
+        "candidates": ["instructors",
+            "administrators",
+            "monitors",
+            "accountants",
+            "benefactors"],
+        "solution_index": [4],
+        "source": "SAT 5-10 Section 3 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "One of the characters in Milton Murayama's novel is considered $BLANK because he deliberately defies an oppressive hierarchical society.",
+        "candidates": ["rebellious",
+            "impulsive",
+            "artistic",
+            "industrious",
+            "tyrannical"],
+        "solution_index": [0],
+        "source": "SAT 5-10 Section 3 Q2",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Nightjars possess a camouflage perhaps unparalleled in the bird world: by day they roost hidden in shady woods, so $BLANK0 with their surroundings that they are nearly impossible to $BLANK1.",
+        "candidates": ["vexed, dislodge",
+            "blended, discern",
+            "harmonized, interrupt",
+            "impatient, distinguish",
+            "integrated, classify"],
+        "solution_index": [1],
+        "source": "SAT 5-10 Section 3 Q3",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Many economists believe that since resources are scarce and since human desires cannot all be $BLANK0, a method of $BLANK1 is needed.",
+        "candidates": ["indulged, apportionment",
+            "verified, distribution",
+            "usurped, expropriation",
+            "expressed, reparation",
+            "anticipated, advertising"],
+        "solution_index": [0],
+        "source": "SAT 5-10 Section 3 Q4",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The range of colors that homeowners could use on the exterior of the houses was $BLANK by the community's stringent rules regarding upkeep of property.",
+        "candidates": ["circumscribed",
+            "bolstered",
+            "embellished",
+            "insinuated",
+            "cultivated"],
+        "solution_index": [0],
+        "source": "SAT 5-10 Section 3 Q5",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Years of $BLANK0 lifting of heavy furniture had left of him too $BLANK1 to be able to stand erect for long periods of time.",
+        "candidates": ["profitable, dumbfounded",
+            "generous, distracted",
+            "onerous, hesitant",
+            "strenuous, debilitated",
+            "unstinting, eminent"],
+        "solution_index": [3],
+        "source": "SAT 5-10 Section 7 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Canadian Lynn Johnston was named Cartoonist of the Year in 1985, the first woman to be so $BLANK.",
+        "candidates": ["inspired",
+            "entrusted",
+            "honored",
+            "employed",
+            "refined"],
+        "solution_index": [2],
+        "source": "SAT 5-10 Section 7 Q2",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Because the photographer believed that wild animals should be $BLANK0 only in their various natural surroundings, she $BLANK1 often in her career.",
+        "candidates": ["depicted, traveled",
+            "displayed, spoke",
+            "captured, protested",
+            "domesticated, roamed",
+            "represented, publicized"],
+        "solution_index": [0],
+        "source": "SAT 5-10 Section 7 Q3",
+        "URL": "",
+        "Difficulty": 2
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Folk painter Grandma Moses has become such as enduring icon that many consider her $BLANK of America.",
+        "candidates": ["an innovator",
+            "an emblem",
+            "a successor",
+            "a detractor",
+            "a lobbyist"],
+        "solution_index": [1],
+        "source": "SAT 5-10 Section 7 Q4",
+        "URL": "",
+        "Difficulty": 2
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Whether substances are medicines or poisons often depends on dosage, for substances that are $BLANK0 in small doses can be $BLANK1 in large.",
+        "candidates": ["useless, effective",
+            "mild, benign",
+            "curative, toxic",
+            "harmful, fatal",
+            "beneficial, miraculous"],
+        "solution_index": [2],
+        "source": "SAT 5-10 Section 7 Q5",
+        "URL": "",
+        "Difficulty": 2
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Critics dismissed the engineer's seemingly creative design as being $BLANK, that is, underdeveloped and lacking in sophistication.",
+        "candidates": ["defunct",
+            "unorthodox",
+            "simplistic",
+            "erroneous",
+            "ambiguous"],
+        "solution_index": [2],
+        "source": "SAT 5-10 Section 7 Q6",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "The professor commented to other faculty members that Sheila seemed tempermentally suited to the study of logic, given her $BLANK0 for $BLANK1 intricate arguments.",
+        "candidates": ["sympathy, influencing",
+            "penchant, evading",
+            "disregard, unhinging",
+            "contempt, following",
+            "bent, analyzing"],
+        "solution_index": [4],
+        "source": "SAT 5-10 Section 7 Q7",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "While traveling near the Sun, the coment Hale-Bopp produced a $BLANK amount of dust, much more than the comet Halley or Hyakutake.",
+        "candidates": ["voracious",
+            "disposable",
+            "redundant",
+            "superficial",
+            "prodigious"],
+        "solution_index": [4],
+        "source": "SAT 5-10 Section 7 Q8",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The writer came to be labeled $BLANK because she isolated herself in her apartment, shunning outside contact.",
+        "candidates": ["a loner",
+            "a miser",
+            "a connoisseur",
+            "a conspirator",
+            "an ingenue"],
+        "solution_index": [0],
+        "source": "SAT 5-10 Section 9 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Some Tibetan nomads used yak butter as a $BLANK, one that often took the place of money in commercial transactions.",
+        "candidates": ["promotion",
+            "commodity",
+            "formula",
+            "refund",
+            "register"],
+        "solution_index": [1],
+        "source": "SAT 5-10 Section 9 Q2",
+        "URL": "",
+        "Difficulty": 2
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Geysers vary widely: some may discharge $BLANK0, whereas others may have only a brief explosive eruption and then remain $BLANK1 for hours or days.",
+        "candidates": ["violently, dangerous",
+            "continuously, quiescent",
+            "spontaneously, unpredictable",
+            "regularly, active",
+            "faintly, imperceptible"],
+        "solution_index": [1],
+        "source": "SAT 5-10 Section 9 Q3",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Although the administration repeatedly threatened use its authority in order to $BLANK the student protestors into submission, they refused to be intimidated.",
+        "candidates": ["ease",
+            "delude",
+            "cajole",
+            "bully",
+            "nudge"],
+        "solution_index": [3],
+        "source": "SAT 5-10 Section 9 Q4",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Only after the campaign volunteers became aware of their candidate's questionable motives could they recognize the $BLANK0 statements made in his seemingly $BLANK1 speeches.",
+        "candidates": ["insightful, astute",
+            "partisan, callous",
+            "cordial, hostile",
+            "duplicitous, candid",
+            "cunning, surreptitious"],
+        "solution_index": [3],
+        "source": "SAT 5-10 Section 9 Q5",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "No longer narrowly preoccupied with their own national pasts, historians are increasingly $BLANK in that they often take a transnational perspective.",
+        "candidates": ["conciliatory",
+            "bombastic",
+            "mendacious",
+            "cosmopolitan",
+            "jocular"],
+        "solution_index": [3],
+        "source": "SAT 5-10 Section 9 Q6",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Black Americans in Flight, a mural honoring several aviation pioneers, also $BLANK the 1992 spaceflight of astronaut Mae Jemison.",
+        "candidates": ["discerns",
+            "introduces",
+            "approximates",
+            "commemorates",
+            "asserts"],
+        "solution_index": [3],
+        "source": "SAT 6-01 Section 4 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The new antifungal agent has such $BLANK0 uses, from treating Dutch elm disease to rescuing water-damagedworks of art from molds, that it is considered one of the more $BLANK1 antibiotics.",
+        "candidates": ["disturbing, explicit",
+            "innovative, precipitous",
+            "mysterious, recognized",
+            "varied, versatile",
+            "similar, discriminating"],
+        "solution_index": [3],
+        "source": "SAT 6-01 Section 4 Q2",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The child had a tendency toward aggressive behavior, a $BLANK flighting rather than resolving differences amicably.",
+        "candidates": ["propensity for",
+            "confusion about",
+            "disregard of",
+            "hostility toward",
+            "compunction about"],
+        "solution_index": [0],
+        "source": "SAT 6-01 Section 4 Q3",
+        "URL": "",
+        "Difficulty": 2
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Physical exercise often has a $BLANK effect, releasing emotional tension and refreshing the spirit.",
+        "candidates": ["pejorative",
+            "debilitating",
+            "cathartic",
+            "retentive",
+            "tenacious"],
+        "solution_index": [2],
+        "source": "SAT 6-01 Section 4 Q4",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Because rap and hip-hop offer such $BLANK commentary on contemporary issues, they are often said to be sharp-edged musical genres.",
+        "candidates": ["nebulous",
+            "trenchant",
+            "circumspect",
+            "prosaic",
+            "benign"],
+        "solution_index": [1],
+        "source": "SAT 6-01 Section 4 Q5",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Some fans feel that sports events are $BLANK0 only when the competitors are of equal ability, making the outcome of the game $BLANK1.",
+        "candidates": ["successful, assured",
+            "boring, questionable",
+            "dull, foreseen",
+            "interesting, predictable",
+            "exciting, uncertain"],
+        "solution_index": [4],
+        "source": "SAT 6-01 Section 7 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "ALfred Schnittke's musical compositions are $BLANK: phrases are clipped, broken into sections, and split apart by long rests.",
+        "candidates": ["garnished",
+            "improvisational",
+            "fragmented",
+            "cautious",
+            "uniform"],
+        "solution_index": [2],
+        "source": "SAT 6-01 Section 7 Q2",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "The consumer advocate claimed that while drug manufacturers $BLANK0 the supposed advantages of their proprietary brands, generic versions of the same medications are often equally $BLANK1.",
+        "candidates": ["tout, efficacious",
+            "research, innocuous",
+            "market, prohibitive",
+            "laud, counterproductive",
+            "extract, prescriptive"],
+        "solution_index": [0],
+        "source": "SAT 6-01 Section 7 Q3",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Latoya's $BLANK0 is shown by her ability to be $BLANK1: she can see her own faults more clearly than anyone else can.",
+        "candidates": ["perceptiveness, self-centered",
+            "objectivity, restrictive",
+            "cynicism, self-destructive",
+            "open-mindedness, complacent",
+            "insightfulness, self-critical"],
+        "solution_index": [4],
+        "source": "SAT 6-01 Section 7 Q4",
+        "URL": "",
+        "Difficulty": 2
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The bearded dragon lizard is a voracious eater, so $BLANK that it will consume as many insects as possible.",
+        "candidates": ["abstemious",
+            "cannibalistic",
+            "slovenly",
+            "insatiable",
+            "unpalatable"],
+        "solution_index": [3],
+        "source": "SAT 6-01 Section 7 Q5",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Because drummer Tony Williams paved the way for later jazz-fusion musicians, he is considered a $BLANK of that style.",
+        "candidates": ["connoisseur",
+            "revivalist",
+            "beneficiary",
+            "disparager",
+            "progenitor"],
+        "solution_index": [4],
+        "source": "SAT 6-01 Section 7 Q6",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The politician's speech to the crowd was composed of nothing but $BLANK, a bitter railing against the party's opponents.",
+        "candidates": ["digressions",
+            "diatribes",
+            "platitudes",
+            "machinations",
+            "acclamations"],
+        "solution_index": [1],
+        "source": "SAT 6-01 Section 7 Q7",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Favoring economy of expression in writing, the professor urged students toward a $BLANK0 rather than an $BLANK1 prose style.",
+        "candidates": ["spare, ornate",
+            "terse, opinionated",
+            "personal, academic",
+            "baroque, embellished",
+            "repetitive, intricate"],
+        "solution_index": [0],
+        "source": "SAT 6-01 Section 7 Q8",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "As a child, Mary $BLANK0 her stringent upbringing; however, as she grew older she began to appreciate her grandmother's strict $BLANK1.",
+        "candidates": ["tolerated, autonomy",
+            "despised, discipline",
+            "embraced, authority",
+            "disavowed, abstinence",
+            "loathed, liberality"],
+        "solution_index": [1],
+        "source": "SAT 6-01 Section 9 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "His mouth stinging and burning, Virgil hurried to the kitchen for water to wash away the dish's $BLANK taste.",
+        "candidates": ["earthy",
+            "exotic",
+            "cloying",
+            "acrid",
+            "succulent"],
+        "solution_index": [3],
+        "source": "SAT 6-01 Section 9 Q2",
+        "URL": "",
+        "Difficulty": 2
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Since other seabirds customarily nest in colonies on ocean cliffs and islands, the marbeled murrelet's $BLANK0 nesting in forests many miles from the sea must be considered $BLANK1.",
+        "candidates": ["ambivalence about, hypothetical",
+            "indifference to, bold",
+            "insistence upon, evident",
+            "aversion to, dangerous",
+            "predilection for, atypical"],
+        "solution_index": [4],
+        "source": "SAT 6-01 Section 9 Q3",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "The cause of Mozart's $BLANK0 is a long-standing medical $BLANK1: over the years, physicians have suggested more than 100 possibilities, including poisoning, malnutrition, kidney disease, and heart failure.",
+        "candidates": ["mortality, phenomenon",
+            "bereavement, controversy",
+            "genius, enigma",
+            "demise, mystery",
+            "death, trial"],
+        "solution_index": [2],
+        "source": "SAT 6-01 Section 9 Q4",
+        "URL": "",
+        "Difficulty": 2
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "At first the children were $BLANK, but as the morning progressed they began to laugh and talk eagerly.",
+        "candidates": ["ostentatious",
+            "myopic",
+            "solicitous",
+            "puerile",
+            "reticent"],
+        "solution_index": [4],
+        "source": "SAT 6-01 Section 9 Q5",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Oren missed the play's overarching significance, focusing instead on details so minor that they would best be described as $BLANK.",
+        "candidates": ["pragmatic",
+            "indelible",
+            "moribund",
+            "picayune",
+            "impervious"],
+        "solution_index": [3],
+        "source": "SAT 6-01 Section 9 Q6",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Her political $BLANK0 came from her $BLANK1 vision of the nation, a vision that included and drew strength from every social constituency.",
+        "candidates": ["autonomy, sweeping",
+            "reticence, mystical",
+            "triumph, restricted",
+            "rebellion, conventional",
+            "success, comprehensive"],
+        "solution_index": [4],
+        "source": "SAT 6-05(B) Section 3 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "As one would expect, the reclusive poet $BLANK public appearances and invasions of privacy.",
+        "candidates": ["rewarded",
+            "endorsed",
+            "neglected",
+            "invited",
+            "detested"],
+        "solution_index": [4],
+        "source": "SAT 6-05(B) Section 3 Q2",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Turn-of-the-century actress Sarah Bernhardt had so $BLANK0 a talent that she $BLANK1 audiences with her diverse and utterly convincing characterizations.",
+        "candidates": ["unrealized, enchanted",
+            "protean, bedazzled",
+            "eclectic, wearied",
+            "quixotic, confounded",
+            "mediocre, spellbound"],
+        "solution_index": [1],
+        "source": "SAT 6-05(B) Section 3 Q2",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "In the classroom, Carol was unusually $BLANK; on the playground, however, she became as intractable as the other children.",
+        "candidates": ["optimistic",
+            "mercurial",
+            "magnanimous",
+            "taciturn",
+            "docile"],
+        "solution_index": [4],
+        "source": "SAT 6-05(B) Section 3 Q4",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Bubble gum is not a topic usually treated seriously, so it is appropriate that this new book tracing the cultural history of bubble gum has a $BLANK tone.",
+        "candidates": ["morbid",
+            "cathartix",
+            "pedantic",
+            "flippant",
+            "reticent"],
+        "solution_index": [3],
+        "source": "SAT 6-05(B) Section 3 Q5",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Jamake Highwater manages to touch on the arts of almost every American Indian nation in one reaonably sized book that makes up for its occasional lack of $BLANK0 with its remarkable $BLANK1.",
+        "candidates": ["specificity, detail",
+            "discontinuity, concreteness",
+            "loftiness, inaccessibility",
+            "profundity, inclusiveness",
+            "uniqueness, comparability"],
+        "solution_index": [3],
+        "source": "SAT 6-05(B) Section 3 Q6",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Though Judd is typically $BLANK0 and reserved in social gatherings, at last night's reception he spoke and acted with uncharacteristic $BLANK1.",
+        "candidates": ["loquacious, alacrity",
+            "querulous, languor",
+            "disaffected, resentment",
+            "diplomatic, decorum",
+            "diffident, aplomb"],
+        "solution_index": [4],
+        "source": "SAT 6-05(B) Section 3 Q7",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Most politicians find television $BLANK0 to the $BLANK1 of their messages: the medium plays an essential role in propagating their ideas.",
+        "candidates": ["crucial, renunciation",
+            "indispensable, dissemination",
+            "detrimental, communication",
+            "tangential, interpretation",
+            "relevant, legislation"],
+        "solution_index": [1],
+        "source": "SAT 6-05(B) Section 3 Q8",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Canaries are often said to have $BLANK voices because they make such sweet, harmonious sounds.",
+        "candidates": ["insistent",
+            "unnatural",
+            "melodious",
+            "inaudible",
+            "strident"],
+        "solution_index": [2],
+        "source": "SAT 6-05(B) Section 5 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The $BLANK plots of Agatha Christie's detective stories reflect the complexities hidden beneath the simple appearances.",
+        "candidates": ["rewarded",
+            "endorsed",
+            "neglected",
+            "invited",
+            "detested"],
+        "solution_index": [0],
+        "source": "SAT 6-05(B) Section 5 Q1",
+        "URL": "",
+        "Difficulty": 2
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Government officials authorized $BLANK because they wanted to have a complete enumeration of the country's population.",
+        "candidates": ["a discontinuance",
+            "an appointment",
+            "a waiver",
+            "a census",
+            "a levy"],
+        "solution_index": [3],
+        "source": "SAT 6-05(B) Section 5 Q3",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Even in her fiction writing, Denise Chavez functions as a kind of historian in that she $BLANK the real experiences of Hispanic women through her characters.",
+        "candidates": ["predicts",
+            "defends",
+            "chronicles",
+            "averts",
+            "surmises"],
+        "solution_index": [2],
+        "source": "SAT 6-05(B) Section 5 Q4",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Fanatically committed to one political cause, Anderson was a $BLANK0, maintaining an exclusively $BLANK1 outlook.",
+        "candidates": ["libertine, provincial",
+            "zealot, partisan",
+            "patriot, indulgent",
+            "maverick, altruistic",
+            "rebel, vicarious"],
+        "solution_index": [1],
+        "source": "SAT 6-05(B) Section 5 Q5",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The outbreak of disease could not be labeled pandemic, since despite its rapid $BLANK it remained confined to one small region.",
+        "candidates": ["spread",
+            "concentration",
+            "fading",
+            "symptoms",
+            "improvement"],
+        "solution_index": [0],
+        "source": "SAT 6-05(B) Section 8 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "The author's theory about modern design had an enormous impact when first published, but as $BLANK0 as it was then, it is now clearly $BLANK1.",
+        "candidates": ["scholarly, erudite",
+            "lackluster, impressive",
+            "influential, outdated",
+            "primitive, antiquarian",
+            "prestigious, masterful"],
+        "solution_index": [2],
+        "source": "SAT 6-05(B) Section 8 Q2",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Texas is known for its wild orchids, whose $BLANK0 is evident in their $BLANK1 colors: 52 species have been catalogued, ranging from pure white to bright red.",
+        "candidates": ["novelty, traditional",
+            "diversity, myriad",
+            "stature, uniform",
+            "starkness, vibrant",
+            "toxicity, varying"],
+        "solution_index": [1],
+        "source": "SAT 6-05(B) Section 8 Q3",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "In 1974 the committee overseeing the Pulitzer Prize in Literature was $BLANK0 so much $BLANK1 that it bestowed no award at all that year.",
+        "candidates": ["plagued by, concordance",
+            "afforded with, esteem",
+            "exempt from, debate",
+            "racked with, dissension",
+            "emboldened by, scrutiny"],
+        "solution_index": [3],
+        "source": "SAT 6-05(B) Section 8 Q4",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Pablo Picasso was $BLANK youth: his extraordinary artistic talent was obvious at a very early age.",
+        "candidates": ["an articulate",
+            "an immature",
+            "a disturbed",
+            "a precocious",
+            "a callow"],
+        "solution_index": [3],
+        "source": "SAT 6-05(B) Section 8 Q5",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Jared has the habits of $BLANK: he lives simply and donates most of his income to local charities.",
+        "candidates": ["a skeptic",
+            "a pundit",
+            "a dilettante",
+            "an insurgent",
+            "an ascetic"],
+        "solution_index": [4],
+        "source": "SAT 6-05(B) Section 8 Q6",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Known for her $BLANK, Miranda eagerly welcomes anyone into her home.",
+        "candidates": ["cowardice",
+            "prudence",
+            "hospitality",
+            "aloofness",
+            "loyalty"],
+        "solution_index": [2],
+        "source": "SAT 6-10 Section 3 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Not surprisingly, supporters of the governor's plan to set aside land for a forest preserve were disappointed when a court decision $BLANK the plan.",
+        "candidates": ["applauded",
+            "derailed",
+            "acknowledged",
+            "permitted",
+            "anticipated"],
+        "solution_index": [1],
+        "source": "SAT 6-10 Section 3 Q2",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Because playing a musical instrument increases brain activity, it is sometimes used as a $BLANK to promote learning in children.",
+        "candidates": ["condition",
+            "highlight",
+            "stimulus",
+            "dictum",
+            "respite"],
+        "solution_index": [2],
+        "source": "SAT 6-10 Section 3 Q3",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "The ambassador argues that, in diplomacy, there is a subtle but important difference between a country's showing a willingness to $BLANK0 and a too-obvious readiness to make $BLANK1.",
+        "candidates": ["negotiate, concessions",
+            "antagonize, friends",
+            "surrender, enemies",
+            "dominate, inquiries",
+            "equivocate, denuniciations"],
+        "solution_index": [0],
+        "source": "SAT 6-10 Section 3 Q4",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "The dancer's performing style was $BLANK0 and $BLANK1, with each move taken from another artist, and poorly executed at that.",
+        "candidates": ["rousing, memorable",
+            "pedestrian, evolving",
+            "chaotic, unprecedented",
+            "derivative, inept",
+            "spontaneous, graceless"],
+        "solution_index": [3],
+        "source": "SAT 6-10 Section 3 Q5",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Lewis Latimer's inexpensive method of producing carbon filaments $BLANK0 the nascent electric industry by making electric lamps commercially $BLANK1.",
+        "candidates": ["cheapened, affordable",
+            "transformed, viable",
+            "revolutionized, prohibitive",
+            "provoked, improbable",
+            "stimulated, inaccessible"],
+        "solution_index": [1],
+        "source": "SAT 6-10 Section 3 Q6",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "After winning the award, Phillip adopted a haughty pose, treating even his best friends in a $BLANK manner.",
+        "candidates": ["cryptic",
+            "judicious",
+            "jubilant",
+            "supercilious",
+            "pugnacious"],
+        "solution_index": [3],
+        "source": "SAT 6-10 Section 3 Q7",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The general was so widely suspected of $BLANK during the war that his name eventually became synonymous with disloyalty.",
+        "candidates": ["beligerence",
+            "indigence",
+            "perfidy",
+            "aspersion",
+            "tenacity"],
+        "solution_index": [2],
+        "source": "SAT 6-10 Section 3 Q8",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Aleksandr Solzhenisyn's $BLANK proved keenest when he accurately predicted that his books would someday appear in his native Russia.",
+        "candidates": ["foresight",
+            "nostalgia",
+            "folly",
+            "despair",
+            "artistry"],
+        "solution_index": [0],
+        "source": "SAT 6-10 Section 6 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The simple and direct images in Dorothea Lange's photographs provide reflection of a bygone social milieu.",
+        "candidates": ["an intricate",
+            "a candid",
+            "an ostentatious",
+            "a fictional",
+            "a convoluted"],
+        "solution_index": [1],
+        "source": "SAT 6-10 Section 6 Q2",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Kate's impulsive nature and sudden whims led her friends to label her $BLANK.",
+        "candidates": ["capricious",
+            "bombastic",
+            "loquacious",
+            "dispassionate",
+            "decorous"],
+        "solution_index": [0],
+        "source": "SAT 6-10 Section 6 Q3",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Neurosurgeon Alexa Canady maintained that choosing a career was a visceral decision rather than $BLANK0 judgment; that is, it was not so much rational as $BLANK1.",
+        "candidates": ["an emotional, intellectual",
+            "a chance, random",
+            "an intuitive, impulsive",
+            "a deliberate, instinctive",
+            "an intentional, logical"],
+        "solution_index": [3],
+        "source": "SAT 6-10 Section 6 Q4",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Creative business stratagems frequently become $BLANK0 as a result of $BLANK1, their versatility and adaptability destroyed by their transformation into rigid policies.",
+        "candidates": ["streamlined, infighting",
+            "mitigated, jingoism",
+            "ossified, bureaucratization",
+            "politicized, innovation",
+            "venerable, legislation"],
+        "solution_index": [2],
+        "source": "SAT 6-10 Section 6 Q5",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The prose of Richard Wright's autobiographical Black Boy (1945) is $BLANK, free of stylistic tricks of evasiveness.",
+        "candidates": ["imprecise",
+            "straightforward",
+            "deficient",
+            "obtrusive",
+            "elliptical"],
+        "solution_index": [1],
+        "source": "SAT 6-10 Section 8 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "It seemed from the size of the crowd, which was $BLANK0, and the resonance of its cheers, which were $BLANK1, that the team was experiencing a esurgence of popularity.",
+        "candidates": ["vast, hollow",
+            "sparse, thunderous",
+            "enormous, deafening",
+            "unimpressive, muted",
+            "negligible, rousing"],
+        "solution_index": [2],
+        "source": "SAT 6-10 Section 8 Q2",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Evidence that the universe is expanding $BLANK0 our perception of the cosmos and thus caused a $BLANK1 in astronomical thinking.",
+        "candidates": ["advanced, setback",
+            "altered, revolution",
+            "contradicted, truce",
+            "reinforced, crisis",
+            "halted, breakthrough"],
+        "solution_index": [1],
+        "source": "SAT 6-10 Section 8 Q3",
+        "URL": "",
+        "Difficulty": 2
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Although the theory that widespread lead poisoning contributed to the decline of the Roman Empire has gained $BLANK0, the evidence is still $BLANK1.",
+        "candidates": ["credence, irrefutable",
+            "disrepute, dubious",
+            "acceptance, convincing",
+            "momentum, systematic",
+            "currency, inconclusive"],
+        "solution_index": [4],
+        "source": "SAT 6-10 Section 8 Q4",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The fashion designer favored fabrics that were so $BLANK as to be virtually transparent.",
+        "candidates": ["palpable",
+            "diaphanous",
+            "variegated",
+            "luxurious",
+            "anomalous"],
+        "solution_index": [1],
+        "source": "SAT 6-10 Section 8 Q5",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Professor Williams disdained tradition: she regularly attacked cherished beliefs and institutions, earning a reputation as $BLANK.",
+        "candidates": ["an egalitarian",
+            "a dowager",
+            "a dilettante",
+            "an iconoclast",
+            "a purveyor"],
+        "solution_index": [3],
+        "source": "SAT 6-10 Section 8 Q6",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "The movie's plot was $BLANK0: once you knew what befell the hero, you could $BLANK1 the fate of the villain.",
+        "candidates": ["convincing, misinterpret",
+            "misleading, anticipate",
+            "predictable, foresee",
+            "iconic, endorse",
+            "spellbinding, ignore"],
+        "solution_index": [2],
+        "source": "SAT 7-01 Section 4 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "A certain additive put in gasoline to reduce air pollution is actually $BLANK0 groundwater, a finding that shows that even the most well-intentional fixes can sometimes $BLANK1.",
+        "candidates": ["liquefying, founder",
+            "contaminating, backfire",
+            "purifying, boomerang",
+            "saturating, reciprocate",
+            "polluting, prevail"],
+        "solution_index": [1],
+        "source": "SAT 7-01 Section 4 Q2",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The biologist's description of the wolf pack was truly $BLANK, devoid of any emotion or personal prejudice.",
+        "candidates": ["dispassionate",
+            "insubstantial",
+            "esoteric",
+            "capricious",
+            "indignant"],
+        "solution_index": [0],
+        "source": "SAT 7-01 Section 4 Q3",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "No longer considered $BLANK0, the belief that all of Puerto Rico's indigenous Taino people perished centuries ago appears to be a $BLANK1 now that modern Taino descendants have come forward.",
+        "candidates": ["conclusive, reality",
+            "tenable, misconception",
+            "mythical, possibility",
+            "erroneious, delusion",
+            "hypothetical, digression"],
+        "solution_index": [1],
+        "source": "SAT 7-01 Section 4 Q4",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Although easily angered by our mischievous behavior our mother could immediately $BLANK by our expressions of remorse.",
+        "candidates": ["substantiated",
+            "impugned",
+            "protected",
+            "united",
+            "mollified"],
+        "solution_index": [4],
+        "source": "SAT 7-01 Section 4 Q5",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Scientists wonder what to do with the dead satellites, jettisoned rockets, drifting paint flecks, and other $BLANK orbiting Earth.",
+        "candidates": ["flotsam",
+            "reconnaissance",
+            "decimation",
+            "raiment",
+            "sustenance"],
+        "solution_index": [0],
+        "source": "SAT 7-01 Section 4 Q6",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Although aging brings about profound physiological changes, it does not often alter an individual's $BLANK0: an irascible thirty year old will probably still be $BLANK1 at seventy.",
+        "candidates": ["disposition, cantankerous",
+            "anatomy, churlish",
+            "outlook, benevolent",
+            "personality, laconic",
+            "stature, robust"],
+        "solution_index": [0],
+        "source": "SAT 7-01 Section 4 Q7",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The commentator characterized the electorate as $BLANK because if was unpredictableand given to constantly shifting moods.",
+        "candidates": ["mercurial",
+            "corrosive",
+            "disingenuous",
+            "implacable",
+            "phlegmatic"],
+        "solution_index": [0],
+        "source": "SAT 7-01 Section 4 Q8",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Geoffrey's corrupt dealings earned him such disgrace that any possibility of his being reelected to the city council was completely $BLANK.",
+        "candidates": ["ensured",
+            "approved",
+            "belittled",
+            "eliminated",
+            "defended"],
+        "solution_index": [3],
+        "source": "SAT 7-01 Section 7 Q1",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Although the editors were reputed to be very $BLANK0, the uneven quality of the material they put into the anthology suggests they were too $BLANK1.",
+        "candidates": ["amateurish, professional",
+            "lax, harsh",
+            "selective, inclusive",
+            "judgmental, discriminating",
+            "sensitive, insightful"],
+        "solution_index": [2],
+        "source": "SAT 7-01 Section 7 Q2",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "The professor's presentation was both $BLANK0 and $BLANK1: though brief, it was instructive.",
+        "candidates": ["verbose, mundane",
+            "concise, elaborate",
+            "comprehensive, edifying",
+            "succinct, enlightening",
+            "provocatiev, technical"],
+        "solution_index": [3],
+        "source": "SAT 7-01 Section 7 Q3",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "With its large circulation, Essence magazine has enjoyed $BLANK only recently challenged by new publications aggressively seeking female African American readers.",
+        "candidates": ["an aggregation",
+            "an inclination",
+            "a prognosis",
+            "a retrenchment",
+            "a preeminence"],
+        "solution_index": [4],
+        "source": "SAT 7-01 Section 7 Q4",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The judge's published opinions, though sophisticated and subtle, were undeniably $BLANK: they left no doubt of her intentions.",
+        "candidates": ["unequivocal",
+            "effusive",
+            "incorrigible",
+            "tenuous",
+            "ineffable"],
+        "solution_index": [0],
+        "source": "SAT 7-01 Section 7 Q5",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Many paintings of the American Southwest convey a feeling of isolation and loneliness that mirrors the $BLANK landscape they depict.",
+        "candidates": ["lush",
+            "sprawling",
+            "desolate",
+            "gaudy",
+            "monumental"],
+        "solution_index": [2],
+        "source": "SAT 7-01 Section 9 Q1",
+        "URL": "",
+        "Difficulty": 2
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Only recently created, this orchid is a $BLANK, a plant produced by deliberately crossbreeding two different varieties of flowers.",
+        "candidates": ["misnomer",
+            "hybrid",
+            "vector",
+            "curative",
+            "precursor"],
+        "solution_index": [1],
+        "source": "SAT 7-01 Section 9 Q2",
+        "URL": "",
+        "Difficulty": 1
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "The pharmaceutical company insisted that its testing of new drugs was quite $BLANK, more rigorous than the industry standard.",
+        "candidates": ["stringent",
+            "dispersive",
+            "conditional",
+            "recessive",
+            "obtrusive"],
+        "solution_index": [0],
+        "source": "SAT 7-01 Section 9 Q3",
+        "URL": "",
+        "Difficulty": 3
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Freedom of expression is not necessarily a $BLANK0 force: communities that encourage it often feel less threatened by social unrest than do those in which dissent is $BLANK1.",
+        "candidates": ["revolutionary, promoted",
+            "positive, prohibited",
+            "successful, protested",
+            "divisive, restricted",
+            "militant, fostered"],
+        "solution_index": [3],
+        "source": "SAT 7-01 Section 9 Q4",
+        "URL": "",
+        "Difficulty": 4
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 1,
+        "question": "Thomas Hardy's novels are described as $BLANK because of their preoccupation with daily life in rural and agricultural settings.",
+        "candidates": ["bucolic",
+            "prolific",
+            "lugubrious",
+            "sundry",
+            "metaphorical"],
+        "solution_index": [0],
+        "source": "SAT 7-01 Section 9 Q5",
+        "URL": "",
+        "Difficulty": 5
+    },
+
+    {
+        "id": "None",
+        "num_blanks": 2,
+        "question": "Some skeptics consider the Search for Extraterrestrial Intelligence (SETI) to be $BLANK0, even foolish; others go so far as to accuse SETI scientists of outright $BLANK1 in applying skewed data.",
+        "candidates": ["misguided, remonstrance",
+            "absurd, erudition",
+            "plausible, lassitude",
+            "painstaking, fabrication",
+            "wrongheaded, chicanery"],
+        "solution_index": [4],
+        "source": "SAT 7-01 Section 9 Q6",
+        "URL": "",
+        "Difficulty": 5
+    }
+
+
+
+
+]
+
+
+
+
+
+
+
+
+
+
