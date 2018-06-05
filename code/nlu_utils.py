@@ -2,7 +2,10 @@ from nltk.corpus import wordnet
 import spacy
 from collections import defaultdict
 
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load(
+    'en_core_web_sm',
+    disable=['parser', 'ner']  # Don't do dependency parsing or entity recogntion
+)
 
 
 def treebank_to_wn_tag(tb_tag):
@@ -33,8 +36,8 @@ def get_synonyms(word, pos=None):
     for syn in wordnet.synsets(word, pos):
         for l in syn.lemmas():
             synonyms.append(l.name())
-    if not synonyms:
-        print("No synonyms found for '{}' with pos={}".format(word, pos))
+    # if not synonyms:
+    #     print("No synonyms found for '{}' with pos={}".format(word, pos))
     return synonyms
 
 
@@ -44,20 +47,23 @@ def get_hypernyms(word, pos=None):
     # TODO: error handling - what do we do if a word doesn't have a synset?
     hypernym_words = []
     for syn in wordnet.synsets(word, pos):
-        print("Synset: {}".format(syn))
+        # print("Synset: {}".format(syn))
         for h in syn.hypernyms():
-            print("Hypernym synset: {}".format(h))
+            # print("Hypernym synset: {}".format(h))
             for l in h.lemmas():
                 hypernym_words.append(l.name())
-    if not hypernym_words:
-        print("No hypernyms found for '{}' with pos={}".format(word, pos))
+    # if not hypernym_words:
+    #     print("No hypernyms found for '{}' with pos={}".format(word, pos))
+    
     return hypernym_words
 
 
 def get_alternate_words(word, pos=None):
     syn = get_synonyms(word, pos)
     hyp = get_hypernyms(word, pos)
-    return syn + hyp
+    # if not syn and not hyp:
+    #     print("No alternate words found for '{}' with pos={}".format(word, pos))
+    return [word] + syn + hyp
 
 
 def get_spacy_doc(sentence):
@@ -77,7 +83,7 @@ def get_token(doc, word):
     for token in doc:
         if token.norm_ == word_token.norm_:
             return token.i, token
-    raise Exception("Unable to find word {} in spacy doc:\n{}".format(word, doc.text))
+    raise Exception("Unable to find word '{}' in spacy doc:\n{}".format(word, doc.text))
 
 
 # Just use get_token

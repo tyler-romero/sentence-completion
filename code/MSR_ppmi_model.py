@@ -29,10 +29,11 @@ guten_ppmi = vsm.pmi(gutenberg)
         # Sentence preprocessing
 
 class PPMIModel:
-    def __init__(self, corpus_pmi, try_synonyms=False):
+    def __init__(self, corpus_pmi, try_synonyms=False, verbose=False):
         self.corpus_pmi = corpus_pmi
         self.index_to_label = ['a', 'b', 'c', 'd', 'e']
         self.try_synonyms = try_synonyms
+        self.verbose = verbose
     
     def answer(self, problem, try_synonyms=False):
         scores = []
@@ -44,6 +45,34 @@ class PPMIModel:
         scores.append(self.score(question, problem['e)']))
         return self.index_to_label[np.argmax(scores)]
     
+    def approx_ppmi(self, proposal_token, proposal_synonyms, word_token):
+        pos = nlu_utils.spacy_to_wn_tag(word_token.pos_)
+        word_synonyms = nlu_utils.get_alternate_words(word_token.norm_, pos)
+        # First try matching using different versions of the non-proposal word
+        for wsyn in word_synonyms:
+            score = self.ppmi(wsyn, proposal_token.norm_)
+            if score is not None:
+                if self.verbose:
+                    print("Used synonym: {} -> {}".format(word_token.text, wsyn))
+                return score
+        # Next try matching using different versions of the proposal word
+        for psyn in proposal_synonyms:
+            score = self.ppmi(psyn, word_token.norm_)
+            if score is not None:
+                if self.verbose:
+                    print("Used synonym for proposal word: {} -> {}".format(proposal_token.text, psyn))
+                return score
+        # Next just try all combos
+        for psyn in proposal_synonyms:
+            for wsyn in word_synonyms:
+                score = self.ppmi(psyn, word_token.norm_)
+                if score is not None:
+                    if self.verbose:
+                        print("Used synonym: {} -> {} and {} -> {}".format(proposal_token.text, psyn, word_token.text, wsyn))
+                    return score
+        print("UNABLE TO FIND ANY SYNONYMS IN VOCABULARY")
+        return None
+
     def ppmi(self, proposal, word):
         try:
             return self.corpus_pmi.loc[proposal, word]
@@ -63,22 +92,17 @@ class PPMIModel:
 
         if self.try_synonyms:
             pos = nlu_utils.spacy_to_wn_tag(proposal_token.pos_)
-            synonyms = nlu_utils.get_alternate_words(proposal, pos)
+            synonyms = nlu_utils.get_alternate_words(proposal_token.norm_, pos)
 
         tot_score = 0
         for token in doc:
             if token == proposal_token:  # !!! This is dubious (might be 'is', not ==)
-                print("Matched token")
                 continue
             if token.is_punct or token.is_space:
                 continue
-            score = self.ppmi(proposal_token.lemma_, token.lemma_)
+            score = self.ppmi(proposal_token.norm_, token.norm_)
             if score is None and self.try_synonyms:
-                for syn in synonyms:
-                    score = self.ppmi(syn, token.lemma_)
-                    if score is not None:
-                        print("Used synonym: {} -> {}".format(proposal, syn))
-                        break 
+                score = self.approx_ppmi(proposal_token, synonyms, token)
             tot_score += score if score is not None else 0
         return tot_score
 
