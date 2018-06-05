@@ -48,6 +48,7 @@ class MSR:
         wc_sorted = sorted(word_counts.items(), key=operator.itemgetter(1), reverse=True)
         vocab = [word for word, count in wc_sorted]
         vocab = vocab[:MAX_VOCAB_SIZE]
+        print("Top 10 vocab words: {}".format(vocab[:10]))
         
         # Create reverse_vocab for fast lookup
         for i, word in enumerate(vocab):
@@ -82,11 +83,11 @@ class MSR:
 
     # Returns a word-word co-occurance matrix
     # Caches each new matrix once it has been computed, to save time in the future
-    def train_word_word_cooccurance(self, window=5, vocab_size=5000):
+    def train_word_word_cooccurance(self, window=5, vocab_size=10000, load=True, save=True):
         # Load co-occurance matrix if it already exists
         file_name = "gutenberg{}_{}.csv.gz".format(window, vocab_size)
         file_path = os.path.join(self.root_path, file_name)
-        if os.path.isfile(file_path):
+        if os.path.isfile(file_path) and load:
             print("Loading existing co-occurance matrix")
             return pd.read_csv(file_path, index_col=0, compression='gzip')
 
@@ -94,25 +95,28 @@ class MSR:
         vocab, reverse_vocab = self.vocab(vocab_size)
         
         print('Generating matrix')
-        matrix = np.zeros((vocab_size, vocab_size))
+        matrix = np.zeros((vocab_size, vocab_size), dtype=np.uint32)
         for path in tqdm(self.train_files):
             doc = self.load_document(path, verbose=False)
             for i in range(window, len(doc) - window):  # Iterate over words in document
                 index_i = reverse_vocab[doc[i].norm_]  # Get vocab index for the word in doc at index i
-                if index_i == None:  # i is not in the vocab
+                if index_i is None:  # i is not in the vocab
                     continue
                 for j in range(i - window, i + window + 1):  # Iterate over a window for word i
-                    index_j = reverse_vocab[doc[j]]
-                    if i == j or index_j == None:
+                    index_j = reverse_vocab[doc[j].norm_]
+                    if i == j or index_j is None:  # Skip if j is not in vocab. Or if i and j are the same
                         continue
                     matrix[index_i, index_j] += 1
-                    if index_i != index_j:
+                    if index_i != index_j:  # Dont double count along diag
                         matrix[index_j, index_i] += 1
-        # Save co-occurance matrix
+
         df = pd.DataFrame(matrix, index=vocab, columns=vocab)
-        print("Saving co-occurance matrix to {}".format(file_path))
-        df.to_csv(file_path, compression='gzip')
-        print("Successfully saved co-occurance matrix")
+        del matrix  # An attempt to save memory to potentially speed up saving.
+
+        if save:  # Save co-occurance matrix
+            print("Saving co-occurance matrix to {}".format(file_path))
+            df.to_csv(file_path, compression='gzip')
+            print("Successfully saved co-occurance matrix")
         return df
 
     def train_word_document_cooccurance(self, vocab_size=5000):
@@ -121,7 +125,7 @@ class MSR:
         
         print('Generating matrix.')
         # TODO: Remove docs that have a size of zero (or correctly process docs in the first place)
-        matrix = np.zeros((vocab_size, len(self.train_files)))
+        matrix = np.zeros((vocab_size, len(self.train_files)), dtype=np.uint32)
         for doc_index, path in tqdm(enumerate(self.train_files)):
             doc = self.load_document(path, verbose=False)
             for token in doc:  # Iterate over words in document
