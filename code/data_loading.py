@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import spacy
+from spacy.tokenizer import Tokenizer
 import os
 import glob
 import operator
@@ -8,6 +10,9 @@ from sklearn.model_selection import train_test_split
 import pickle
 from collections import defaultdict
 from tqdm import tqdm
+
+nlp = spacy.load('en_core_web_sm')
+tokenizer = Tokenizer(nlp.vocab)
 
 data_path = '../data'
 
@@ -35,8 +40,9 @@ class MSR:
         # Word Count
         for path in tqdm(self.train_files):
             doc = self.load_document(path)
-            for word in doc:
-                word_counts[word] += 1
+            for token in doc:
+                if not (token.is_punct or token.is_space):
+                    word_counts[token.norm_] += 1
                 
         # Order by count
         wc_sorted = sorted(word_counts.items(), key=operator.itemgetter(1), reverse=True)
@@ -52,12 +58,8 @@ class MSR:
     def load_document(self, path, verbose=False):
         doc = []
         with open(path) as f:
-            for line in f:
-                line = line.translate(self.punctuation_table)  # Strip punctuation
-                l = line.split()
-                for word in l:
-                    word = word.strip()
-                    doc.append(word)
+            full_text = f.read()
+            doc = tokenizer(full_text)  # Use spacy
         return doc
     
     def test(self):
@@ -96,10 +98,10 @@ class MSR:
         for path in tqdm(self.train_files):
             doc = self.load_document(path, verbose=False)
             for i in range(window, len(doc) - window):  # Iterate over words in document
-                index_i = reverse_vocab[doc[i]]  # Get vocab index for the word in doc at index i
+                index_i = reverse_vocab[doc[i].norm_]  # Get vocab index for the word in doc at index i
                 if index_i == None:  # i is not in the vocab
                     continue
-                for j in range(i - window, i + window + 1):  # Interate over a window for word i
+                for j in range(i - window, i + window + 1):  # Iterate over a window for word i
                     index_j = reverse_vocab[doc[j]]
                     if i == j or index_j == None:
                         continue
@@ -122,8 +124,8 @@ class MSR:
         matrix = np.zeros((vocab_size, len(self.train_files)))
         for doc_index, path in tqdm(enumerate(self.train_files)):
             doc = self.load_document(path, verbose=False)
-            for word in doc:  # Iterate over words in document
-                word_index = reverse_vocab[word]
+            for token in doc:  # Iterate over words in document
+                word_index = reverse_vocab[token.norm_]
                 if word_index == None:  # if i is not in the vocab
                     continue
                 matrix[word_index, doc_index] += 1
