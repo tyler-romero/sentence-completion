@@ -28,7 +28,7 @@ dev.head()
 # In[ ]:
 
 msr = data_loading.MSR()
-gutenberg = msr.train_word_word_cooccurance(window=5, vocab_size=30000)
+gutenberg = msr.train_word_word_cooccurence(window=5, vocab_size=30000)
 guten_ppmi = vsm.pmi(gutenberg)
 
 

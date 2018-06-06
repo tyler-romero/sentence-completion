@@ -81,14 +81,14 @@ class MSR:
         test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
         return dev
 
-    # Returns a word-word co-occurance matrix
+    # Returns a word-word co-occurence matrix
     # Caches each new matrix once it has been computed, to save time in the future
-    def train_word_word_cooccurance(self, window=5, vocab_size=10000, load=True, save=True):
-        # Load co-occurance matrix if it already exists
+    def train_word_word_cooccurence(self, window=5, vocab_size=10000, load=True, save=True):
+        # Load co-occurence matrix if it already exists
         file_name = "gutenberg{}_{}.csv.gz".format(window, vocab_size)
         file_path = os.path.join(self.root_path, file_name)
         if os.path.isfile(file_path) and load:
-            print("Loading existing co-occurance matrix")
+            print("Loading existing co-occurence matrix")
             return pd.read_csv(file_path, index_col=0, compression='gzip')
 
         print('Loading vocab')
@@ -113,13 +113,13 @@ class MSR:
         df = pd.DataFrame(matrix, index=vocab, columns=vocab)
         del matrix  # An attempt to save memory to potentially speed up saving.
 
-        if save:  # Save co-occurance matrix
-            print("Saving co-occurance matrix to {}".format(file_path))
+        if save:  # Save co-occurence matrix
+            print("Saving co-occurence matrix to {}".format(file_path))
             df.to_csv(file_path, compression='gzip')
-            print("Successfully saved co-occurance matrix")
+            print("Successfully saved co-occurence matrix")
         return df
 
-    def train_word_document_cooccurance(self, vocab_size=5000):
+    def train_word_document_cooccurence(self, vocab_size=5000):
         print('Loading vocab')
         vocab, reverse_vocab = self.vocab(vocab_size)
         

@@ -16,7 +16,7 @@ import data_loading
 
 msr = data_loading.MSR()
 dev = msr.dev()
-gutenberg = msr.train_word_word_cooccurance(window=5, vocab_size=10000)
+gutenberg = msr.train_word_word_cooccurence(window=5, vocab_size=10000)
 
 #vsmdata = '../data/vsmdata'
 #giga5 = pd.read_csv(os.path.join(vsmdata, 'gigaword_window5-scaled.csv.gz'), index_col=0)
