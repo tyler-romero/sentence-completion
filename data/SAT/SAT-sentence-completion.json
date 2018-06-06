@@ -587,7 +587,7 @@
 
     {
         "id": "None",
-        "num_blanks": 1,
+        "num_blanks": 2,
         "question": "The new antifungal agent has such BLANK0 uses, from treating Dutch elm disease to rescuing water-damagedworks of art from molds, that it is considered one of the more BLANK1 antibiotics.",
         "candidates": ["disturbing, explicit",
             "innovative, precipitous",
@@ -1097,7 +1097,7 @@
 
     {
         "id": "None",
-        "num_blanks": 1,
+        "num_blanks": 2,
         "question": "In 1974 the committee overseeing the Pulitzer Prize in Literature was BLANK0 so much BLANK1 that it bestowed no award at all that year.",
         "candidates": ["plagued by, concordance",
             "afforded with, esteem",
@@ -1908,7 +1908,7 @@
 
     {
         "id": "None",
-        "num_blanks": 1,
+        "num_blanks": 2,
         "question": "Paradoxically, during the French Revolution, the very leaders who proclaimed BLANK0 philosophies sometimes also engaged in BLANK1 practices.",
         "candidates": ["regal, imperial",
             "simplistic, neutral",
@@ -1923,7 +1923,7 @@
 
     {
         "id": "None",
-        "num_blanks": 1,
+        "num_blanks": 2,
         "question": "Despite his brilliant career, Gerald was plagued by doubts and could not BLANK0 his feelings of BLANK1.",
         "candidates": ["imagine, worthlessness",
             "reconcile, superiority",
@@ -4443,7 +4443,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Her actions did nothing but good, but since she performed them out of self-interest, they could not be called.",
+        "question": "Her actions did nothing but good, but since she performed them out of self-interest, they could not be called BLANK.",
         "candidates": ["altruistic",
             "placatory",
             "benign",

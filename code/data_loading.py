@@ -207,7 +207,7 @@ class SAT:
             reverse_vocab[word] = i
             
         return vocab, reverse_vocab
-        
+
         
     def load_document(self, path, verbose=False):
         doc = []
@@ -220,6 +220,7 @@ class SAT:
 
     def dev(self):
         dataset = pd.read_json(self.sentence_completion_path)
+        dataset['solution_index'] = dataset['solution_index'].apply(lambda x: x[0])
         test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
         return dev
         # print(dataset.head().columns)
@@ -231,6 +232,8 @@ class SAT:
 
     def test(self):
         dataset = pd.read_json(self.sentence_completion_path)
+        dataset = pd.read_json(self.sentence_completion_path)
+        dataset['solution_index'] = dataset['solution_index'].apply(lambda x: x[0])
         test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
         return test
 
