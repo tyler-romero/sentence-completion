@@ -11,9 +11,6 @@ import pickle
 from collections import defaultdict
 from tqdm import tqdm
 
-nlp = spacy.load('en_core_web_sm')
-tokenizer = Tokenizer(nlp.vocab)
-
 data_path = '../data'
 
 MSR_path = os.path.join(data_path, 'MSR')
@@ -32,6 +29,8 @@ class MSR:
         self.seed = seed
         self.TEST_DEV_SPLIT = 0.6
         self.punctuation_table = str.maketrans({key: None for key in string.punctuation})
+        nlp = spacy.load('en_core_web_sm')
+        self.tokenizer = Tokenizer(nlp.vocab)
         
     def vocab(self, MAX_VOCAB_SIZE):
         word_counts = defaultdict(int)
@@ -61,7 +60,7 @@ class MSR:
         with open(path) as f:
             full_text = f.read()
             full_text = full_text.translate(self.punctuation_table)  # Strip punctuation
-            doc = tokenizer(full_text)  # Use spacy
+            doc = self.tokenizer(full_text)  # Use spacy
         return doc
     
     def test(self):
@@ -84,6 +83,7 @@ class MSR:
 
     # Returns a word-word co-occurence matrix
     # Caches each new matrix once it has been computed, to save time in the future
+    # TODO: Try dividing context by sentence instead of by window size!
     def train_word_word_cooccurence(self, window=5, vocab_size=10000, load=True, save=True):
         # Load co-occurence matrix if it already exists
         file_name = "gutenberg{}_{}.csv.gz".format(window, vocab_size)
@@ -99,13 +99,15 @@ class MSR:
         matrix = np.zeros((vocab_size, vocab_size), dtype=np.uint32)
         for path in tqdm(self.train_files):
             doc = self.load_document(path, verbose=False)
-            for i in range(window, len(doc) - window):  # Iterate over words in document
+            for i in range(len(doc)):  # Iterate over words in document
                 index_i = reverse_vocab[doc[i].norm_]  # Get vocab index for the word in doc at index i
                 if index_i is None:  # i is not in the vocab
                     continue
-                for j in range(i - window, i + window + 1):  # Iterate over a window for word i
+                for j in range(i + 1, i + window + 1):  # Iterate over a FORWARD window for word i
+                    if j > len(doc) - 1:  # Dont let j go out of bounds
+                        continue
                     index_j = reverse_vocab[doc[j].norm_]
-                    if i == j or index_j is None:  # Skip if j is not in vocab. Or if i and j are the same
+                    if index_j is None:  # Skip if j is not in vocab.
                         continue
                     matrix[index_i, index_j] += 1
                     if index_i != index_j:  # Dont double count along diag
@@ -165,3 +167,29 @@ class GRE:
         dataset = pd.read_json(self.sentence_equivalence_path)
         test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
         return test
+
+
+class SAT:
+    def __init__(self, path=SAT_path, seed=345):
+        self.root_path = path
+        self.sentence_completion_path = os.path.join(path, 'SAT-sentence-completion.json')
+        self.seed = seed
+        self.TEST_DEV_SPLIT = 0.6
+
+    def preprocess(dataset):
+        max_blanks = dataset["num_blanks"].max()
+
+
+        return dataset
+
+    def dev(self):
+        dataset = pd.read_json(self.sentence_completion_path)
+        print(dataset.head().columns)
+        print(dataset.head())
+        print(dataset["num_blanks"].max())
+        # for _, question in dataset.head().iterrows():
+        #     print(question['question'])
+        #     print(question['candidates'])
+
+    def test(self):
+        pass
