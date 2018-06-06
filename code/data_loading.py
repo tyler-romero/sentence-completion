@@ -60,6 +60,7 @@ class MSR:
         doc = []
         with open(path) as f:
             full_text = f.read()
+            full_text = full_text.translate(self.punctuation_table)  # Strip punctuation
             doc = tokenizer(full_text)  # Use spacy
         return doc
     

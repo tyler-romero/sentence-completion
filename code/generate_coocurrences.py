@@ -3,7 +3,7 @@ import data_loading
 msr = data_loading.MSR()
 
 windows = [5]
-vocab_sizes = [10000]
+vocab_sizes = [12500]
 
 for window in windows:
     for vocab_size in vocab_sizes:
