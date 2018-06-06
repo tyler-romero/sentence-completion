@@ -4,7 +4,9 @@ from collections import defaultdict
 
 nlp = spacy.load(
     'en_core_web_sm',
-    disable=['parser', 'ner']  # Don't do dependency parsing or entity recogntion
+    #disable=['parser', 'ner']  # Don't do dependency parsing or entity recogntion
+    
+    disable=['ner'] # Don't do entity recognition
 )
 
 
@@ -42,14 +44,9 @@ def get_synonyms(word, pos=None):
 
 
 def get_hypernyms(word, pos=None):
-    # TODO: POS tagging when choosing a synset
-    # TODO: find a better way to choose a synset... but there might not be that many for these words anyway
-    # TODO: error handling - what do we do if a word doesn't have a synset?
     hypernym_words = []
     for syn in wordnet.synsets(word, pos):
-        # print("Synset: {}".format(syn))
         for h in syn.hypernyms():
-            # print("Hypernym synset: {}".format(h))
             for l in h.lemmas():
                 hypernym_words.append(l.name())
     # if not hypernym_words:
