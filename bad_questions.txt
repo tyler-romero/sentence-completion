@@ -1,0 +1,13 @@
+# Bad questions from MSR:
+
+I've always been _____ above my station in life , and disgrace would kill me.
+question    I've always been _____ above my station in lif...
+a)                                                transported
+b)                                                    hanging
+c)                                                  deposited
+d)                                                      proud
+e)                                                      drawn
+answer                                                      d
+Name: 129, dtype: object
+prediction: c
+[5.7914588338133, 5.286568663855162, 6.575020681850542, 1.8447012039295627, 4.754945066228206]

@@ -33,15 +33,7 @@ class MSR:
         self.tokenizer = Tokenizer(nlp.vocab)
         
     def vocab(self, MAX_VOCAB_SIZE):
-        word_counts = defaultdict(int)
-        reverse_vocab = defaultdict(lambda: None)
-        
-        # Word Count
-        for path in tqdm(self.train_files):
-            doc = self.load_document(path)
-            for token in doc:
-                if not (token.is_punct or token.is_space):
-                    word_counts[token.norm_] += 1
+        word_counts = self.word_count()
                 
         # Order by count
         wc_sorted = sorted(word_counts.items(), key=operator.itemgetter(1), reverse=True)
@@ -50,11 +42,24 @@ class MSR:
         print("Top 10 vocab words: {}".format(vocab[:10]))
         
         # Create reverse_vocab for fast lookup
+        reverse_vocab = defaultdict(lambda: None)
         for i, word in enumerate(vocab):
             reverse_vocab[word] = i
             
         return vocab, reverse_vocab
+
+    def word_count(self):
+        word_counts = defaultdict(int)
+        reverse_vocab = defaultdict(lambda: None)
         
+        for path in tqdm(self.train_files):
+            doc = self.load_document(path)
+            for token in doc:
+                if not (token.is_punct or token.is_space):
+                    word_counts[token.norm_] += 1
+   
+        return word_counts
+
     def load_document(self, path, verbose=False):
         doc = []
         with open(path) as f:
