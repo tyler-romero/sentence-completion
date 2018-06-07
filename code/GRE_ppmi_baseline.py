@@ -92,7 +92,7 @@ class PPMIBaseline:
         sentence = sentence.lower()
         score = 0
         for word in sentence.split():
-            if word == '$BLANK_0':
+            if word == 'BLANK_0':
                 continue
             score += self.ppmi(option1, word)
         return score
@@ -101,7 +101,7 @@ class PPMIBaseline:
         sentence = sentence.lower()
         score = 0
         for word in sentence.split():
-            if word == '$BLANK_0' or '$BLANK_1':
+            if word == 'BLANK_0' or 'BLANK_1':
                 continue
             score += self.ppmi(option1, word)
             score += self.ppmi(option2, word)
@@ -112,7 +112,7 @@ class PPMIBaseline:
         sentence = sentence.lower()
         score = 0
         for word in sentence.split():
-            if word == '$BLANK_0' or '$BLANK_1' or '$BLANK_2':
+            if word == 'BLANK_0' or 'BLANK_1' or 'BLANK_2':
                 continue
             score += self.ppmi(option1, word)
             score += self.ppmi(option2, word)

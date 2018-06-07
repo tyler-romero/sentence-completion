@@ -2,7 +2,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Recent editions of the Chinese classic Tao Te Ching, based on manuscripts more authoritative than those hitherto available, have rendered previous editions $BLANK.",
+        "question": "Recent editions of the Chinese classic Tao Te Ching, based on manuscripts more authoritative than those hitherto available, have rendered previous editions BLANK.",
         "candidates": ["incomprehensible",
             "uninteresting",
             "inaccessible",
@@ -17,7 +17,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Advisors warned the congressman to communicate directly and intelligibly; speech that instead required extensive $BLANK would bewilder and alienate the voters.",
+        "question": "Advisors warned the congressman to communicate directly and intelligibly; speech that instead required extensive BLANK would bewilder and alienate the voters.",
         "candidates": ["elucidation",
             "mystification",
             "recitation",
@@ -31,7 +31,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The clarity of recent translations of Aristotle’s Categories has made the earlier $BLANK_0 of that text by Boethius appear obsolete in comparison. However, the translation of Boethius is $BLANK_1 to an understanding of the reverence with which early medieval scholars approached the ancient philosophers.",
+        "question": "The clarity of recent translations of Aristotle’s Categories has made the earlier BLANK_0 of that text by Boethius appear obsolete in comparison. However, the translation of Boethius is BLANK_1 to an understanding of the reverence with which early medieval scholars approached the ancient philosophers.",
         "candidates": ["rendition",
             "obfuscation",
             "malapropism"],
@@ -46,7 +46,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "When the most recent earnings report was delivered at the meeting last week, employees hoped to find indications that their company, having been unprofitable the previous fiscal year, was in a state of ($BLANK_0; however, they were disappointed by the ($BLANK_1 first quarter earnings.",
+        "question": "When the most recent earnings report was delivered at the meeting last week, employees hoped to find indications that their company, having been unprofitable the previous fiscal year, was in a state of (BLANK_0; however, they were disappointed by the (BLANK_1 first quarter earnings.",
         "candidates": ["resurgence",
             "decline",
             "bankruptcy"],
@@ -61,7 +61,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "During dinner, the mariachi band played with such $BLANK_0 that the captivated patrons were unperturbed by the restaurant’s sluggish service; after the performance, both diners and members of the waitstaff stopped to $BLANK_1 the young musicians’ skills.",
+        "question": "During dinner, the mariachi band played with such BLANK_0 that the captivated patrons were unperturbed by the restaurant’s sluggish service; after the performance, both diners and members of the waitstaff stopped to BLANK_1 the young musicians’ skills.",
         "candidates": ["finesse",
             "kismet",
             "imbroglio"],
@@ -77,7 +77,7 @@
     {
         "id": "None",
         "num_blanks": 3,
-        "question": "The college student’s $BLANK_0 remarks to her professor, made in a brazen and misguided attempt to garner $BLANK_1 from her peers, met with unintended consequences when she was banished from the classroom for her $BLANK_2.",
+        "question": "The college student’s BLANK_0 remarks to her professor, made in a brazen and misguided attempt to garner BLANK_1 from her peers, met with unintended consequences when she was banished from the classroom for her BLANK_2.",
         "candidates": ["flippant",
             "respectful",
             "flamboyant"],
@@ -95,7 +95,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The disjunction between the CEO's emphatic arguments for expanding the business into a new region and the ambiguous data on which her case was built revealed $BLANK between the goal-driven nature of the business world and the open-ended process of market research.",
+        "question": "The disjunction between the CEO's emphatic arguments for expanding the business into a new region and the ambiguous data on which her case was built revealed BLANK between the goal-driven nature of the business world and the open-ended process of market research.",
         "candidates": ["a conflict",
             "an overlap",
             "a synergy",
@@ -109,7 +109,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Modern business management theory stresses that, to promote fairness, any increase in responsibility given to a worker should be met by a $BLANK increase in remuneration.",
+        "question": "Modern business management theory stresses that, to promote fairness, any increase in responsibility given to a worker should be met by a BLANK increase in remuneration.",
         "candidates": ["predetermined",
             "commensurate",
             "enjoyable",
@@ -123,7 +123,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "From some unseen kitchen wafted a most $BLANK_0 aroma, convincing the guests to $BLANK_1 the dining hall.",
+        "question": "From some unseen kitchen wafted a most BLANK_0 aroma, convincing the guests to BLANK_1 the dining hall.",
         "candidates": ["tantalizing",
             "nebulous",
             "florid"],
@@ -138,7 +138,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Numerous music critics found it strange that many people believed the new prodigy cellist’s style could be termed innovative when his style was actually ($BLANK_0 in that his brilliant playing $BLANK_1 the master players of all the generations that preceded him.",
+        "question": "Numerous music critics found it strange that many people believed the new prodigy cellist’s style could be termed innovative when his style was actually (BLANK_0 in that his brilliant playing BLANK_1 the master players of all the generations that preceded him.",
         "candidates": ["inspired",
             "derivative",
             "controversial"],
@@ -153,7 +153,7 @@
     {
         "id": "None",
         "num_blanks": 3,
-        "question": "Anyone who has ever learned about the great composer knows that he was remarkably $BLANK_0, composing more than 20 symphonies in his short lifetime. Despite this tremendous productivity, he was almost unimaginably $BLANK_1 about even the most $BLANK_2 details of all his symphonies.",
+        "question": "Anyone who has ever learned about the great composer knows that he was remarkably BLANK_0, composing more than 20 symphonies in his short lifetime. Despite this tremendous productivity, he was almost unimaginably BLANK_1 about even the most BLANK_2 details of all his symphonies.",
         "candidates": ["abortive",
             "prolific",
             "professional"],
@@ -171,7 +171,7 @@
     {
         "id": "None",
         "num_blanks": 3,
-        "question": "While Theodore Roosevelt was a man of great vigor, he was quite $BLANK_0 as a child. Acute asthma $BLANK_1 the young Roosevelt from participating in athletics. However, in his late teens he began a program of intense physical rehabilitation that resulted in his dramatic $BLANK_2 into a man of action and energy.",
+        "question": "While Theodore Roosevelt was a man of great vigor, he was quite BLANK_0 as a child. Acute asthma BLANK_1 the young Roosevelt from participating in athletics. However, in his late teens he began a program of intense physical rehabilitation that resulted in his dramatic BLANK_2 into a man of action and energy.",
         "candidates": ["sickly",
             "nimble",
             "gangly"],
@@ -189,7 +189,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Conflict between generations may be a problem that has persisted for centuries, but the nature and intensity of the conflict obviously $BLANK in response to changes in social and economic conditions",
+        "question": "Conflict between generations may be a problem that has persisted for centuries, but the nature and intensity of the conflict obviously BLANK in response to changes in social and economic conditions",
         "candidates": ["increase",
             "disappear",
             "decline",
@@ -203,7 +203,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The $BLANK_0 of the old man’s garb and home belied a $BLANK_1 nature, and many people lamented his tendency to be outright juvenile in somber circumstances.",
+        "question": "The BLANK_0 of the old man’s garb and home belied a BLANK_1 nature, and many people lamented his tendency to be outright juvenile in somber circumstances.",
         "candidates": ["austerity",
             "obsolescence",
             "poverty"],
@@ -218,7 +218,7 @@
     {
         "id": "None",
         "num_blanks": 3,
-        "question": "Due to his lengthy industry-friendly record, the governor was thought to be $BLANK_0 pro-business. So it was $BLANK_1 when he announced the creation of a large environmental preserve at the expense of industry interests. However, his decision was not met with unqualified enthusiasm. Many astute observers noted the politically $BLANK_2 motive of using the decision to court independent voters.",
+        "question": "Due to his lengthy industry-friendly record, the governor was thought to be BLANK_0 pro-business. So it was BLANK_1 when he announced the creation of a large environmental preserve at the expense of industry interests. However, his decision was not met with unqualified enthusiasm. Many astute observers noted the politically BLANK_2 motive of using the decision to court independent voters.",
         "candidates": ["desultory",
             "unsustainably",
             "staunchily"],
@@ -236,7 +236,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Jane's $BLANK_0 disposition seemed irresistibly to infect those around her, taking wavering hope and turning it into robust optimism. It was as if in her presence, the silver lining of every cloud became $BLANK_1.",
+        "question": "Jane's BLANK_0 disposition seemed irresistibly to infect those around her, taking wavering hope and turning it into robust optimism. It was as if in her presence, the silver lining of every cloud became BLANK_1.",
         "candidates": ["sanguinary",
             "ruddy",
             "sanguine"],
@@ -252,7 +252,7 @@
     {
         "id": "None",
         "num_blanks": 3,
-        "question": "Due to his lengthy industry-friendly record, the governor was thought to be $BLANK_0 pro-business. So it was $BLANK_1 when he announced the creation of a large environmental preserve at the expense of industry interests. However, his decision was not met with unqualified enthusiasm. Many astute observers noted the politically $BLANK_2 motive of using the decision to court independent voters.",
+        "question": "Due to his lengthy industry-friendly record, the governor was thought to be BLANK_0 pro-business. So it was BLANK_1 when he announced the creation of a large environmental preserve at the expense of industry interests. However, his decision was not met with unqualified enthusiasm. Many astute observers noted the politically BLANK_2 motive of using the decision to court independent voters.",
         "candidates": ["desultory",
             "unsustainably",
             "staunchily"],

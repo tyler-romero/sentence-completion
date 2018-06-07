@@ -2,7 +2,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Scientific discoveries are often thought of as the result of $BLANK0 effor, but many discoveries have, in fact, arisen from $BLANK1 or a mistake.",
+        "question": "Scientific discoveries are often thought of as the result of BLANK0 effor, but many discoveries have, in fact, arisen from BLANK1 or a mistake.",
         "candidates": ["conscientious, a method",
             "incidental, a mishap",
             "collaborative, a design",
@@ -17,7 +17,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Natios that share a border are, by definition, $BLANK",
+        "question": "Natios that share a border are, by definition, BLANK",
         "candidates": ["allied",
             "partisan",
             "contiguous",
@@ -32,7 +32,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Much of this author's work, unfortunately, is $BLANK0, with $BLANK1 chapter often immediately following a sublime one.",
+        "question": "Much of this author's work, unfortunately, is BLANK0, with BLANK1 chapter often immediately following a sublime one.",
         "candidates": ["mystical, a superior",
             "uneven, a mediocre",
             "predictable, an eloquent",
@@ -47,7 +47,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "In young children, some brain cells have a $BLANK that enables them to take over the functions of damaged or missing brain cells.",
+        "question": "In young children, some brain cells have a BLANK that enables them to take over the functions of damaged or missing brain cells.",
         "candidates": ["fragility",
             "reminiscence",
             "perniciousness",
@@ -62,7 +62,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "\"Less government spending\" is $BLANK of this political party, a belief shared by most party members.",
+        "question": "\"Less government spending\" is BLANK of this political party, a belief shared by most party members.",
         "candidates": ["an acronym",
             "a retraction",
             "a tenet",
@@ -77,7 +77,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Common garlic has $BLANK properties; during the First World War British medics saved thousands of lives by wrapping wounds with garlic-soaked bandages.",
+        "question": "Common garlic has BLANK properties; during the First World War British medics saved thousands of lives by wrapping wounds with garlic-soaked bandages.",
         "candidates": ["curative",
             "flavoring",
             "inferior",
@@ -92,7 +92,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "In her poems, Alice Walker retrieves and $BLANK0 parts of Black culture that some have been all too quick to $BLANK1 the past as fossilized artifiacts.",
+        "question": "In her poems, Alice Walker retrieves and BLANK0 parts of Black culture that some have been all too quick to BLANK1 the past as fossilized artifiacts.",
         "candidates": ["revitalizes, consign to",
             "conjoins, exclude from",
             "realigns, salvage from",
@@ -107,7 +107,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The modest acceptance of the Academy Award-winning actress revealed a $BLANK that contrasted with her uninhibited screen performances.",
+        "question": "The modest acceptance of the Academy Award-winning actress revealed a BLANK that contrasted with her uninhibited screen performances.",
         "candidates": ["theatricality",
             "sullenness",
             "flamboyance",
@@ -122,7 +122,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Because howler monkeys rarely come out of the trees in their arboreal habitat, the continued well-being of the rain forest is $BLANK to their survival.",
+        "question": "Because howler monkeys rarely come out of the trees in their arboreal habitat, the continued well-being of the rain forest is BLANK to their survival.",
         "candidates": ["inadequate",
             "tangential",
             "indispensable",
@@ -137,7 +137,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Doug was both $BLANK0 and $BLANK1: he possessed penetrating acuity and discernment and was also extremely humble.",
+        "question": "Doug was both BLANK0 and BLANK1: he possessed penetrating acuity and discernment and was also extremely humble.",
         "candidates": ["diligent, supercilious",
             "perspicacious, unpretentious",
             "obtuse, penitent",
@@ -152,7 +152,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The Mona Lisa, shipped in a private cabin and received by important dignitaries, was treated more like $BLANK than a painting upon its arrival in the United States.",
+        "question": "The Mona Lisa, shipped in a private cabin and received by important dignitaries, was treated more like BLANK than a painting upon its arrival in the United States.",
         "candidates": ["a perfectionist",
             "a maverick",
             "a potentate",
@@ -167,7 +167,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Despite its patent $BLANK0, this belief has become so $BLANK1 that no amount of rational argument will suffice to eradicate it.",
+        "question": "Despite its patent BLANK0, this belief has become so BLANK1 that no amount of rational argument will suffice to eradicate it.",
         "candidates": ["validity, inconsequential",
             "implausibility, entrenched",
             "credibility, prevalent",
@@ -182,7 +182,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The charlatan's seemingly frank and open demeanor was actually a $BLANK means of enlisting his patient's confidence.",
+        "question": "The charlatan's seemingly frank and open demeanor was actually a BLANK means of enlisting his patient's confidence.",
         "candidates": ["disingenuous",
             "debilitating",
             "diminutive",
@@ -197,7 +197,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Unable to discover how the fire started, the inspectors filed a tentative report stating that the cause was $BLANK.",
+        "question": "Unable to discover how the fire started, the inspectors filed a tentative report stating that the cause was BLANK.",
         "candidates": ["noteworthy",
             "definitive",
             "fundamental",
@@ -212,7 +212,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The celebrants at the $BLANK0 party for Cinco De Mayo were understantably $BLANK1 by the spectacle of the mariachi bands and the colorful pinatas for the children.",
+        "question": "The celebrants at the BLANK0 party for Cinco De Mayo were understantably BLANK1 by the spectacle of the mariachi bands and the colorful pinatas for the children.",
         "candidates": ["somber, amused",
             "lavish, dazzled",
             "novel, jaded",
@@ -227,7 +227,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "\"Hawaii\" refers both to the group of islands known as the Hawaiian islands and to the largest island in that $BLANK.",
+        "question": "\"Hawaii\" refers both to the group of islands known as the Hawaiian islands and to the largest island in that BLANK.",
         "candidates": ["flora",
             "sierra",
             "archipelago",
@@ -242,7 +242,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Given the exponential growth of scientific knowledge, medicine is far less $BLANK0 unsubstantiated fads than it used to be; its record of folly, however, remains an undeniable $BLANK1.",
+        "question": "Given the exponential growth of scientific knowledge, medicine is far less BLANK0 unsubstantiated fads than it used to be; its record of folly, however, remains an undeniable BLANK1.",
         "candidates": ["suspiscious of, qualifications",
             "averse to, encumberance",
             "vulnerable to, embarrassment",
@@ -258,7 +258,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The aspiring writer, who remained $BLANK0 even after being rejected by several major publishers, felt certain of achieving literary $BLANK1.",
+        "question": "The aspiring writer, who remained BLANK0 even after being rejected by several major publishers, felt certain of achieving literary BLANK1.",
         "candidates": ["hopeless, vindication",
             "disgruntled, talent",
             "optimistic, abasement",
@@ -273,7 +273,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Fred often used $BLANK to achieve his professional goals, even though such artful subterfuge alienated his colleagues.",
+        "question": "Fred often used BLANK to achieve his professional goals, even though such artful subterfuge alienated his colleagues.",
         "candidates": ["chicanery",
             "diligence",
             "bombast",
@@ -288,7 +288,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Many private universities depend heavily on $BLANK, the wealthy individuals who support them with gifts and bequests.",
+        "question": "Many private universities depend heavily on BLANK, the wealthy individuals who support them with gifts and bequests.",
         "candidates": ["instructors",
             "administrators",
             "monitors",
@@ -303,7 +303,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "One of the characters in Milton Murayama's novel is considered $BLANK because he deliberately defies an oppressive hierarchical society.",
+        "question": "One of the characters in Milton Murayama's novel is considered BLANK because he deliberately defies an oppressive hierarchical society.",
         "candidates": ["rebellious",
             "impulsive",
             "artistic",
@@ -318,7 +318,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Nightjars possess a camouflage perhaps unparalleled in the bird world: by day they roost hidden in shady woods, so $BLANK0 with their surroundings that they are nearly impossible to $BLANK1.",
+        "question": "Nightjars possess a camouflage perhaps unparalleled in the bird world: by day they roost hidden in shady woods, so BLANK0 with their surroundings that they are nearly impossible to BLANK1.",
         "candidates": ["vexed, dislodge",
             "blended, discern",
             "harmonized, interrupt",
@@ -333,7 +333,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Many economists believe that since resources are scarce and since human desires cannot all be $BLANK0, a method of $BLANK1 is needed.",
+        "question": "Many economists believe that since resources are scarce and since human desires cannot all be BLANK0, a method of BLANK1 is needed.",
         "candidates": ["indulged, apportionment",
             "verified, distribution",
             "usurped, expropriation",
@@ -348,7 +348,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The range of colors that homeowners could use on the exterior of the houses was $BLANK by the community's stringent rules regarding upkeep of property.",
+        "question": "The range of colors that homeowners could use on the exterior of the houses was BLANK by the community's stringent rules regarding upkeep of property.",
         "candidates": ["circumscribed",
             "bolstered",
             "embellished",
@@ -363,7 +363,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Years of $BLANK0 lifting of heavy furniture had left of him too $BLANK1 to be able to stand erect for long periods of time.",
+        "question": "Years of BLANK0 lifting of heavy furniture had left of him too BLANK1 to be able to stand erect for long periods of time.",
         "candidates": ["profitable, dumbfounded",
             "generous, distracted",
             "onerous, hesitant",
@@ -378,7 +378,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Canadian Lynn Johnston was named Cartoonist of the Year in 1985, the first woman to be so $BLANK.",
+        "question": "Canadian Lynn Johnston was named Cartoonist of the Year in 1985, the first woman to be so BLANK.",
         "candidates": ["inspired",
             "entrusted",
             "honored",
@@ -393,7 +393,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Because the photographer believed that wild animals should be $BLANK0 only in their various natural surroundings, she $BLANK1 often in her career.",
+        "question": "Because the photographer believed that wild animals should be BLANK0 only in their various natural surroundings, she BLANK1 often in her career.",
         "candidates": ["depicted, traveled",
             "displayed, spoke",
             "captured, protested",
@@ -408,7 +408,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Folk painter Grandma Moses has become such as enduring icon that many consider her $BLANK of America.",
+        "question": "Folk painter Grandma Moses has become such as enduring icon that many consider her BLANK of America.",
         "candidates": ["an innovator",
             "an emblem",
             "a successor",
@@ -423,7 +423,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Whether substances are medicines or poisons often depends on dosage, for substances that are $BLANK0 in small doses can be $BLANK1 in large.",
+        "question": "Whether substances are medicines or poisons often depends on dosage, for substances that are BLANK0 in small doses can be BLANK1 in large.",
         "candidates": ["useless, effective",
             "mild, benign",
             "curative, toxic",
@@ -438,7 +438,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Critics dismissed the engineer's seemingly creative design as being $BLANK, that is, underdeveloped and lacking in sophistication.",
+        "question": "Critics dismissed the engineer's seemingly creative design as being BLANK, that is, underdeveloped and lacking in sophistication.",
         "candidates": ["defunct",
             "unorthodox",
             "simplistic",
@@ -453,7 +453,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The professor commented to other faculty members that Sheila seemed tempermentally suited to the study of logic, given her $BLANK0 for $BLANK1 intricate arguments.",
+        "question": "The professor commented to other faculty members that Sheila seemed tempermentally suited to the study of logic, given her BLANK0 for BLANK1 intricate arguments.",
         "candidates": ["sympathy, influencing",
             "penchant, evading",
             "disregard, unhinging",
@@ -468,7 +468,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "While traveling near the Sun, the coment Hale-Bopp produced a $BLANK amount of dust, much more than the comet Halley or Hyakutake.",
+        "question": "While traveling near the Sun, the coment Hale-Bopp produced a BLANK amount of dust, much more than the comet Halley or Hyakutake.",
         "candidates": ["voracious",
             "disposable",
             "redundant",
@@ -483,7 +483,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The writer came to be labeled $BLANK because she isolated herself in her apartment, shunning outside contact.",
+        "question": "The writer came to be labeled BLANK because she isolated herself in her apartment, shunning outside contact.",
         "candidates": ["a loner",
             "a miser",
             "a connoisseur",
@@ -498,7 +498,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Some Tibetan nomads used yak butter as a $BLANK, one that often took the place of money in commercial transactions.",
+        "question": "Some Tibetan nomads used yak butter as a BLANK, one that often took the place of money in commercial transactions.",
         "candidates": ["promotion",
             "commodity",
             "formula",
@@ -513,7 +513,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Geysers vary widely: some may discharge $BLANK0, whereas others may have only a brief explosive eruption and then remain $BLANK1 for hours or days.",
+        "question": "Geysers vary widely: some may discharge BLANK0, whereas others may have only a brief explosive eruption and then remain BLANK1 for hours or days.",
         "candidates": ["violently, dangerous",
             "continuously, quiescent",
             "spontaneously, unpredictable",
@@ -528,7 +528,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Although the administration repeatedly threatened use its authority in order to $BLANK the student protestors into submission, they refused to be intimidated.",
+        "question": "Although the administration repeatedly threatened use its authority in order to BLANK the student protestors into submission, they refused to be intimidated.",
         "candidates": ["ease",
             "delude",
             "cajole",
@@ -543,7 +543,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Only after the campaign volunteers became aware of their candidate's questionable motives could they recognize the $BLANK0 statements made in his seemingly $BLANK1 speeches.",
+        "question": "Only after the campaign volunteers became aware of their candidate's questionable motives could they recognize the BLANK0 statements made in his seemingly BLANK1 speeches.",
         "candidates": ["insightful, astute",
             "partisan, callous",
             "cordial, hostile",
@@ -558,7 +558,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "No longer narrowly preoccupied with their own national pasts, historians are increasingly $BLANK in that they often take a transnational perspective.",
+        "question": "No longer narrowly preoccupied with their own national pasts, historians are increasingly BLANK in that they often take a transnational perspective.",
         "candidates": ["conciliatory",
             "bombastic",
             "mendacious",
@@ -573,7 +573,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Black Americans in Flight, a mural honoring several aviation pioneers, also $BLANK the 1992 spaceflight of astronaut Mae Jemison.",
+        "question": "Black Americans in Flight, a mural honoring several aviation pioneers, also BLANK the 1992 spaceflight of astronaut Mae Jemison.",
         "candidates": ["discerns",
             "introduces",
             "approximates",
@@ -587,8 +587,8 @@
 
     {
         "id": "None",
-        "num_blanks": 1,
-        "question": "The new antifungal agent has such $BLANK0 uses, from treating Dutch elm disease to rescuing water-damagedworks of art from molds, that it is considered one of the more $BLANK1 antibiotics.",
+        "num_blanks": 2,
+        "question": "The new antifungal agent has such BLANK0 uses, from treating Dutch elm disease to rescuing water-damagedworks of art from molds, that it is considered one of the more BLANK1 antibiotics.",
         "candidates": ["disturbing, explicit",
             "innovative, precipitous",
             "mysterious, recognized",
@@ -603,7 +603,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The child had a tendency toward aggressive behavior, a $BLANK flighting rather than resolving differences amicably.",
+        "question": "The child had a tendency toward aggressive behavior, a BLANK flighting rather than resolving differences amicably.",
         "candidates": ["propensity for",
             "confusion about",
             "disregard of",
@@ -618,7 +618,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Physical exercise often has a $BLANK effect, releasing emotional tension and refreshing the spirit.",
+        "question": "Physical exercise often has a BLANK effect, releasing emotional tension and refreshing the spirit.",
         "candidates": ["pejorative",
             "debilitating",
             "cathartic",
@@ -633,7 +633,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Because rap and hip-hop offer such $BLANK commentary on contemporary issues, they are often said to be sharp-edged musical genres.",
+        "question": "Because rap and hip-hop offer such BLANK commentary on contemporary issues, they are often said to be sharp-edged musical genres.",
         "candidates": ["nebulous",
             "trenchant",
             "circumspect",
@@ -648,7 +648,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Some fans feel that sports events are $BLANK0 only when the competitors are of equal ability, making the outcome of the game $BLANK1.",
+        "question": "Some fans feel that sports events are BLANK0 only when the competitors are of equal ability, making the outcome of the game BLANK1.",
         "candidates": ["successful, assured",
             "boring, questionable",
             "dull, foreseen",
@@ -663,7 +663,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "ALfred Schnittke's musical compositions are $BLANK: phrases are clipped, broken into sections, and split apart by long rests.",
+        "question": "ALfred Schnittke's musical compositions are BLANK: phrases are clipped, broken into sections, and split apart by long rests.",
         "candidates": ["garnished",
             "improvisational",
             "fragmented",
@@ -678,7 +678,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The consumer advocate claimed that while drug manufacturers $BLANK0 the supposed advantages of their proprietary brands, generic versions of the same medications are often equally $BLANK1.",
+        "question": "The consumer advocate claimed that while drug manufacturers BLANK0 the supposed advantages of their proprietary brands, generic versions of the same medications are often equally BLANK1.",
         "candidates": ["tout, efficacious",
             "research, innocuous",
             "market, prohibitive",
@@ -693,7 +693,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Latoya's $BLANK0 is shown by her ability to be $BLANK1: she can see her own faults more clearly than anyone else can.",
+        "question": "Latoya's BLANK0 is shown by her ability to be BLANK1: she can see her own faults more clearly than anyone else can.",
         "candidates": ["perceptiveness, self-centered",
             "objectivity, restrictive",
             "cynicism, self-destructive",
@@ -708,7 +708,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The bearded dragon lizard is a voracious eater, so $BLANK that it will consume as many insects as possible.",
+        "question": "The bearded dragon lizard is a voracious eater, so BLANK that it will consume as many insects as possible.",
         "candidates": ["abstemious",
             "cannibalistic",
             "slovenly",
@@ -723,7 +723,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Because drummer Tony Williams paved the way for later jazz-fusion musicians, he is considered a $BLANK of that style.",
+        "question": "Because drummer Tony Williams paved the way for later jazz-fusion musicians, he is considered a BLANK of that style.",
         "candidates": ["connoisseur",
             "revivalist",
             "beneficiary",
@@ -738,7 +738,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The politician's speech to the crowd was composed of nothing but $BLANK, a bitter railing against the party's opponents.",
+        "question": "The politician's speech to the crowd was composed of nothing but BLANK, a bitter railing against the party's opponents.",
         "candidates": ["digressions",
             "diatribes",
             "platitudes",
@@ -753,7 +753,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Favoring economy of expression in writing, the professor urged students toward a $BLANK0 rather than an $BLANK1 prose style.",
+        "question": "Favoring economy of expression in writing, the professor urged students toward a BLANK0 rather than an BLANK1 prose style.",
         "candidates": ["spare, ornate",
             "terse, opinionated",
             "personal, academic",
@@ -768,7 +768,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "As a child, Mary $BLANK0 her stringent upbringing; however, as she grew older she began to appreciate her grandmother's strict $BLANK1.",
+        "question": "As a child, Mary BLANK0 her stringent upbringing; however, as she grew older she began to appreciate her grandmother's strict BLANK1.",
         "candidates": ["tolerated, autonomy",
             "despised, discipline",
             "embraced, authority",
@@ -783,7 +783,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "His mouth stinging and burning, Virgil hurried to the kitchen for water to wash away the dish's $BLANK taste.",
+        "question": "His mouth stinging and burning, Virgil hurried to the kitchen for water to wash away the dish's BLANK taste.",
         "candidates": ["earthy",
             "exotic",
             "cloying",
@@ -798,7 +798,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Since other seabirds customarily nest in colonies on ocean cliffs and islands, the marbeled murrelet's $BLANK0 nesting in forests many miles from the sea must be considered $BLANK1.",
+        "question": "Since other seabirds customarily nest in colonies on ocean cliffs and islands, the marbeled murrelet's BLANK0 nesting in forests many miles from the sea must be considered BLANK1.",
         "candidates": ["ambivalence about, hypothetical",
             "indifference to, bold",
             "insistence upon, evident",
@@ -813,7 +813,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The cause of Mozart's $BLANK0 is a long-standing medical $BLANK1: over the years, physicians have suggested more than 100 possibilities, including poisoning, malnutrition, kidney disease, and heart failure.",
+        "question": "The cause of Mozart's BLANK0 is a long-standing medical BLANK1: over the years, physicians have suggested more than 100 possibilities, including poisoning, malnutrition, kidney disease, and heart failure.",
         "candidates": ["mortality, phenomenon",
             "bereavement, controversy",
             "genius, enigma",
@@ -828,7 +828,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "At first the children were $BLANK, but as the morning progressed they began to laugh and talk eagerly.",
+        "question": "At first the children were BLANK, but as the morning progressed they began to laugh and talk eagerly.",
         "candidates": ["ostentatious",
             "myopic",
             "solicitous",
@@ -843,7 +843,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Oren missed the play's overarching significance, focusing instead on details so minor that they would best be described as $BLANK.",
+        "question": "Oren missed the play's overarching significance, focusing instead on details so minor that they would best be described as BLANK.",
         "candidates": ["pragmatic",
             "indelible",
             "moribund",
@@ -858,7 +858,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Her political $BLANK0 came from her $BLANK1 vision of the nation, a vision that included and drew strength from every social constituency.",
+        "question": "Her political BLANK0 came from her BLANK1 vision of the nation, a vision that included and drew strength from every social constituency.",
         "candidates": ["autonomy, sweeping",
             "reticence, mystical",
             "triumph, restricted",
@@ -873,7 +873,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "As one would expect, the reclusive poet $BLANK public appearances and invasions of privacy.",
+        "question": "As one would expect, the reclusive poet BLANK public appearances and invasions of privacy.",
         "candidates": ["rewarded",
             "endorsed",
             "neglected",
@@ -888,7 +888,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Turn-of-the-century actress Sarah Bernhardt had so $BLANK0 a talent that she $BLANK1 audiences with her diverse and utterly convincing characterizations.",
+        "question": "Turn-of-the-century actress Sarah Bernhardt had so BLANK0 a talent that she BLANK1 audiences with her diverse and utterly convincing characterizations.",
         "candidates": ["unrealized, enchanted",
             "protean, bedazzled",
             "eclectic, wearied",
@@ -903,7 +903,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "In the classroom, Carol was unusually $BLANK; on the playground, however, she became as intractable as the other children.",
+        "question": "In the classroom, Carol was unusually BLANK; on the playground, however, she became as intractable as the other children.",
         "candidates": ["optimistic",
             "mercurial",
             "magnanimous",
@@ -918,7 +918,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Bubble gum is not a topic usually treated seriously, so it is appropriate that this new book tracing the cultural history of bubble gum has a $BLANK tone.",
+        "question": "Bubble gum is not a topic usually treated seriously, so it is appropriate that this new book tracing the cultural history of bubble gum has a BLANK tone.",
         "candidates": ["morbid",
             "cathartix",
             "pedantic",
@@ -933,7 +933,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Jamake Highwater manages to touch on the arts of almost every American Indian nation in one reaonably sized book that makes up for its occasional lack of $BLANK0 with its remarkable $BLANK1.",
+        "question": "Jamake Highwater manages to touch on the arts of almost every American Indian nation in one reaonably sized book that makes up for its occasional lack of BLANK0 with its remarkable BLANK1.",
         "candidates": ["specificity, detail",
             "discontinuity, concreteness",
             "loftiness, inaccessibility",
@@ -948,7 +948,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Though Judd is typically $BLANK0 and reserved in social gatherings, at last night's reception he spoke and acted with uncharacteristic $BLANK1.",
+        "question": "Though Judd is typically BLANK0 and reserved in social gatherings, at last night's reception he spoke and acted with uncharacteristic BLANK1.",
         "candidates": ["loquacious, alacrity",
             "querulous, languor",
             "disaffected, resentment",
@@ -963,7 +963,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Most politicians find television $BLANK0 to the $BLANK1 of their messages: the medium plays an essential role in propagating their ideas.",
+        "question": "Most politicians find television BLANK0 to the BLANK1 of their messages: the medium plays an essential role in propagating their ideas.",
         "candidates": ["crucial, renunciation",
             "indispensable, dissemination",
             "detrimental, communication",
@@ -978,7 +978,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Canaries are often said to have $BLANK voices because they make such sweet, harmonious sounds.",
+        "question": "Canaries are often said to have BLANK voices because they make such sweet, harmonious sounds.",
         "candidates": ["insistent",
             "unnatural",
             "melodious",
@@ -993,7 +993,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The $BLANK plots of Agatha Christie's detective stories reflect the complexities hidden beneath the simple appearances.",
+        "question": "The BLANK plots of Agatha Christie's detective stories reflect the complexities hidden beneath the simple appearances.",
         "candidates": ["rewarded",
             "endorsed",
             "neglected",
@@ -1008,7 +1008,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Government officials authorized $BLANK because they wanted to have a complete enumeration of the country's population.",
+        "question": "Government officials authorized BLANK because they wanted to have a complete enumeration of the country's population.",
         "candidates": ["a discontinuance",
             "an appointment",
             "a waiver",
@@ -1023,7 +1023,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Even in her fiction writing, Denise Chavez functions as a kind of historian in that she $BLANK the real experiences of Hispanic women through her characters.",
+        "question": "Even in her fiction writing, Denise Chavez functions as a kind of historian in that she BLANK the real experiences of Hispanic women through her characters.",
         "candidates": ["predicts",
             "defends",
             "chronicles",
@@ -1038,7 +1038,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Fanatically committed to one political cause, Anderson was a $BLANK0, maintaining an exclusively $BLANK1 outlook.",
+        "question": "Fanatically committed to one political cause, Anderson was a BLANK0, maintaining an exclusively BLANK1 outlook.",
         "candidates": ["libertine, provincial",
             "zealot, partisan",
             "patriot, indulgent",
@@ -1053,7 +1053,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The outbreak of disease could not be labeled pandemic, since despite its rapid $BLANK it remained confined to one small region.",
+        "question": "The outbreak of disease could not be labeled pandemic, since despite its rapid BLANK it remained confined to one small region.",
         "candidates": ["spread",
             "concentration",
             "fading",
@@ -1068,7 +1068,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The author's theory about modern design had an enormous impact when first published, but as $BLANK0 as it was then, it is now clearly $BLANK1.",
+        "question": "The author's theory about modern design had an enormous impact when first published, but as BLANK0 as it was then, it is now clearly BLANK1.",
         "candidates": ["scholarly, erudite",
             "lackluster, impressive",
             "influential, outdated",
@@ -1083,7 +1083,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Texas is known for its wild orchids, whose $BLANK0 is evident in their $BLANK1 colors: 52 species have been catalogued, ranging from pure white to bright red.",
+        "question": "Texas is known for its wild orchids, whose BLANK0 is evident in their BLANK1 colors: 52 species have been catalogued, ranging from pure white to bright red.",
         "candidates": ["novelty, traditional",
             "diversity, myriad",
             "stature, uniform",
@@ -1097,8 +1097,8 @@
 
     {
         "id": "None",
-        "num_blanks": 1,
-        "question": "In 1974 the committee overseeing the Pulitzer Prize in Literature was $BLANK0 so much $BLANK1 that it bestowed no award at all that year.",
+        "num_blanks": 2,
+        "question": "In 1974 the committee overseeing the Pulitzer Prize in Literature was BLANK0 so much BLANK1 that it bestowed no award at all that year.",
         "candidates": ["plagued by, concordance",
             "afforded with, esteem",
             "exempt from, debate",
@@ -1113,7 +1113,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Pablo Picasso was $BLANK youth: his extraordinary artistic talent was obvious at a very early age.",
+        "question": "Pablo Picasso was BLANK youth: his extraordinary artistic talent was obvious at a very early age.",
         "candidates": ["an articulate",
             "an immature",
             "a disturbed",
@@ -1128,7 +1128,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Jared has the habits of $BLANK: he lives simply and donates most of his income to local charities.",
+        "question": "Jared has the habits of BLANK: he lives simply and donates most of his income to local charities.",
         "candidates": ["a skeptic",
             "a pundit",
             "a dilettante",
@@ -1143,7 +1143,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Known for her $BLANK, Miranda eagerly welcomes anyone into her home.",
+        "question": "Known for her BLANK, Miranda eagerly welcomes anyone into her home.",
         "candidates": ["cowardice",
             "prudence",
             "hospitality",
@@ -1158,7 +1158,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Not surprisingly, supporters of the governor's plan to set aside land for a forest preserve were disappointed when a court decision $BLANK the plan.",
+        "question": "Not surprisingly, supporters of the governor's plan to set aside land for a forest preserve were disappointed when a court decision BLANK the plan.",
         "candidates": ["applauded",
             "derailed",
             "acknowledged",
@@ -1173,7 +1173,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Because playing a musical instrument increases brain activity, it is sometimes used as a $BLANK to promote learning in children.",
+        "question": "Because playing a musical instrument increases brain activity, it is sometimes used as a BLANK to promote learning in children.",
         "candidates": ["condition",
             "highlight",
             "stimulus",
@@ -1188,7 +1188,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The ambassador argues that, in diplomacy, there is a subtle but important difference between a country's showing a willingness to $BLANK0 and a too-obvious readiness to make $BLANK1.",
+        "question": "The ambassador argues that, in diplomacy, there is a subtle but important difference between a country's showing a willingness to BLANK0 and a too-obvious readiness to make BLANK1.",
         "candidates": ["negotiate, concessions",
             "antagonize, friends",
             "surrender, enemies",
@@ -1203,7 +1203,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The dancer's performing style was $BLANK0 and $BLANK1, with each move taken from another artist, and poorly executed at that.",
+        "question": "The dancer's performing style was BLANK0 and BLANK1, with each move taken from another artist, and poorly executed at that.",
         "candidates": ["rousing, memorable",
             "pedestrian, evolving",
             "chaotic, unprecedented",
@@ -1218,7 +1218,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Lewis Latimer's inexpensive method of producing carbon filaments $BLANK0 the nascent electric industry by making electric lamps commercially $BLANK1.",
+        "question": "Lewis Latimer's inexpensive method of producing carbon filaments BLANK0 the nascent electric industry by making electric lamps commercially BLANK1.",
         "candidates": ["cheapened, affordable",
             "transformed, viable",
             "revolutionized, prohibitive",
@@ -1233,7 +1233,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "After winning the award, Phillip adopted a haughty pose, treating even his best friends in a $BLANK manner.",
+        "question": "After winning the award, Phillip adopted a haughty pose, treating even his best friends in a BLANK manner.",
         "candidates": ["cryptic",
             "judicious",
             "jubilant",
@@ -1248,7 +1248,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The general was so widely suspected of $BLANK during the war that his name eventually became synonymous with disloyalty.",
+        "question": "The general was so widely suspected of BLANK during the war that his name eventually became synonymous with disloyalty.",
         "candidates": ["beligerence",
             "indigence",
             "perfidy",
@@ -1263,7 +1263,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Aleksandr Solzhenisyn's $BLANK proved keenest when he accurately predicted that his books would someday appear in his native Russia.",
+        "question": "Aleksandr Solzhenisyn's BLANK proved keenest when he accurately predicted that his books would someday appear in his native Russia.",
         "candidates": ["foresight",
             "nostalgia",
             "folly",
@@ -1293,7 +1293,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Kate's impulsive nature and sudden whims led her friends to label her $BLANK.",
+        "question": "Kate's impulsive nature and sudden whims led her friends to label her BLANK.",
         "candidates": ["capricious",
             "bombastic",
             "loquacious",
@@ -1308,7 +1308,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Neurosurgeon Alexa Canady maintained that choosing a career was a visceral decision rather than $BLANK0 judgment; that is, it was not so much rational as $BLANK1.",
+        "question": "Neurosurgeon Alexa Canady maintained that choosing a career was a visceral decision rather than BLANK0 judgment; that is, it was not so much rational as BLANK1.",
         "candidates": ["an emotional, intellectual",
             "a chance, random",
             "an intuitive, impulsive",
@@ -1323,7 +1323,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Creative business stratagems frequently become $BLANK0 as a result of $BLANK1, their versatility and adaptability destroyed by their transformation into rigid policies.",
+        "question": "Creative business stratagems frequently become BLANK0 as a result of BLANK1, their versatility and adaptability destroyed by their transformation into rigid policies.",
         "candidates": ["streamlined, infighting",
             "mitigated, jingoism",
             "ossified, bureaucratization",
@@ -1338,7 +1338,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The prose of Richard Wright's autobiographical Black Boy (1945) is $BLANK, free of stylistic tricks of evasiveness.",
+        "question": "The prose of Richard Wright's autobiographical Black Boy (1945) is BLANK, free of stylistic tricks of evasiveness.",
         "candidates": ["imprecise",
             "straightforward",
             "deficient",
@@ -1353,7 +1353,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "It seemed from the size of the crowd, which was $BLANK0, and the resonance of its cheers, which were $BLANK1, that the team was experiencing a esurgence of popularity.",
+        "question": "It seemed from the size of the crowd, which was BLANK0, and the resonance of its cheers, which were BLANK1, that the team was experiencing a esurgence of popularity.",
         "candidates": ["vast, hollow",
             "sparse, thunderous",
             "enormous, deafening",
@@ -1368,7 +1368,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Evidence that the universe is expanding $BLANK0 our perception of the cosmos and thus caused a $BLANK1 in astronomical thinking.",
+        "question": "Evidence that the universe is expanding BLANK0 our perception of the cosmos and thus caused a BLANK1 in astronomical thinking.",
         "candidates": ["advanced, setback",
             "altered, revolution",
             "contradicted, truce",
@@ -1383,7 +1383,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Although the theory that widespread lead poisoning contributed to the decline of the Roman Empire has gained $BLANK0, the evidence is still $BLANK1.",
+        "question": "Although the theory that widespread lead poisoning contributed to the decline of the Roman Empire has gained BLANK0, the evidence is still BLANK1.",
         "candidates": ["credence, irrefutable",
             "disrepute, dubious",
             "acceptance, convincing",
@@ -1398,7 +1398,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The fashion designer favored fabrics that were so $BLANK as to be virtually transparent.",
+        "question": "The fashion designer favored fabrics that were so BLANK as to be virtually transparent.",
         "candidates": ["palpable",
             "diaphanous",
             "variegated",
@@ -1413,7 +1413,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Professor Williams disdained tradition: she regularly attacked cherished beliefs and institutions, earning a reputation as $BLANK.",
+        "question": "Professor Williams disdained tradition: she regularly attacked cherished beliefs and institutions, earning a reputation as BLANK.",
         "candidates": ["an egalitarian",
             "a dowager",
             "a dilettante",
@@ -1428,7 +1428,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The movie's plot was $BLANK0: once you knew what befell the hero, you could $BLANK1 the fate of the villain.",
+        "question": "The movie's plot was BLANK0: once you knew what befell the hero, you could BLANK1 the fate of the villain.",
         "candidates": ["convincing, misinterpret",
             "misleading, anticipate",
             "predictable, foresee",
@@ -1443,7 +1443,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "A certain additive put in gasoline to reduce air pollution is actually $BLANK0 groundwater, a finding that shows that even the most well-intentional fixes can sometimes $BLANK1.",
+        "question": "A certain additive put in gasoline to reduce air pollution is actually BLANK0 groundwater, a finding that shows that even the most well-intentional fixes can sometimes BLANK1.",
         "candidates": ["liquefying, founder",
             "contaminating, backfire",
             "purifying, boomerang",
@@ -1459,7 +1459,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The biologist's description of the wolf pack was truly $BLANK, devoid of any emotion or personal prejudice.",
+        "question": "The biologist's description of the wolf pack was truly BLANK, devoid of any emotion or personal prejudice.",
         "candidates": ["dispassionate",
             "insubstantial",
             "esoteric",
@@ -1474,7 +1474,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "No longer considered $BLANK0, the belief that all of Puerto Rico's indigenous Taino people perished centuries ago appears to be a $BLANK1 now that modern Taino descendants have come forward.",
+        "question": "No longer considered BLANK0, the belief that all of Puerto Rico's indigenous Taino people perished centuries ago appears to be a BLANK1 now that modern Taino descendants have come forward.",
         "candidates": ["conclusive, reality",
             "tenable, misconception",
             "mythical, possibility",
@@ -1489,7 +1489,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Although easily angered by our mischievous behavior our mother could immediately $BLANK by our expressions of remorse.",
+        "question": "Although easily angered by our mischievous behavior our mother could immediately BLANK by our expressions of remorse.",
         "candidates": ["substantiated",
             "impugned",
             "protected",
@@ -1504,7 +1504,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Scientists wonder what to do with the dead satellites, jettisoned rockets, drifting paint flecks, and other $BLANK orbiting Earth.",
+        "question": "Scientists wonder what to do with the dead satellites, jettisoned rockets, drifting paint flecks, and other BLANK orbiting Earth.",
         "candidates": ["flotsam",
             "reconnaissance",
             "decimation",
@@ -1519,7 +1519,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Although aging brings about profound physiological changes, it does not often alter an individual's $BLANK0: an irascible thirty year old will probably still be $BLANK1 at seventy.",
+        "question": "Although aging brings about profound physiological changes, it does not often alter an individual's BLANK0: an irascible thirty year old will probably still be BLANK1 at seventy.",
         "candidates": ["disposition, cantankerous",
             "anatomy, churlish",
             "outlook, benevolent",
@@ -1534,7 +1534,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The commentator characterized the electorate as $BLANK because if was unpredictableand given to constantly shifting moods.",
+        "question": "The commentator characterized the electorate as BLANK because if was unpredictableand given to constantly shifting moods.",
         "candidates": ["mercurial",
             "corrosive",
             "disingenuous",
@@ -1549,7 +1549,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Geoffrey's corrupt dealings earned him such disgrace that any possibility of his being reelected to the city council was completely $BLANK.",
+        "question": "Geoffrey's corrupt dealings earned him such disgrace that any possibility of his being reelected to the city council was completely BLANK.",
         "candidates": ["ensured",
             "approved",
             "belittled",
@@ -1564,7 +1564,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Although the editors were reputed to be very $BLANK0, the uneven quality of the material they put into the anthology suggests they were too $BLANK1.",
+        "question": "Although the editors were reputed to be very BLANK0, the uneven quality of the material they put into the anthology suggests they were too BLANK1.",
         "candidates": ["amateurish, professional",
             "lax, harsh",
             "selective, inclusive",
@@ -1579,7 +1579,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The professor's presentation was both $BLANK0 and $BLANK1: though brief, it was instructive.",
+        "question": "The professor's presentation was both BLANK0 and BLANK1: though brief, it was instructive.",
         "candidates": ["verbose, mundane",
             "concise, elaborate",
             "comprehensive, edifying",
@@ -1594,7 +1594,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "With its large circulation, Essence magazine has enjoyed $BLANK only recently challenged by new publications aggressively seeking female African American readers.",
+        "question": "With its large circulation, Essence magazine has enjoyed BLANK only recently challenged by new publications aggressively seeking female African American readers.",
         "candidates": ["an aggregation",
             "an inclination",
             "a prognosis",
@@ -1609,7 +1609,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The judge's published opinions, though sophisticated and subtle, were undeniably $BLANK: they left no doubt of her intentions.",
+        "question": "The judge's published opinions, though sophisticated and subtle, were undeniably BLANK: they left no doubt of her intentions.",
         "candidates": ["unequivocal",
             "effusive",
             "incorrigible",
@@ -1624,7 +1624,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Many paintings of the American Southwest convey a feeling of isolation and loneliness that mirrors the $BLANK landscape they depict.",
+        "question": "Many paintings of the American Southwest convey a feeling of isolation and loneliness that mirrors the BLANK landscape they depict.",
         "candidates": ["lush",
             "sprawling",
             "desolate",
@@ -1639,7 +1639,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Only recently created, this orchid is a $BLANK, a plant produced by deliberately crossbreeding two different varieties of flowers.",
+        "question": "Only recently created, this orchid is a BLANK, a plant produced by deliberately crossbreeding two different varieties of flowers.",
         "candidates": ["misnomer",
             "hybrid",
             "vector",
@@ -1654,7 +1654,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The pharmaceutical company insisted that its testing of new drugs was quite $BLANK, more rigorous than the industry standard.",
+        "question": "The pharmaceutical company insisted that its testing of new drugs was quite BLANK, more rigorous than the industry standard.",
         "candidates": ["stringent",
             "dispersive",
             "conditional",
@@ -1669,7 +1669,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Freedom of expression is not necessarily a $BLANK0 force: communities that encourage it often feel less threatened by social unrest than do those in which dissent is $BLANK1.",
+        "question": "Freedom of expression is not necessarily a BLANK0 force: communities that encourage it often feel less threatened by social unrest than do those in which dissent is BLANK1.",
         "candidates": ["revolutionary, promoted",
             "positive, prohibited",
             "successful, protested",
@@ -1684,7 +1684,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Thomas Hardy's novels are described as $BLANK because of their preoccupation with daily life in rural and agricultural settings.",
+        "question": "Thomas Hardy's novels are described as BLANK because of their preoccupation with daily life in rural and agricultural settings.",
         "candidates": ["bucolic",
             "prolific",
             "lugubrious",
@@ -1699,7 +1699,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Some skeptics consider the Search for Extraterrestrial Intelligence (SETI) to be $BLANK0, even foolish; others go so far as to accuse SETI scientists of outright $BLANK1 in applying skewed data.",
+        "question": "Some skeptics consider the Search for Extraterrestrial Intelligence (SETI) to be BLANK0, even foolish; others go so far as to accuse SETI scientists of outright BLANK1 in applying skewed data.",
         "candidates": ["misguided, remonstrance",
             "absurd, erudition",
             "plausible, lassitude",
@@ -1714,7 +1714,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Extensive travel afforded Langston Hughes a $BLANK0 perspective, but it was Harlem that served as the creative $BLANK1 for his writing.",
+        "question": "Extensive travel afforded Langston Hughes a BLANK0 perspective, but it was Harlem that served as the creative BLANK1 for his writing.",
         "candidates": ["cosmopolitan, defense",
             "worldly, inspiration",
             "moral, obligation",
@@ -1729,7 +1729,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "One requirement of timeless art is that it deepen and $BLANK our awareness, not that it merely confirm what we already know.",
+        "question": "One requirement of timeless art is that it deepen and BLANK our awareness, not that it merely confirm what we already know.",
         "candidates": ["hinder",
             "reconcile",
             "control",
@@ -1744,7 +1744,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Despairing that the performance of the chief executive would ever approve, the corporation's board of directors took decisive action and $BLANK him.",
+        "question": "Despairing that the performance of the chief executive would ever approve, the corporation's board of directors took decisive action and BLANK him.",
         "candidates": ["coddled",
             "taunted",
             "prodded",
@@ -1759,7 +1759,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The discovery of the fossil was $BLANK0 and $BLANK1, surprising scientists and undermining accepted theories about plant distribution.",
+        "question": "The discovery of the fossil was BLANK0 and BLANK1, surprising scientists and undermining accepted theories about plant distribution.",
         "candidates": ["exhilarating, banal",
             "shocking, prophetic",
             "startling, revolutionary",
@@ -1774,7 +1774,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Citing the $BLANK of the Asian American community, the scholar argued that Asian Americans constituted the region's fastest-growing minority population.",
+        "question": "Citing the BLANK of the Asian American community, the scholar argued that Asian Americans constituted the region's fastest-growing minority population.",
         "candidates": ["digression",
             "proximity",
             "expansion",
@@ -1789,7 +1789,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Far from being $BLANK0, bears in some national parks are surprisingly $BLANK1 when approached by humans; still, visitors must exercise caution.",
+        "question": "Far from being BLANK0, bears in some national parks are surprisingly BLANK1 when approached by humans; still, visitors must exercise caution.",
         "candidates": ["benign, cantakerous",
             "reticent, bellicose",
             "complacent, docile",
@@ -1804,7 +1804,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Before becoming a stockbroker, Victoria Woodhull had a career as a $BLANK, someone believed to have insights about events beyond ordinary human perception.",
+        "question": "Before becoming a stockbroker, Victoria Woodhull had a career as a BLANK, someone believed to have insights about events beyond ordinary human perception.",
         "candidates": ["mentor",
             "profiteer",
             "counterfeiter",
@@ -1819,7 +1819,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The judges for the chili competition were $BLANK, noting subtle differences between dishes that most people would not detect.",
+        "question": "The judges for the chili competition were BLANK, noting subtle differences between dishes that most people would not detect.",
         "candidates": ["obscure",
             "deferential",
             "discriminating",
@@ -1834,7 +1834,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Although the archaeologist $BLANK0 the symbols on the cave wall, she was unable to $BLANK1 them because they were too faint.",
+        "question": "Although the archaeologist BLANK0 the symbols on the cave wall, she was unable to BLANK1 them because they were too faint.",
         "candidates": ["replicated, ignore",
             "perused, discard",
             "obliterated, translate",
@@ -1849,7 +1849,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Popular interest in music performed by folk singer Jean Ritchie acted as a $BLANK0 because it $BLANK1 a wider interest in the music of Ritchie's native Kentucky.",
+        "question": "Popular interest in music performed by folk singer Jean Ritchie acted as a BLANK0 because it BLANK1 a wider interest in the music of Ritchie's native Kentucky.",
         "candidates": ["deterrent, launched",
             "panacea, overcame",
             "barrier, awakened",
@@ -1864,7 +1864,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Oceanographers have identified more than 50 \"dead zones\" around the world: areas of sea that various forms of pollution have rendered $BLANK life.",
+        "question": "Oceanographers have identified more than 50 \"dead zones\" around the world: areas of sea that various forms of pollution have rendered BLANK life.",
         "candidates": ["conducive to",
             "invaluable to",
             "imperative to",
@@ -1879,7 +1879,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The few female physicians practicing at the end of the nineteenth century might be considered $BLANK because they constituted a very small percentage of all physicians.",
+        "question": "The few female physicians practicing at the end of the nineteenth century might be considered BLANK because they constituted a very small percentage of all physicians.",
         "candidates": ["miscreant",
             "revisionists",
             "anomalies",
@@ -1894,7 +1894,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Rose smiled approvingly but gave neither written nor spoken permission to proceed with the project: her consent, in short, was $BLANK.",
+        "question": "Rose smiled approvingly but gave neither written nor spoken permission to proceed with the project: her consent, in short, was BLANK.",
         "candidates": ["tacit",
             "fervent",
             "unqualified",
@@ -1908,8 +1908,8 @@
 
     {
         "id": "None",
-        "num_blanks": 1,
-        "question": "Paradoxically, during the French Revolution, the very leaders who proclaimed $BLANK0 philosophies sometimes also engaged in $BLANK1 practices.",
+        "num_blanks": 2,
+        "question": "Paradoxically, during the French Revolution, the very leaders who proclaimed BLANK0 philosophies sometimes also engaged in BLANK1 practices.",
         "candidates": ["regal, imperial",
             "simplistic, neutral",
             "liberating, repressive",
@@ -1923,8 +1923,8 @@
 
     {
         "id": "None",
-        "num_blanks": 1,
-        "question": "Despite his brilliant career, Gerald was plagued by doubts and could not $BLANK0 his feelings of $BLANK1.",
+        "num_blanks": 2,
+        "question": "Despite his brilliant career, Gerald was plagued by doubts and could not BLANK0 his feelings of BLANK1.",
         "candidates": ["imagine, worthlessness",
             "reconcile, superiority",
             "embrace, insecurity",
@@ -1939,7 +1939,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Jane was both $BLANK0 and $BLANK1: she was blatantly proud and offensively bold.",
+        "question": "Jane was both BLANK0 and BLANK1: she was blatantly proud and offensively bold.",
         "candidates": ["haughty, impudent",
             "irresolute, insolent",
             "presemptuous, loquacious",
@@ -1954,7 +1954,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "New Zealand and Spain can accurately be described as $BLANK because they are diametrically opposite one another on the globe.",
+        "question": "New Zealand and Spain can accurately be described as BLANK because they are diametrically opposite one another on the globe.",
         "candidates": ["satellites",
             "antipodes",
             "reversals",
@@ -1969,7 +1969,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Ken took his $BLANK obligations seriously, patiently caring for his mother throughout her recuperation.",
+        "question": "Ken took his BLANK obligations seriously, patiently caring for his mother throughout her recuperation.",
         "candidates": ["filial",
             "symbiotic",
             "avuncular",
@@ -1984,7 +1984,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The sound produced by the youth orchestra was so $BLANK that even its least experienced members were abashed.",
+        "question": "The sound produced by the youth orchestra was so BLANK that even its least experienced members were abashed.",
         "candidates": ["cacaphonous",
             "syncopated",
             "harmonic",
@@ -1999,7 +1999,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The engineers heard the claims about the new software with $BLANK0, but the demonstration of the software was so $BLANK1 that it won them over.",
+        "question": "The engineers heard the claims about the new software with BLANK0, but the demonstration of the software was so BLANK1 that it won them over.",
         "candidates": ["enthusiasm, comprehensive",
             "skepticism, convincing",
             "excitement, lackluster",
@@ -2014,7 +2014,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Because the candidate had switched his party allegiance immediately before the campaign, his former associates called him a $BLANK0, and even his new allies considerd him an $BLANK1.",
+        "question": "Because the candidate had switched his party allegiance immediately before the campaign, his former associates called him a BLANK0, and even his new allies considerd him an BLANK1.",
         "candidates": ["recruit, expert",
             "strategist, imbecile",
             "deserter, inspiration",
@@ -2029,7 +2029,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "All copies of Verna Hart's poster commemorating the 1992 Charlotte Jazz Festival were sold in a few hours, an unmistakable $BLANK0 of the $BLANK1 of this artist's work.",
+        "question": "All copies of Verna Hart's poster commemorating the 1992 Charlotte Jazz Festival were sold in a few hours, an unmistakable BLANK0 of the BLANK1 of this artist's work.",
         "candidates": ["refutation, popularity",
             "investigation, value",
             "demonstration, mediocrity",
@@ -2044,7 +2044,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Although Virginia Woolf was a central figure in London's established literary scene, she nevertheless perceived herself as being $BLANK.",
+        "question": "Although Virginia Woolf was a central figure in London's established literary scene, she nevertheless perceived herself as being BLANK.",
         "candidates": ["renowned",
             "permissive",
             "rational",
@@ -2059,7 +2059,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Although strangers compliment the comedian on her work repeatedly, almost $BLANK, she is always moved by such enthusiastic encouragement.",
+        "question": "Although strangers compliment the comedian on her work repeatedly, almost BLANK, she is always moved by such enthusiastic encouragement.",
         "candidates": ["tenuously",
             "staunchly",
             "singularly",
@@ -2074,7 +2074,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "In contrast to the $BLANK maneuvers of his colleagues, Roberto's business relations were always open and aboveboard.",
+        "question": "In contrast to the BLANK maneuvers of his colleagues, Roberto's business relations were always open and aboveboard.",
         "candidates": ["convivial",
             "clandestine",
             "steadfast",
@@ -2089,7 +2089,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "This medical study shuns $BLANK in describing the drug's dangers; the appeal is to rational evaluation rather than to fear.",
+        "question": "This medical study shuns BLANK in describing the drug's dangers; the appeal is to rational evaluation rather than to fear.",
         "candidates": ["obfuscation",
             "certitude",
             "sensationalism",
@@ -2104,7 +2104,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Alexis complained that Jim $BLANK too quickly when their parents imposed a curfew: instead of negotiating, he complied without protest.",
+        "question": "Alexis complained that Jim BLANK too quickly when their parents imposed a curfew: instead of negotiating, he complied without protest.",
         "candidates": ["remonstrated",
             "capitulated",
             "compromised",
@@ -2119,7 +2119,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Once thought to be $BLANK0, the dawn redwood was rediscovered in the 1940's, at which time its continued survival seemed $BLANK1; today, however, it is commonly cultivated.",
+        "question": "Once thought to be BLANK0, the dawn redwood was rediscovered in the 1940's, at which time its continued survival seemed BLANK1; today, however, it is commonly cultivated.",
         "candidates": ["immense, natural",
             "adaptable, astonishing",
             "defunct, inevitable",
@@ -2134,7 +2134,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "As the name suggests, a geochronologist is a scientist who $BLANK0 terrestrial materials in order to $BLANK1 them.",
+        "question": "As the name suggests, a geochronologist is a scientist who BLANK0 terrestrial materials in order to BLANK1 them.",
         "candidates": ["combines, sequence",
             "gathers, display",
             "analyzes, date",
@@ -2149,7 +2149,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Contemporary Inuit sculpture merges traditional carving techniques with current subject matter; thus, it $BLANK0 an Inuit practice while $BLANK1 a modern cultural identity.",
+        "question": "Contemporary Inuit sculpture merges traditional carving techniques with current subject matter; thus, it BLANK0 an Inuit practice while BLANK1 a modern cultural identity.",
         "candidates": ["invalidates, manifesting",
             "disregards, invigorating",
             "reappraising, dissolving",
@@ -2164,7 +2164,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Although many novelists write for artistic reasons, others are lured by the money, because popular success in writing can be so $BLANK.",
+        "question": "Although many novelists write for artistic reasons, others are lured by the money, because popular success in writing can be so BLANK.",
         "candidates": ["acquisitive",
             "aesthetic",
             "diverting",
@@ -2179,7 +2179,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The company manager was known for both his $BLANK0 and his $BLANK1: he lied frequently, but did so with amazing flair.",
+        "question": "The company manager was known for both his BLANK0 and his BLANK1: he lied frequently, but did so with amazing flair.",
         "candidates": ["ambivalence, extravagance",
             "duplicity, panache",
             "evasiveness, irascibility",
@@ -2194,7 +2194,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Crucial to the expedition's $BLANK0 will be accurate assumptions about the weather; without them, the safety of the mountain climbers may be $BLANK1.",
+        "question": "Crucial to the expedition's BLANK0 will be accurate assumptions about the weather; without them, the safety of the mountain climbers may be BLANK1.",
         "candidates": ["prosperity, enhanced",
             "survival, demonstrated",
             "futility, compromised",
@@ -2209,7 +2209,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The university's aggressive transformation from a teaching-centered college to a major research institution has brought $BLANK0 that teaching is now being $BLANK1.",
+        "question": "The university's aggressive transformation from a teaching-centered college to a major research institution has brought BLANK0 that teaching is now being BLANK1.",
         "candidates": ["suspicious, promoted",
             "recommendations, discussed",
             "accusations, neglected",
@@ -2223,7 +2223,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Certain plant seeds are able to remain $BLANK for years, appearing lifeless when in fact they are merely inactive.",
+        "question": "Certain plant seeds are able to remain BLANK for years, appearing lifeless when in fact they are merely inactive.",
         "candidates": ["conspicuous",
             "verdant",
             "pliant",
@@ -2238,7 +2238,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Wanting desparately to be perceived as learned and authoritative, Johnson affected a $BLANK tone when speaking in public.",
+        "question": "Wanting desparately to be perceived as learned and authoritative, Johnson affected a BLANK tone when speaking in public.",
         "candidates": ["licentious",
             "nihilistic",
             "magisterial",
@@ -2253,7 +2253,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Critics characterized the memoir as $BLANK because of the author's execissively sentimental description of her childhood.",
+        "question": "Critics characterized the memoir as BLANK because of the author's execissively sentimental description of her childhood.",
         "candidates": ["maudlin",
             "candid",
             "pedantic",
@@ -2268,7 +2268,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Ernest Gaines's A Lesson Before Dying is $BLANK0 of rural Louisiana: the writing is so evocative that the Southern atmosphere seems almost to $BLANK1 from the book's pages.",
+        "question": "Ernest Gaines's A Lesson Before Dying is BLANK0 of rural Louisiana: the writing is so evocative that the Southern atmosphere seems almost to BLANK1 from the book's pages.",
         "candidates": ["critical, fade",
             "suggestive, ebb",
             "reminiscent, veer",
@@ -2283,7 +2283,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Mala based her new online business in the $BLANK, because she wanted to work far away from the crowded, expensive city.",
+        "question": "Mala based her new online business in the BLANK, because she wanted to work far away from the crowded, expensive city.",
         "candidates": ["metropolis",
             "neighborhood",
             "countryside",
@@ -2298,7 +2298,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "In his vivid representations of the African American experience, painter Romare Bearden often used colors so $BLANK that viewers could not take their eyes off his works of art.",
+        "question": "In his vivid representations of the African American experience, painter Romare Bearden often used colors so BLANK that viewers could not take their eyes off his works of art.",
         "candidates": ["sensible",
             "residual",
             "vibrant",
@@ -2313,7 +2313,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "By discovering how to $BLANK0 an affordable substitute for cortisone from soybeans, Percy Julian helped to make arthritis treatment $BLANK1 large numbers of people.",
+        "question": "By discovering how to BLANK0 an affordable substitute for cortisone from soybeans, Percy Julian helped to make arthritis treatment BLANK1 large numbers of people.",
         "candidates": ["eliminate, superfluous for",
             "synthesize, prohibitive for",
             "compromise, feasible for",
@@ -2328,7 +2328,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Although the women in the eighteenth and nineteenth centuries who undertook botanical illustration were primarily $BLANK0, their contributions as naturalists and cataloguers actually helped $BLANK1 the field as an academic discipline.",
+        "question": "Although the women in the eighteenth and nineteenth centuries who undertook botanical illustration were primarily BLANK0, their contributions as naturalists and cataloguers actually helped BLANK1 the field as an academic discipline.",
         "candidates": ["researchers, depreciate",
             "amateurs, legitimize",
             "entrepeneurs, subsidize",
@@ -2343,7 +2343,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "To end his lecture on time, Professor Burke decided to $BLANK his final point and address it instead at the next class meeting.",
+        "question": "To end his lecture on time, Professor Burke decided to BLANK his final point and address it instead at the next class meeting.",
         "candidates": ["improvise",
             "amend",
             "forgo",
@@ -2358,7 +2358,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Although A. S. Byatt's stories are elaborate and sometimes contain supernatural elements, her characters do not seem $BLANK0; on the contrary, they are quite $BLANK1.",
+        "question": "Although A. S. Byatt's stories are elaborate and sometimes contain supernatural elements, her characters do not seem BLANK0; on the contrary, they are quite BLANK1.",
         "candidates": ["simplistic, eccentric",
             "realistic, memorable",
             "abstruse, incomprehensible",
@@ -2373,7 +2373,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Dr. Allan was told informally of several intriguing cases that accorded with her theory, but this $BLANK0 evidence could not provide confirmation that a more $BLANK1 series of experiments would.",
+        "question": "Dr. Allan was told informally of several intriguing cases that accorded with her theory, but this BLANK0 evidence could not provide confirmation that a more BLANK1 series of experiments would.",
         "candidates": ["anecdotal, systematic",
             "theoretical, convoluted",
             "impressionistic, analogous",
@@ -2388,7 +2388,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Despite the $BLANK0 of books written about Greta Garbo, she ultimately remains $BLANK1, an inscrutable personality.",
+        "question": "Despite the BLANK0 of books written about Greta Garbo, she ultimately remains BLANK1, an inscrutable personality.",
         "candidates": ["ardor, a paragon",
             "profusion, an enigma",
             "bounty, an icon",
@@ -2403,7 +2403,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Knowing the rewards of $BLANK, NASA astronaut Ellen Ochoa encourages students to study hard if they wish to pursue careers in science and engineering.",
+        "question": "Knowing the rewards of BLANK, NASA astronaut Ellen Ochoa encourages students to study hard if they wish to pursue careers in science and engineering.",
         "candidates": ["generosity",
             "serendipity",
             "diligence",
@@ -2418,7 +2418,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The editor did not wish to print an article based on mere $BLANK0; she therefore ordered the reporter to find convincing $BLANK1.",
+        "question": "The editor did not wish to print an article based on mere BLANK0; she therefore ordered the reporter to find convincing BLANK1.",
         "candidates": ["substantiation, data",
             "speculation, guesswork",
             "conjecture, proof",
@@ -2433,7 +2433,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Linda is $BLANK in matters large and small: she is inflexible in her opinions and utterly resistant to persuasion.",
+        "question": "Linda is BLANK in matters large and small: she is inflexible in her opinions and utterly resistant to persuasion.",
         "candidates": ["facetious",
             "avuncular",
             "sanguine",
@@ -2448,7 +2448,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Jason was truly $BLANK, for he squandered a great deal of money with no thought for the future.",
+        "question": "Jason was truly BLANK, for he squandered a great deal of money with no thought for the future.",
         "candidates": ["prescient",
             "infallible",
             "reticent",
@@ -2463,7 +2463,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The 1990's were $BLANK years for the organization: the staff was happy, customers were satisfied, and profits were excellent.",
+        "question": "The 1990's were BLANK years for the organization: the staff was happy, customers were satisfied, and profits were excellent.",
         "candidates": ["halcyon",
             "notorious",
             "somnolent",
@@ -2478,7 +2478,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Lumbee storyteller Barbara Braveboy-Locklear has performed in college theaters, powwows, and backyards, settings whose striking $BLANK0 highlights the $BLANK1 appeal that storytelling holds.",
+        "question": "Lumbee storyteller Barbara Braveboy-Locklear has performed in college theaters, powwows, and backyards, settings whose striking BLANK0 highlights the BLANK1 appeal that storytelling holds.",
         "candidates": ["formality, diminishing",
             "variety, insignificant",
             "uniformity, ubiquitous",
@@ -2493,7 +2493,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Thomas Edison, who found collaboration essential, never fit the popular stereotype of the $BLANK inventor, struggling alone in a garret.",
+        "question": "Thomas Edison, who found collaboration essential, never fit the popular stereotype of the BLANK inventor, struggling alone in a garret.",
         "candidates": ["surly",
             "cowardly",
             "solitary",
@@ -2508,7 +2508,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Claludia is so adept at controlling her temper that she can seem quite $BLANK0 when she is actually $BLANK1.",
+        "question": "Claludia is so adept at controlling her temper that she can seem quite BLANK0 when she is actually BLANK1.",
         "candidates": ["perturbed, furious",
             "placid, outraged",
             "serene, tranquil",
@@ -2523,7 +2523,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The young man possessed $BLANK disposition, abjectly submissive to the will of others.",
+        "question": "The young man possessed BLANK disposition, abjectly submissive to the will of others.",
         "candidates": ["an amiable",
             "an inscrutable",
             "a servile",
@@ -2538,7 +2538,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Although other European states broke apart under the stresses of political upheaval, the seventeenth-century Dutch republic proved remarkably $BLANK.",
+        "question": "Although other European states broke apart under the stresses of political upheaval, the seventeenth-century Dutch republic proved remarkably BLANK.",
         "candidates": ["propitious",
             "illusory",
             "resilient",
@@ -2553,7 +2553,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "It is her supremely skillful use of sophisticated laboratory instruments that makes Veronica the $BLANK research technician that she is.",
+        "question": "It is her supremely skillful use of sophisticated laboratory instruments that makes Veronica the BLANK research technician that she is.",
         "candidates": ["susceptible",
             "consummate",
             "visionary",
@@ -2568,7 +2568,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Momentum gathered for a new property tax, but the $BLANK0 from home owners was so great that this proposal had to be $BLANK1.",
+        "question": "Momentum gathered for a new property tax, but the BLANK0 from home owners was so great that this proposal had to be BLANK1.",
         "candidates": ["anticipation, endorsed",
             "publicity, revealed",
             "penalty, abridged",
@@ -2583,7 +2583,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Most of the students found the lecturer's speech $BLANK; in fact, it was so dull that even some nodded off.",
+        "question": "Most of the students found the lecturer's speech BLANK; in fact, it was so dull that even some nodded off.",
         "candidates": ["illuminating",
             "cryptic",
             "tedious",
@@ -2598,7 +2598,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The attempts of epidemiologists to $BLANK0 the infectious disease ultimately proved futile: as soon as they managed to $BLANK1 it in one community, it would emerge somewhere else.",
+        "question": "The attempts of epidemiologists to BLANK0 the infectious disease ultimately proved futile: as soon as they managed to BLANK1 it in one community, it would emerge somewhere else.",
         "candidates": ["contain, check",
             "control, extend",
             "eradicate, unleash",
@@ -2613,7 +2613,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The accused affected a $BLANK0 air during the interview; he made no vehement protestation of innocence, just a $BLANK1 denial of guilt.",
+        "question": "The accused affected a BLANK0 air during the interview; he made no vehement protestation of innocence, just a BLANK1 denial of guilt.",
         "candidates": ["subdued, scathing",
             "bombastic, remorseful",
             "pugnacious, terse",
@@ -2628,7 +2628,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The award-winning novel is such $BLANK tale that its very intricacy has a daunting effect on readers.",
+        "question": "The award-winning novel is such BLANK tale that its very intricacy has a daunting effect on readers.",
         "candidates": ["a convoluted",
             "a culpable",
             "a succinct",
@@ -2643,7 +2643,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Women in the United States gained $BLANK long after Black American men did, but Black citizens had greater difficulty exercising their new voting rights.",
+        "question": "Women in the United States gained BLANK long after Black American men did, but Black citizens had greater difficulty exercising their new voting rights.",
         "candidates": ["restitution",
             "suffrage",
             "solace",
@@ -2658,7 +2658,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Marketing firms rely heavily on $BLANK information: statistical data about the size, growth, and distribution of human populations.",
+        "question": "Marketing firms rely heavily on BLANK information: statistical data about the size, growth, and distribution of human populations.",
         "candidates": ["classified",
             "demographic",
             "conjectural",
@@ -2673,7 +2673,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Electing not to stay in subordinate positions in large firms, some attorneys $BLANK0, seeking more $BLANK1 and independence elsewhere.",
+        "question": "Electing not to stay in subordinate positions in large firms, some attorneys BLANK0, seeking more BLANK1 and independence elsewhere.",
         "candidates": ["compromise, servility",
             "persevere, competence",
             "acquiesce, banality",
@@ -2688,7 +2688,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The kiwi bird's wings are $BLANK: that is, they are rudiments of wings and serve no function.",
+        "question": "The kiwi bird's wings are BLANK: that is, they are rudiments of wings and serve no function.",
         "candidates": ["ostentatious",
             "vestigial",
             "prodigious",
@@ -2703,7 +2703,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Because all members of this organziation are idealists, they $BLANK0 any assertion that political enterprises should be purely $BLANK1.",
+        "question": "Because all members of this organziation are idealists, they BLANK0 any assertion that political enterprises should be purely BLANK1.",
         "candidates": ["ignore, universal",
             "criticize, visionary",
             "condemn, benevolent",
@@ -2718,7 +2718,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The critic noted that the $BLANK tone that characterizes much of the writer's work stands in stark contrast to his gentle disposition.",
+        "question": "The critic noted that the BLANK tone that characterizes much of the writer's work stands in stark contrast to his gentle disposition.",
         "candidates": ["benign",
             "somber",
             "stoic",
@@ -2733,7 +2733,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Peter was $BLANK0 without being $BLANK1: he held fast to his beliefs but avoided arguing about them with others.",
+        "question": "Peter was BLANK0 without being BLANK1: he held fast to his beliefs but avoided arguing about them with others.",
         "candidates": ["decisive, philanthropic",
             "haphazard, quarrelsome",
             "sentimental, litigious",
@@ -2748,7 +2748,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "African American poet Lucille Clifton writes in a notably $BLANK style, achieving great impact in a few unadorned words.",
+        "question": "African American poet Lucille Clifton writes in a notably BLANK style, achieving great impact in a few unadorned words.",
         "candidates": ["incantatory",
             "economical",
             "disaffected",
@@ -2763,7 +2763,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Unlike some entertainers whose performances rarely vary, jazz great Louis Armstrong frequently $BLANK0 during his performances, spontaneously $BLANK1 new phrasing in existing songs.",
+        "question": "Unlike some entertainers whose performances rarely vary, jazz great Louis Armstrong frequently BLANK0 during his performances, spontaneously BLANK1 new phrasing in existing songs.",
         "candidates": ["vocalized, eliminating",
             "improvised, introducing",
             "deliberated, satirizing",
@@ -2778,7 +2778,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Not wanting to speak $BLANK0, Julia $BLANK1 the urge to announce her scientific findings until she had double-checked the data.",
+        "question": "Not wanting to speak BLANK0, Julia BLANK1 the urge to announce her scientific findings until she had double-checked the data.",
         "candidates": ["harshly, indulged",
             "prematurely, suppressed",
             "inappropriately, acknowledged",
@@ -2793,7 +2793,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Some readers find the crime fiction of Patricia Highsmith to be $BLANK0 because her protagonists are not always punished for their $BLANK1.",
+        "question": "Some readers find the crime fiction of Patricia Highsmith to be BLANK0 because her protagonists are not always punished for their BLANK1.",
         "candidates": ["unprincipled, altruism",
             "ethical, malfeasance",
             "redemptive, temperance",
@@ -2808,7 +2808,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "People did not suddenly learn to use fire, but did so slowly over time with countless advances offset by $BLANK periods.",
+        "question": "People did not suddenly learn to use fire, but did so slowly over time with countless advances offset by BLANK periods.",
         "candidates": ["explosive",
             "fertile",
             "predictable",
@@ -2823,7 +2823,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Hoping to preserve natural habitats, conservationists lobbied for legislation that would $BLANK commercial development in these areas.",
+        "question": "Hoping to preserve natural habitats, conservationists lobbied for legislation that would BLANK commercial development in these areas.",
         "candidates": ["mandate",
             "accomodate",
             "economize",
@@ -2838,7 +2838,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Because her new job required daily attendance, Joan was obliged to $BLANK0 her formerly $BLANK1 lifestyle as a traveling musician.",
+        "question": "Because her new job required daily attendance, Joan was obliged to BLANK0 her formerly BLANK1 lifestyle as a traveling musician.",
         "candidates": ["forgo, sedentary",
             "perpetuate, nomadic",
             "glorify, dissolute",
@@ -2853,7 +2853,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "As scientists at the Smithsonian have observed, the institution's range of scientific inquiry may be $BLANK0, but its financial resources are far less $BLANK1.",
+        "question": "As scientists at the Smithsonian have observed, the institution's range of scientific inquiry may be BLANK0, but its financial resources are far less BLANK1.",
         "candidates": ["restricted, substantial",
             "unbounded, confined",
             "admirable, limited",
@@ -2868,7 +2868,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "As advocates of free speech confront those who would regulate entertainment strictly, the debate over shocking content in movies will likely $BLANK.",
+        "question": "As advocates of free speech confront those who would regulate entertainment strictly, the debate over shocking content in movies will likely BLANK.",
         "candidates": ["abate",
             "concur",
             "mediate",
@@ -2883,7 +2883,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The author's love of harmonious and pleasing sounds was reflected in the $BLANK phrases of her fiction.",
+        "question": "The author's love of harmonious and pleasing sounds was reflected in the BLANK phrases of her fiction.",
         "candidates": ["convoluted",
             "perfidious",
             "bellicose",
@@ -2898,7 +2898,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The respect accorded choreographer Martha Graham by her students and colleagues alike was so great that it amounted to $BLANK.",
+        "question": "The respect accorded choreographer Martha Graham by her students and colleagues alike was so great that it amounted to BLANK.",
         "candidates": ["exasperation",
             "commiseration",
             "consternation",
@@ -2913,7 +2913,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The speaker announced that her primary focus would be on broad global concerns rather than on $BLANK issues.",
+        "question": "The speaker announced that her primary focus would be on broad global concerns rather than on BLANK issues.",
         "candidates": ["conteporary",
             "substantive",
             "disputations",
@@ -2928,7 +2928,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The scientist warned that global warming might $BLANK0 a dangerous $BLANK1 of some mosquito-borne diseases, resulting in an increasing number of epidemics around the world.",
+        "question": "The scientist warned that global warming might BLANK0 a dangerous BLANK1 of some mosquito-borne diseases, resulting in an increasing number of epidemics around the world.",
         "candidates": ["precede, decline",
             "stimulate, resurgence",
             "eliminate, plague",
@@ -2943,7 +2943,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The seventeenth and eighteenth centuries were the era where Pueblo pottery was least likely to be $BLANK0 and from which, consequently, the fewest authentic examples $BLANK1.",
+        "question": "The seventeenth and eighteenth centuries were the era where Pueblo pottery was least likely to be BLANK0 and from which, consequently, the fewest authentic examples BLANK1.",
         "candidates": ["discovered, originate",
             "preserved, survive",
             "promoted, dissapear",
@@ -2958,7 +2958,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Some psychologists argue that a $BLANK of choices can be paralyzing, since too many options can impede meaningful selection.",
+        "question": "Some psychologists argue that a BLANK of choices can be paralyzing, since too many options can impede meaningful selection.",
         "candidates": ["prohibition",
             "manifestation",
             "misapplication",
@@ -2973,7 +2973,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "His goal was to $BLANK the committee's deliberations, and a measure of his success was the ease with which a decision was reached.",
+        "question": "His goal was to BLANK the committee's deliberations, and a measure of his success was the ease with which a decision was reached.",
         "candidates": ["translate",
             "obfuscate",
             "facilitate",
@@ -2988,7 +2988,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The Classical Age of Greece, 500 B.C. to 323 B.C., was characterized by contradictions: it was a mix of superstition and $BLANK0, of $BLANK1 concepts and centuries-old traditions.",
+        "question": "The Classical Age of Greece, 500 B.C. to 323 B.C., was characterized by contradictions: it was a mix of superstition and BLANK0, of BLANK1 concepts and centuries-old traditions.",
         "candidates": ["intuition, radical",
             "rationality, revolutionary",
             "reason, reputable",
@@ -3003,7 +3003,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Celia Tomlinson personifies $BLANK: she overcame poverty, language barriers, and discrimination to found, own, and operate her own engineering company.",
+        "question": "Celia Tomlinson personifies BLANK: she overcame poverty, language barriers, and discrimination to found, own, and operate her own engineering company.",
         "candidates": ["tenacity",
             "nonchalance",
             "circumspection",
@@ -3018,7 +3018,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The crude animated effects $BLANK0 projected images from seventeenth-century lantern slides have now been recognized as $BLANK1 of modern film animation.",
+        "question": "The crude animated effects BLANK0 projected images from seventeenth-century lantern slides have now been recognized as BLANK1 of modern film animation.",
         "candidates": ["complemented by, antecedents",
             "forestalled by, harbingers",
             "depicted in, derivatives",
@@ -3033,7 +3033,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The $BLANK of impact craters of Venus suggests that erosion may have smoothed its surface over the past billion years.",
+        "question": "The BLANK of impact craters of Venus suggests that erosion may have smoothed its surface over the past billion years.",
         "candidates": ["magnitude",
             "panoply",
             "spate",
@@ -3048,7 +3048,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Certain clear patterns in the metamorphosis of a butterfly indicate that the process is $BLANK.",
+        "question": "Certain clear patterns in the metamorphosis of a butterfly indicate that the process is BLANK.",
         "candidates": ["systematic",
             "voluntary",
             "spontaneous",
@@ -3063,7 +3063,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The book's final chapter on Mildred Imach Cleghorn suffers from an obvious $BLANK: it fails to cover Cleghorn's years as an Apache tribal leader.",
+        "question": "The book's final chapter on Mildred Imach Cleghorn suffers from an obvious BLANK: it fails to cover Cleghorn's years as an Apache tribal leader.",
         "candidates": ["omission",
             "inconsistency",
             "extravagance",
@@ -3078,7 +3078,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "To keep their negotiations $BLANK0, the leaders of rival groups in the country arranged meetings that were $BLANK1.",
+        "question": "To keep their negotiations BLANK0, the leaders of rival groups in the country arranged meetings that were BLANK1.",
         "candidates": ["relaxed, complex",
             "covert, prestigious",
             "secret, clandestine",
@@ -3093,7 +3093,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Darren's sensitivity to his celebrity clients is nothing short of $BLANK0: he is able to $BLANK1 their needs before they themselves are fully aware of them.",
+        "question": "Darren's sensitivity to his celebrity clients is nothing short of BLANK0: he is able to BLANK1 their needs before they themselves are fully aware of them.",
         "candidates": ["superfluous, gratify",
             "unconditional, forestall",
             "preternatural, anticipate",
@@ -3108,7 +3108,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Detractors attacked the study's $BLANK, claiming that researchers used lax procedures to gather and analyze data.",
+        "question": "Detractors attacked the study's BLANK, claiming that researchers used lax procedures to gather and analyze data.",
         "candidates": ["hypothesis",
             "predictability",
             "methodology",
@@ -3123,7 +3123,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The musical Scrambled Feet $BLANK0 the $BLANK1 of the theatrical world, poking fun at actors, directors, playwrights, and audiences alike.",
+        "question": "The musical Scrambled Feet BLANK0 the BLANK1 of the theatrical world, poking fun at actors, directors, playwrights, and audiences alike.",
         "candidates": ["glorifies, heroes",
             "spoofs, genres",
             "avoids, pitfalls",
@@ -3138,7 +3138,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The discoveries made by Nobel Prize-winning geneticist Barbara McClintock are considered to be among the major $BLANK of twentieth-century biological science.",
+        "question": "The discoveries made by Nobel Prize-winning geneticist Barbara McClintock are considered to be among the major BLANK of twentieth-century biological science.",
         "candidates": ["deliberations",
             "regulations",
             "suggestions",
@@ -3153,7 +3153,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "In the United States, social activists who strongly $BLANK0 a particular law can attempt to obtain a constitutional amendment to $BLANK1 it.",
+        "question": "In the United States, social activists who strongly BLANK0 a particular law can attempt to obtain a constitutional amendment to BLANK1 it.",
         "candidates": ["concur with, rescind",
             "object to, repeal",
             "disagree about, support",
@@ -3168,7 +3168,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Because Alex was a very $BLANK person, he found satisfaction only in work that involved intellectual stimulation.",
+        "question": "Because Alex was a very BLANK person, he found satisfaction only in work that involved intellectual stimulation.",
         "candidates": ["peripheral",
             "cerebral",
             "facetious",
@@ -3183,7 +3183,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Readers of history often marvel that $BLANK0 events were triggered by actions that seemed $BLANK1 at the time.",
+        "question": "Readers of history often marvel that BLANK0 events were triggered by actions that seemed BLANK1 at the time.",
         "candidates": ["marginal, unconscionable",
             "arbitrary, capricious",
             "momentous, trivial",
@@ -3198,7 +3198,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Place-names can be strikingly $BLANK0: there is, for example, nothing particularly $BLANK1 about the town of Peculiar, Missouri.",
+        "question": "Place-names can be strikingly BLANK0: there is, for example, nothing particularly BLANK1 about the town of Peculiar, Missouri.",
         "candidates": ["expedient, eccentric",
             "descriptive, controversial",
             "inimitable, incongruous",
@@ -3213,7 +3213,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Such was Norton's generosity that he was at times criticized for being $BLANK to a fault.",
+        "question": "Such was Norton's generosity that he was at times criticized for being BLANK to a fault.",
         "candidates": ["nonchalant",
             "magnanimous",
             "scrupulous",
@@ -3228,7 +3228,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Identifying Luisa Capetillo only with the early labor union movement in Puerto Rico $BLANK0 the $BLANK1 nature of her career: she also worked in Florida, New York, and Cuba.",
+        "question": "Identifying Luisa Capetillo only with the early labor union movement in Puerto Rico BLANK0 the BLANK1 nature of her career: she also worked in Florida, New York, and Cuba.",
         "candidates": ["impugns, contentious",
             "condones, innovative",
             "disregards, cosmopolitan",
@@ -3243,7 +3243,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The singer displays her sensitivity to delicate shades of meaning and feeling in the recording: her performance is a model of $BLANK.",
+        "question": "The singer displays her sensitivity to delicate shades of meaning and feeling in the recording: her performance is a model of BLANK.",
         "candidates": ["expansiveness",
             "denotation",
             "nuance",
@@ -3258,7 +3258,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "That Carl Stokes, former mayor of Cleveland, was truly $BLANK is evident from the significant impact he had in many different arenas.",
+        "question": "That Carl Stokes, former mayor of Cleveland, was truly BLANK is evident from the significant impact he had in many different arenas.",
         "candidates": ["humble",
             "casual",
             "influential",
@@ -3273,7 +3273,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Though the work of celebrated artist Eugene Delacroix $BLANK0 accolades from both art critics and the public, he remains $BLANK1, someone shrouded in mystery.",
+        "question": "Though the work of celebrated artist Eugene Delacroix BLANK0 accolades from both art critics and the public, he remains BLANK1, someone shrouded in mystery.",
         "candidates": ["distributed, a paradox",
             "garnered, an enigma",
             "excluded, a revelation",
@@ -3288,7 +3288,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Gwendolyn Brooks was $BLANK writer: she wrote more than twenty books of poetry as well as numerous essays and reviews.",
+        "question": "Gwendolyn Brooks was BLANK writer: she wrote more than twenty books of poetry as well as numerous essays and reviews.",
         "candidates": ["an eloquent",
             "an idiosyncratic",
             "a prolific",
@@ -3303,7 +3303,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "His book on the history of science is admittedly conventional, perhaps even $BLANK0; nevertheless, it is $BLANK1 work that covers a formidable amount of ground.",
+        "question": "His book on the history of science is admittedly conventional, perhaps even BLANK0; nevertheless, it is BLANK1 work that covers a formidable amount of ground.",
         "candidates": ["anachronistic, a superficial",
             "inscrutable, an exhaustive",
             "vacuous, a contentious",
@@ -3318,7 +3318,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The executive was faulted for acting $BLANK, for implementing sweeping changes without fully considering what the consequences might be.",
+        "question": "The executive was faulted for acting BLANK, for implementing sweeping changes without fully considering what the consequences might be.",
         "candidates": ["incompatibly",
             "remorsefully",
             "disingenuously",
@@ -3333,7 +3333,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "More concerned with contributing to science than with earning public acclaim, nineteenth-century astronomer Caroline Herschel $BLANK0 the $BLANK1 she received for her achievements.",
+        "question": "More concerned with contributing to science than with earning public acclaim, nineteenth-century astronomer Caroline Herschel BLANK0 the BLANK1 she received for her achievements.",
         "candidates": ["relished, status",
             "resisted, recognition",
             "denied, subordination",
@@ -3348,7 +3348,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The art professor was never one to $BLANK: she always stuck closely to the subject of every lecture.",
+        "question": "The art professor was never one to BLANK: she always stuck closely to the subject of every lecture.",
         "candidates": ["carp",
             "recant",
             "retaliate",
@@ -3363,7 +3363,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "A researcher who described a peaceful reunion between normally adversarial chimpanzees as a $BLANK was criticized for inferring human motives.",
+        "question": "A researcher who described a peaceful reunion between normally adversarial chimpanzees as a BLANK was criticized for inferring human motives.",
         "candidates": ["truce",
             "competition",
             "mischance",
@@ -3378,7 +3378,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Because insect communities serve as a sort of barometer, $BLANK0 conditions in their $BLANK1, an entomologist's analysis of the insect species in a handful of soil can reveal much about the ecosystem.",
+        "question": "Because insect communities serve as a sort of barometer, BLANK0 conditions in their BLANK1, an entomologist's analysis of the insect species in a handful of soil can reveal much about the ecosystem.",
         "candidates": ["preserving, habitat",
             "stabilizing, range",
             "observing, population",
@@ -3393,7 +3393,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "In stark contrast to the vague and often rambling comments of other students, Jessica's remarks were refreshingly $BLANK.",
+        "question": "In stark contrast to the vague and often rambling comments of other students, Jessica's remarks were refreshingly BLANK.",
         "candidates": ["ambiguous",
             "verbose",
             "convoluted",
@@ -3408,7 +3408,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Nineteenth-century Plains Indians valued $BLANK quite highly and expected their elites to be the most giving of all.",
+        "question": "Nineteenth-century Plains Indians valued BLANK quite highly and expected their elites to be the most giving of all.",
         "candidates": ["intrepidity",
             "reticence",
             "candor",
@@ -3423,7 +3423,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "In retrospect, the presidency of Dwight Eisenhower is perceived as $BLANK period because it was relatively free of domestic turmoil.",
+        "question": "In retrospect, the presidency of Dwight Eisenhower is perceived as BLANK period because it was relatively free of domestic turmoil.",
         "candidates": ["a tranquil",
             "an intractable",
             "a dire",
@@ -3438,7 +3438,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The two astronomers who simultaneously discovered Comet Hale-Bopp were $BLANK: individuals pursuing astronomy as an interest, not as a profession.",
+        "question": "The two astronomers who simultaneously discovered Comet Hale-Bopp were BLANK: individuals pursuing astronomy as an interest, not as a profession.",
         "candidates": ["researchers",
             "amateurs",
             "skeptics",
@@ -3453,7 +3453,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The dictator $BLANK0 democracy as the $BLANK1 of ordinary citizens in government affairs.",
+        "question": "The dictator BLANK0 democracy as the BLANK1 of ordinary citizens in government affairs.",
         "candidates": ["scorned, duty",
             "praised, absence",
             "lauded, bungling",
@@ -3468,7 +3468,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The two friends occasionally indulged in $BLANK, as they both enjoyed a bout of good-natured teasing.",
+        "question": "The two friends occasionally indulged in BLANK, as they both enjoyed a bout of good-natured teasing.",
         "candidates": ["banter",
             "libel",
             "bombast",
@@ -3483,7 +3483,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Never an $BLANK0, but tending instead to see both sides of an issue, the senator was considered $BLANK1 by those who did not know her well.",
+        "question": "Never an BLANK0, but tending instead to see both sides of an issue, the senator was considered BLANK1 by those who did not know her well.",
         "candidates": ["absolutist, indecisive",
             "authoritarian, insensitive",
             "elitist, arrogant",
@@ -3498,7 +3498,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The passengers experienced an intimacy not uncommon among vacationers spending days together, an intimacy more often due to $BLANK than to any community of taste.",
+        "question": "The passengers experienced an intimacy not uncommon among vacationers spending days together, an intimacy more often due to BLANK than to any community of taste.",
         "candidates": ["proximity",
             "compatibility",
             "affluence",
@@ -3513,7 +3513,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Chairperson and CEO Andrea Jung has revitalized her company, considered $BLANK in recent years, to one whose products now attract millions of consumers worldwide.",
+        "question": "Chairperson and CEO Andrea Jung has revitalized her company, considered BLANK in recent years, to one whose products now attract millions of consumers worldwide.",
         "candidates": ["avant-garde",
             "moribund",
             "auspicious",
@@ -3528,7 +3528,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Jessica was $BLANK by Jon's angry outburst: she literally did not know what to say, think, or do.",
+        "question": "Jessica was BLANK by Jon's angry outburst: she literally did not know what to say, think, or do.",
         "candidates": ["disenchanted",
             "peeved",
             "assuaged",
@@ -3543,7 +3543,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The works of Paraguayan artist Carlos Colombino are $BLANK: they include sculpture, painting, printmaking, and architecture.",
+        "question": "The works of Paraguayan artist Carlos Colombino are BLANK: they include sculpture, painting, printmaking, and architecture.",
         "candidates": ["distorted",
             "whimsical",
             "prominent",
@@ -3558,7 +3558,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Some actors have complained that the director, rather than treating them as his $BLANK0, dominated them and expected them to be $BLANK1.",
+        "question": "Some actors have complained that the director, rather than treating them as his BLANK0, dominated them and expected them to be BLANK1.",
         "candidates": ["proteges, recalcitrant",
             "equals, subservient",
             "rivals, remorseful",
@@ -3573,7 +3573,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The Prime Minister handled the crisis calmly and dispassionately, thereby enhancing his reputation for being $BLANK.",
+        "question": "The Prime Minister handled the crisis calmly and dispassionately, thereby enhancing his reputation for being BLANK.",
         "candidates": ["conciliatory",
             "incorruptible",
             "partisan",
@@ -3588,7 +3588,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Writing in a straightforward as opposed to $BLANK0 style, the author produced $BLANK1 argument that shed new light on a controversial topic.",
+        "question": "Writing in a straightforward as opposed to BLANK0 style, the author produced BLANK1 argument that shed new light on a controversial topic.",
         "candidates": ["an intricate, a trivial",
             "a stilted, a nonsensical",
             "a convoluted, a lucid",
@@ -3603,7 +3603,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The scientist $BLANK0 the value of an interdisciplinary approach to environmental studies, arguing such an approach was of $BLANK1 importance in promoting environmental literacy among students.",
+        "question": "The scientist BLANK0 the value of an interdisciplinary approach to environmental studies, arguing such an approach was of BLANK1 importance in promoting environmental literacy among students.",
         "candidates": ["invoked, marginal",
             "touted, paramount",
             "ignored, unprecedented",
@@ -3618,7 +3618,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "In Dorothy West's novel The Living Is Easy, the main character feels $BLANK0 by her father's authority, resenting his attempts to check her $BLANK1.",
+        "question": "In Dorothy West's novel The Living Is Easy, the main character feels BLANK0 by her father's authority, resenting his attempts to check her BLANK1.",
         "candidates": ["favored, growth",
             "fascinated, anger",
             "trapped, patience",
@@ -3633,7 +3633,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Believing that the problem could be solved if enough information were garnered, the scientist vowed to $BLANK0 her research as long as some $BLANK1 of obtaining additional data existed.",
+        "question": "Believing that the problem could be solved if enough information were garnered, the scientist vowed to BLANK0 her research as long as some BLANK1 of obtaining additional data existed.",
         "candidates": ["persevere in, likelihood",
             "dispense with, pretext",
             "minimize, prospect",
@@ -3648,7 +3648,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Once the animal's usual sources of nourishment have been exhausted, acorns are its ownly means of $BLANK.",
+        "question": "Once the animal's usual sources of nourishment have been exhausted, acorns are its ownly means of BLANK.",
         "candidates": ["ersuscitation",
             "distraction",
             "subsistence",
@@ -3663,7 +3663,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Although many of the students had found the assignment $BLANK, Harrison completed it with ease.",
+        "question": "Although many of the students had found the assignment BLANK, Harrison completed it with ease.",
         "candidates": ["frivolous",
             "timely",
             "gratifying",
@@ -3678,7 +3678,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Juan is $BLANK0 examining his own feelings and motives; he cannot tolerate $BLANK1.",
+        "question": "Juan is BLANK0 examining his own feelings and motives; he cannot tolerate BLANK1.",
         "candidates": ["embarrassed about, adulation",
             "accustomed to, self-evaluation",
             "averse to, introspective",
@@ -3693,7 +3693,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The new governor attempted to win the public's sympathy by $BLANK0 himself as the $BLANK1 inheritor of his predecessor's fiscal mismanagement.",
+        "question": "The new governor attempted to win the public's sympathy by BLANK0 himself as the BLANK1 inheritor of his predecessor's fiscal mismanagement.",
         "candidates": ["casting, hapless",
             "portraying, complicit",
             "selling, deceitful",
@@ -3708,7 +3708,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Rebecca knew that to finish her project she must overcome her tendency toward $BLANK and learn to make up her mind.",
+        "question": "Rebecca knew that to finish her project she must overcome her tendency toward BLANK and learn to make up her mind.",
         "candidates": ["indecision",
             "independence",
             "buoyancy",
@@ -3723,7 +3723,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Jane Eyre is among the most $BLANK0 of feminist novels: it is still widely $BLANK1 more than 150 years after its publication.",
+        "question": "Jane Eyre is among the most BLANK0 of feminist novels: it is still widely BLANK1 more than 150 years after its publication.",
         "candidates": ["confusing, mimicked",
             "provocative, ignored",
             "enduring, read",
@@ -3738,7 +3738,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Led by Massasoit and William Bradford, the Wampanoag communities and Plymouth Colony created a military and economic $BLANK, drawing upon one another's resources for decades.",
+        "question": "Led by Massasoit and William Bradford, the Wampanoag communities and Plymouth Colony created a military and economic BLANK, drawing upon one another's resources for decades.",
         "candidates": ["experiment",
             "stalemante",
             "dilemma",
@@ -3753,7 +3753,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Jason's gullibility was remarkable: he $BLANK0 the most outrageous assertions and wa therefore much too easily $BLANK1.",
+        "question": "Jason's gullibility was remarkable: he BLANK0 the most outrageous assertions and wa therefore much too easily BLANK1.",
         "candidates": ["trusted, duped",
             "processed, misjudged",
             "proposed, deluded",
@@ -3768,7 +3768,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Because curiosity is deemed the $BLANK0 of the scientific temperament, theoretical physicist Richard Feynman, renowned for his ceaseless questioning, was regarded by some as an $BLANK1 of the scientific spirit.",
+        "question": "Because curiosity is deemed the BLANK0 of the scientific temperament, theoretical physicist Richard Feynman, renowned for his ceaseless questioning, was regarded by some as an BLANK1 of the scientific spirit.",
         "candidates": ["essence, incarnation",
             "bane, advocate",
             "crux, inception",
@@ -3783,7 +3783,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The editorial charged that some contemporary music $BLANK fundamental social values by glamorizing what is essentially an outlaw lifestyle.",
+        "question": "The editorial charged that some contemporary music BLANK fundamental social values by glamorizing what is essentially an outlaw lifestyle.",
         "candidates": ["enjoins",
             "erodes",
             "augments",
@@ -3798,7 +3798,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Some people believe a parrot can comprehend the words it utters, but most biologists believe parrots lack such $BLANK ability.",
+        "question": "Some people believe a parrot can comprehend the words it utters, but most biologists believe parrots lack such BLANK ability.",
         "candidates": ["auditory",
             "cognitie",
             "observational",
@@ -3813,7 +3813,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Nothing in the essay is $BLANK: every sentence contributes in an essential way to the overall meaning.",
+        "question": "Nothing in the essay is BLANK: every sentence contributes in an essential way to the overall meaning.",
         "candidates": ["cohesive",
             "querulous",
             "paramount",
@@ -3828,7 +3828,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Unlike the wild turkey, which can successfully fly for short distances, the domesticated turkey is completely $BLANK flight.",
+        "question": "Unlike the wild turkey, which can successfully fly for short distances, the domesticated turkey is completely BLANK flight.",
         "candidates": ["subject to",
             "dependent to",
             "worthy of",
@@ -3843,7 +3843,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Morale among the staff scientists $BLANK0 when the director dolefully announced that chances of the project's receiving additional funding were $BLANK1.",
+        "question": "Morale among the staff scientists BLANK0 when the director dolefully announced that chances of the project's receiving additional funding were BLANK1.",
         "candidates": ["soared, indeterminate",
             "revived, overwhelming",
             "plummeted, infinitesimal",
@@ -3858,7 +3858,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The slogan \"What goes up must come down\" was so universallly accepted by economists that it was considered $BLANK.",
+        "question": "The slogan \"What goes up must come down\" was so universallly accepted by economists that it was considered BLANK.",
         "candidates": ["a conjecture",
             "an axion",
             "a fad",
@@ -3873,7 +3873,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The corporation's code of ethics is ludicrous' its principles are either $BLANK0, offering cliches in lieu of guidance, or so unspecific as to make any behavior $BLANK1.",
+        "question": "The corporation's code of ethics is ludicrous' its principles are either BLANK0, offering cliches in lieu of guidance, or so unspecific as to make any behavior BLANK1.",
         "candidates": ["hackneyed, unlikely",
             "anonymous, acceptable",
             "platitudinous, permissible",
@@ -3888,7 +3888,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Sally, thoroughly convinced of her own importance, often acts without $BLANK: she feels so guilt, for example, about appropriating her brother's possessions.",
+        "question": "Sally, thoroughly convinced of her own importance, often acts without BLANK: she feels so guilt, for example, about appropriating her brother's possessions.",
         "candidates": ["compunction",
             "gratification",
             "aplomb",
@@ -3903,7 +3903,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "While the official's actions were widely denounced, they were nonetheless $BLANK, fully within the boundaries of recognized laws.",
+        "question": "While the official's actions were widely denounced, they were nonetheless BLANK, fully within the boundaries of recognized laws.",
         "candidates": ["profitable",
             "legal",
             "unanticipated",
@@ -3918,7 +3918,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "While tributylin (TBT) is generally not as $BLANK0 as certain other toxic substances, studies of its damaging effects on marine life show it is $BLANK1 to mollusk fisheries.",
+        "question": "While tributylin (TBT) is generally not as BLANK0 as certain other toxic substances, studies of its damaging effects on marine life show it is BLANK1 to mollusk fisheries.",
         "candidates": ["controversial, valuable",
             "neutral, attracted",
             "dangerous, devastating",
@@ -3933,7 +3933,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Eager to maintain the party's lighthearted atmosphere, the host skillfully averted $BLANK0 between two of his guests with $BLANK1 change of subject.",
+        "question": "Eager to maintain the party's lighthearted atmosphere, the host skillfully averted BLANK0 between two of his guests with BLANK1 change of subject.",
         "candidates": ["an impasse, an ineffectual",
             "an agreement, a tactful",
             "a friendship, an irritating",
@@ -3948,7 +3948,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Although normally cheerful and energetic, Nathan was noticeably $BLANK during the week preceding the announcement of the pending job transfers.",
+        "question": "Although normally cheerful and energetic, Nathan was noticeably BLANK during the week preceding the announcement of the pending job transfers.",
         "candidates": ["coherent",
             "discreet",
             "subdued",
@@ -3963,7 +3963,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The editor removed large portions of the manuscript, $BLANK0 entire paragraphs that she considered either erroneous or $BLANK1.",
+        "question": "The editor removed large portions of the manuscript, BLANK0 entire paragraphs that she considered either erroneous or BLANK1.",
         "candidates": ["interleaving, simplistic",
             "fabricating, insidious",
             "revising, decorous",
@@ -3978,7 +3978,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "On Gold Mountain is both $BLANK0 and $BLANK1: by recounting her Chinese American relatives' lives, Lisa See also illuminates the larger story of the immigrant experience the United States.",
+        "question": "On Gold Mountain is both BLANK0 and BLANK1: by recounting her Chinese American relatives' lives, Lisa See also illuminates the larger story of the immigrant experience the United States.",
         "candidates": ["conspicuous, remote",
             "particular, universal",
             "pertinent, exclusive",
@@ -3993,7 +3993,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Although the hardy emperor penguin survives in Antarctica in great numbers, the region's harsh climate is $BLANK to many species.",
+        "question": "Although the hardy emperor penguin survives in Antarctica in great numbers, the region's harsh climate is BLANK to many species.",
         "candidates": ["demeaning",
             "necessary",
             "inhospitable",
@@ -4008,7 +4008,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The defendant's $BLANK0 demeanor on the witness stand tended to $BLANK1 the jury's impression that he had little respect for the law.",
+        "question": "The defendant's BLANK0 demeanor on the witness stand tended to BLANK1 the jury's impression that he had little respect for the law.",
         "candidates": ["remorseful, bolster",
             "insolent, weaken",
             "defiant, reinforce",
@@ -4023,7 +4023,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Metis, the innermost $BLANK of Jupiter, completes a full revolution around this giant planet every seven hours.",
+        "question": "Metis, the innermost BLANK of Jupiter, completes a full revolution around this giant planet every seven hours.",
         "candidates": ["atmosphere",
             "constellation",
             "core",
@@ -4038,7 +4038,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Civil rights activist Fannie Lou Hamer's statement \"I'm sick and tired of being sick and tired\" was an intentional $BLANK0 that illustrated Hamer's $BLANK1 about the plight of African American in the 1960s.",
+        "question": "Civil rights activist Fannie Lou Hamer's statement \"I'm sick and tired of being sick and tired\" was an intentional BLANK0 that illustrated Hamer's BLANK1 about the plight of African American in the 1960s.",
         "candidates": ["redundancy, frustration",
             "euphemism, despair",
             "irony, exultation",
@@ -4053,7 +4053,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "It was not until Dr. Anna Reinstein $BLANK0 the results of her several different research projects that the findings $BLANK1 into a single, definitive pattern.",
+        "question": "It was not until Dr. Anna Reinstein BLANK0 the results of her several different research projects that the findings BLANK1 into a single, definitive pattern.",
         "candidates": ["compromised, coalesced",
             "synthesized, crystallized",
             "verified, degenerated",
@@ -4068,7 +4068,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Benjamin Franklin was renowned for being a $BLANK, having delved deeply into fields as diverse as politics, business, diplomacy, statecraft, science, and publishing.",
+        "question": "Benjamin Franklin was renowned for being a BLANK, having delved deeply into fields as diverse as politics, business, diplomacy, statecraft, science, and publishing.",
         "candidates": ["sycophant",
             "pedant",
             "pundit",
@@ -4083,7 +4083,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Readers who delight in rarefied words cannot help but be $BLANK0 by the esoteric $BLANK1 Annie Dillard expertly wields in her novel The Maytrees.",
+        "question": "Readers who delight in rarefied words cannot help but be BLANK0 by the esoteric BLANK1 Annie Dillard expertly wields in her novel The Maytrees.",
         "candidates": ["enthralled, portent",
             "incensed, diction",
             "extolled, syllogism",
@@ -4098,7 +4098,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Media reports alleged that the candidate's campaign strategy was designed to $BLANK her opponent's chances for election by defaming his reputation.",
+        "question": "Media reports alleged that the candidate's campaign strategy was designed to BLANK her opponent's chances for election by defaming his reputation.",
         "candidates": ["hobble",
             "decode",
             "expedite",
@@ -4113,7 +4113,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The widely documented $BLANK0 between these two diseases has prompted scientists so undertake studies to determine if treating one can $BLANK1 the other.",
+        "question": "The widely documented BLANK0 between these two diseases has prompted scientists so undertake studies to determine if treating one can BLANK1 the other.",
         "candidates": ["disconnect, cure",
             "correlation, ward off",
             "linkage, duplicate",
@@ -4128,7 +4128,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Essentially a blues artist, Robert Cray plays music influenced by progressive rock, yet he remains $BLANK the blues tradition.",
+        "question": "Essentially a blues artist, Robert Cray plays music influenced by progressive rock, yet he remains BLANK the blues tradition.",
         "candidates": ["superior to",
             "hampered by",
             "distinct from",
@@ -4143,7 +4143,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The new composite material exhibits an extraordinary degree of $BLANK, which enables it to be molded into almost any shape.",
+        "question": "The new composite material exhibits an extraordinary degree of BLANK, which enables it to be molded into almost any shape.",
         "candidates": ["plasticity",
             "resonance",
             "inertness",
@@ -4158,7 +4158,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The forest ranger cautioned the hikers that their proposed route might prove dangerous, but they ignored her $BLANK.",
+        "question": "The forest ranger cautioned the hikers that their proposed route might prove dangerous, but they ignored her BLANK.",
         "candidates": ["vacillation",
             "indiscretion",
             "admonition",
@@ -4173,7 +4173,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Eager to improve upon their journalistic skills, Ines and Juanita were disappointed in their editor for criticisms that were often more $BLANK0 than $BLANK1.",
+        "question": "Eager to improve upon their journalistic skills, Ines and Juanita were disappointed in their editor for criticisms that were often more BLANK0 than BLANK1.",
         "candidates": ["didactic, extemporaneous",
             "captious, edifying",
             "perceptive, incisive",
@@ -4188,7 +4188,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Zoologists hope to learn whether minor variations in the migration routes of certain animals are intentional or merely $BLANK.",
+        "question": "Zoologists hope to learn whether minor variations in the migration routes of certain animals are intentional or merely BLANK.",
         "candidates": ["willful",
             "legendary",
             "accidental",
@@ -4203,7 +4203,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The country's $BLANK0 political freedom had been long and arduous, but eventually the $BLANK1 government was replaced by a true democracy.",
+        "question": "The country's BLANK0 political freedom had been long and arduous, but eventually the BLANK1 government was replaced by a true democracy.",
         "candidates": ["quest for, egalitarian",
             "struggle for, tyrannical",
             "demand for, judicious",
@@ -4218,7 +4218,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "In winning the Man Booker Prize, novelist Kiran Desai $BLANK0 an honor that had $BLANK1 her mother, Anita Desai, who was a runner-up three times but never won.",
+        "question": "In winning the Man Booker Prize, novelist Kiran Desai BLANK0 an honor that had BLANK1 her mother, Anita Desai, who was a runner-up three times but never won.",
         "candidates": ["received, distinguished",
             "achieved, eluded",
             "avoided, motivated",
@@ -4233,7 +4233,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "In the zany comedy series I Love Lucy, Lucille Ball's exaggerated, clumsy antics displayed the comedian's famous talent for $BLANK.",
+        "question": "In the zany comedy series I Love Lucy, Lucille Ball's exaggerated, clumsy antics displayed the comedian's famous talent for BLANK.",
         "candidates": ["slapstick",
             "celebration",
             "modesty",
@@ -4248,7 +4248,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "What had begun as good-natured teasing quickly gave way to $BLANK as the lost hikers blamed one another for their predicament.",
+        "question": "What had begun as good-natured teasing quickly gave way to BLANK as the lost hikers blamed one another for their predicament.",
         "candidates": ["supplications",
             "recriminations",
             "musings",
@@ -4263,7 +4263,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Although some critics maintain that his latest book can be situated in a $BLANK0 genre, it draws liberally on several different genres and so can rightly be termed $BLANK1.",
+        "question": "Although some critics maintain that his latest book can be situated in a BLANK0 genre, it draws liberally on several different genres and so can rightly be termed BLANK1.",
         "candidates": ["particular, iconoclastic",
             "venerable, anachronistic",
             "dominant, derivative",
@@ -4278,7 +4278,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Since codfish are $BLANK0 part of the marine ecosystem, their $BLANK1 would adversely affect the animals who depend on them as a source of food.",
+        "question": "Since codfish are BLANK0 part of the marine ecosystem, their BLANK1 would adversely affect the animals who depend on them as a source of food.",
         "candidates": ["a negligible, migration",
             "a vital, existence",
             "a compatible, proximity",
@@ -4293,7 +4293,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The gifted child-poet Minou Drouet, hailed in the 1950s as an artistic $BLANK0, now lives in relative $BLANK1, enjoying a privacy unavailable to her as a child.",
+        "question": "The gifted child-poet Minou Drouet, hailed in the 1950s as an artistic BLANK0, now lives in relative BLANK1, enjoying a privacy unavailable to her as a child.",
         "candidates": ["paragon, opulence",
             "dilettante, oblivion",
             "prodigy, anonymity",
@@ -4308,7 +4308,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The legislator is known on Capitol Hill for his oratorical spontaneity, his ability to deliver $BLANK speech.",
+        "question": "The legislator is known on Capitol Hill for his oratorical spontaneity, his ability to deliver BLANK speech.",
         "candidates": ["an enigmatic",
             "an abrasive",
             "an impromptu",
@@ -4323,7 +4323,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Ms Nunez was $BLANK, remaining assured and self-controlled even in the most volatile of situations.",
+        "question": "Ms Nunez was BLANK, remaining assured and self-controlled even in the most volatile of situations.",
         "candidates": ["ungainly",
             "autocratic",
             "unflappable",
@@ -4338,7 +4338,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The delegates' behavior at the convention was utterly disgraceful and fully deserving of the $BLANK it provoked.",
+        "question": "The delegates' behavior at the convention was utterly disgraceful and fully deserving of the BLANK it provoked.",
         "candidates": ["rancor",
             "lethargy",
             "commiseration",
@@ -4353,7 +4353,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Gwen's ambitious desert hike was impeded by the heat that sapped her strength and resolve, leaving her $BLANK0 and $BLANK1.",
+        "question": "Gwen's ambitious desert hike was impeded by the heat that sapped her strength and resolve, leaving her BLANK0 and BLANK1.",
         "candidates": ["disoriented, unerring",
             "dexterous, circumspect",
             "dehydrated, dissolute",
@@ -4368,7 +4368,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Because of their spare, white appearance, ancient Greek statues in modern museums are often considered $BLANK0; yet newly unearthed antiquities showing traces of bright pigment are not so $BLANK1.",
+        "question": "Because of their spare, white appearance, ancient Greek statues in modern museums are often considered BLANK0; yet newly unearthed antiquities showing traces of bright pigment are not so BLANK1.",
         "candidates": ["plain, ornate",
             "elaborate, spartan",
             "ostentatious, vivid",
@@ -4383,7 +4383,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Former news anchor Dan Rather had $BLANK0 for colorful $BLANK1: for example he once described a political race as \"Spandex tight\".",
+        "question": "Former news anchor Dan Rather had BLANK0 for colorful BLANK1: for example he once described a political race as \"Spandex tight\".",
         "candidates": ["a distaste, aphorism",
             "a knack, epistles",
             "a penchant, locutions",
@@ -4398,7 +4398,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Deer overbrowsing has dramatically reduced plant $BLANK0 in many eastern United States forests; the few surviving plant species are those that regrow quickly or that deer find $BLANK1.",
+        "question": "Deer overbrowsing has dramatically reduced plant BLANK0 in many eastern United States forests; the few surviving plant species are those that regrow quickly or that deer find BLANK1.",
         "candidates": ["dominance, edible",
             "longevity, nutritious",
             "diversity, unpalatable",
@@ -4413,7 +4413,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The teacher unabashedly used $BLANK0, flattering his students in an attempt to coax them to $BLANK1 research projects for extra credit.",
+        "question": "The teacher unabashedly used BLANK0, flattering his students in an attempt to coax them to BLANK1 research projects for extra credit.",
         "candidates": ["subterfuge, suppress",
             "coercion, accept",
             "innuendo, synthesize",
@@ -4428,7 +4428,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "No $BLANK the case exists: in reaching a decision, the court is bound to break new legal ground.",
+        "question": "No BLANK the case exists: in reaching a decision, the court is bound to break new legal ground.",
         "candidates": ["interest in",
             "demand for",
             "precedent for",
@@ -4443,7 +4443,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Her actions did nothing but good, but since she performed them out of self-interest, they could not be called.",
+        "question": "Her actions did nothing but good, but since she performed them out of self-interest, they could not be called BLANK.",
         "candidates": ["altruistic",
             "placatory",
             "benign",
@@ -4458,7 +4458,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Max Roach is regarded as a $BLANK0 of modern jazz drumming because he was one of the first artists to $BLANK1 the melodic, rather than merely rhythmic, possibilities of his instrument.",
+        "question": "Max Roach is regarded as a BLANK0 of modern jazz drumming because he was one of the first artists to BLANK1 the melodic, rather than merely rhythmic, possibilities of his instrument.",
         "candidates": ["pioneer, mimic",
             "progenitor, exploit",
             "devotee, jettison",
@@ -4473,7 +4473,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Lan Cao describes her novel Monkey Bridge as autobiographical \"in mood rather than fact,\" claiming it depicts $BLANK0, not $BLANK1, truth.",
+        "question": "Lan Cao describes her novel Monkey Bridge as autobiographical \"in mood rather than fact,\" claiming it depicts BLANK0, not BLANK1, truth.",
         "candidates": ["poetic, artistic",
             "common, romanticized",
             "intimate, personal",
@@ -4488,7 +4488,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Because Alejandra and Raina have never allowed their differences of opinion to come between them, their friendship remains $BLANK.",
+        "question": "Because Alejandra and Raina have never allowed their differences of opinion to come between them, their friendship remains BLANK.",
         "candidates": ["conditional",
             "exciting",
             "distant",
@@ -4503,7 +4503,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "In a grievous example of $BLANK behavior, the consultants repeatedly managed to dupe the team of scientists by presenting fabricated data.",
+        "question": "In a grievous example of BLANK behavior, the consultants repeatedly managed to dupe the team of scientists by presenting fabricated data.",
         "candidates": ["incompetent",
             "contentious",
             "expansive",
@@ -4518,7 +4518,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Elephants have a sense of smell that is remarkably $BLANK: they can reportedly smell water up to several miles away.",
+        "question": "Elephants have a sense of smell that is remarkably BLANK: they can reportedly smell water up to several miles away.",
         "candidates": ["tacit",
             "acute",
             "aromatic",
@@ -4533,7 +4533,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Some environmentalists fear that the practices contributing to global warming are so $BLANK0 in industrialized nations that there are no simple ways to $BLANK1 their effects.",
+        "question": "Some environmentalists fear that the practices contributing to global warming are so BLANK0 in industrialized nations that there are no simple ways to BLANK1 their effects.",
         "candidates": ["established, mitigate",
             "latent, exacerbate",
             "negligible, alleviate",
@@ -4548,7 +4548,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The testimony of the witness, meant to $BLANK the defense of the man accused of theft, actually strengthened the case of his accusers.",
+        "question": "The testimony of the witness, meant to BLANK the defense of the man accused of theft, actually strengthened the case of his accusers.",
         "candidates": ["appease",
             "deprecate",
             "enlighten",
@@ -4563,7 +4563,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Unsuccessful in her first campaigns, Barbara Jordan $BLANK, eventually becoming the first Black woman elected to the Texas State Senate.",
+        "question": "Unsuccessful in her first campaigns, Barbara Jordan BLANK, eventually becoming the first Black woman elected to the Texas State Senate.",
         "candidates": ["persisted",
             "gloated",
             "retired",
@@ -4578,7 +4578,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Some scientists speculate that children who wash frequently are more likely to become asthmatic than those who wash infrequently: that $BLANK, not the lack of it, is the problem.",
+        "question": "Some scientists speculate that children who wash frequently are more likely to become asthmatic than those who wash infrequently: that BLANK, not the lack of it, is the problem.",
         "candidates": ["pollution",
             "negligence",
             "nutrition",
@@ -4593,7 +4593,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Newspaper advertisers feel their messages are more believable and $BLANK0 when they are printed next to news reports; hence, advertising charges are higher for such $BLANK1.",
+        "question": "Newspaper advertisers feel their messages are more believable and BLANK0 when they are printed next to news reports; hence, advertising charges are higher for such BLANK1.",
         "candidates": ["dominant, investigation",
             "irrelevant, proximity",
             "precise, delivery",
@@ -4608,7 +4608,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Despite accusations to the contrary, it is unlikely that he intended to $BLANK the articles, since he cited them in his bibliography.",
+        "question": "Despite accusations to the contrary, it is unlikely that he intended to BLANK the articles, since he cited them in his bibliography.",
         "candidates": ["analyze",
             "illuminate",
             "plagiarize",
@@ -4623,7 +4623,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Ralph Ellison learned the hard way about the $BLANK0 of a written manuscript: he suffered the $BLANK1 of the only draft of a work in progress in a household fire.",
+        "question": "Ralph Ellison learned the hard way about the BLANK0 of a written manuscript: he suffered the BLANK1 of the only draft of a work in progress in a household fire.",
         "candidates": ["magnitude, isolation",
             "fraglity, preservation",
             "illegibility, eradication",
@@ -4638,7 +4638,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The new human resources director is both $BLANK0 and $BLANK1 about being able to improve employment opportunities for women at the executive level: she has great resolve but harbors no illusions.",
+        "question": "The new human resources director is both BLANK0 and BLANK1 about being able to improve employment opportunities for women at the executive level: she has great resolve but harbors no illusions.",
         "candidates": ["practical, deceptive",
             "cynical, irrational",
             "excited, approachable",
@@ -4653,7 +4653,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Years of neglect had left the inside of the building in $BLANK condition: workstations were filthy and furnishings were dilapidated.",
+        "question": "Years of neglect had left the inside of the building in BLANK condition: workstations were filthy and furnishings were dilapidated.",
         "candidates": ["a squalid",
             "a volatile",
             "an undaunted",
@@ -4668,7 +4668,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The Wild Parrots of Telegraph Hill is only $BLANK about birds; despite its title, the documentary actually examines human relationships.",
+        "question": "The Wild Parrots of Telegraph Hill is only BLANK about birds; despite its title, the documentary actually examines human relationships.",
         "candidates": ["ostensibly",
             "distinctively",
             "intelligibly",
@@ -4683,7 +4683,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Heckling during a political rally is so $BLANK0 that it surprises no one; the same behavior, however, is $BLANK1 when it is exhibited at a scientific conference.",
+        "question": "Heckling during a political rally is so BLANK0 that it surprises no one; the same behavior, however, is BLANK1 when it is exhibited at a scientific conference.",
         "candidates": ["rare, shattering",
             "commonplace, startling",
             "revolting, unnerving",
@@ -4698,7 +4698,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Steve was $BLANK by the intricacy of the ice crystals forming on his windowpane: he couldn't take his eyes off them.",
+        "question": "Steve was BLANK by the intricacy of the ice crystals forming on his windowpane: he couldn't take his eyes off them.",
         "candidates": ["edified",
             "troubled",
             "enervated",
@@ -4713,7 +4713,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The experiment did not yield the decisive $BLANK0 that the scientist had hoped for; instead, the findings were only of $BLANK1 significance.",
+        "question": "The experiment did not yield the decisive BLANK0 that the scientist had hoped for; instead, the findings were only of BLANK1 significance.",
         "candidates": ["outcome, nominal",
             "results, influential",
             "conclusion, distinct",
@@ -4728,7 +4728,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "NASA engineer Gloria Yamauchi uses $BLANK approach to research, in that it draws on physics, aerodynamics, mathematics, and other fields.",
+        "question": "NASA engineer Gloria Yamauchi uses BLANK approach to research, in that it draws on physics, aerodynamics, mathematics, and other fields.",
         "candidates": ["a self-evident",
             "an interdisciplinary",
             "a simplistic",
@@ -4743,7 +4743,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Less confident employees tend to be $BLANK about asking for a pay increase, preferring to wait for their supervisors to raise the issue.",
+        "question": "Less confident employees tend to be BLANK about asking for a pay increase, preferring to wait for their supervisors to raise the issue.",
         "candidates": ["voluble",
             "presumptuous",
             "reticent",
@@ -4758,7 +4758,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "In dire need of $BLANK, the travelers fortified themselves with food and drink in order to complete their journey.",
+        "question": "In dire need of BLANK, the travelers fortified themselves with food and drink in order to complete their journey.",
         "candidates": ["testimony",
             "sponsorship",
             "persecution",
@@ -4773,7 +4773,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "John wished to become an $BLANK because he was interested in learning about ancient cultures.",
+        "question": "John wished to become an BLANK because he was interested in learning about ancient cultures.",
         "candidates": ["astronomer",
             "archaeologist",
             "apologist",
@@ -4788,7 +4788,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Although children's books about animals and plants are often $BLANK0 rather than accurate in their descriptions, a skillful elementary-school teacher can still $BLANK1 such texts for meaningful scientific learning.",
+        "question": "Although children's books about animals and plants are often BLANK0 rather than accurate in their descriptions, a skillful elementary-school teacher can still BLANK1 such texts for meaningful scientific learning.",
         "candidates": ["factual, challenge",
             "fanciful, exploit",
             "lifelike, employ",
@@ -4803,7 +4803,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "Because she was a successful entrepreneur who donated large amounts of money to charitable causes, Madame C. J. Walker is remembered today as both a $BLANK0 and a $BLANK1.",
+        "question": "Because she was a successful entrepreneur who donated large amounts of money to charitable causes, Madame C. J. Walker is remembered today as both a BLANK0 and a BLANK1.",
         "candidates": ["sojourner, benefactor",
             "protege, humanitarian",
             "magnate, prevaricator",
@@ -4818,7 +4818,7 @@
     {
         "id": "None",
         "num_blanks": 2,
-        "question": "The $BLANK0 of the scientist's rebuttal of the hypothesis was startling even in the notoriously $BLANK1 world of nineteenth-century geology.",
+        "question": "The BLANK0 of the scientist's rebuttal of the hypothesis was startling even in the notoriously BLANK1 world of nineteenth-century geology.",
         "candidates": ["ferocity, contentious",
             "arrogance, conventional",
             "indifference, malignant",
@@ -4833,7 +4833,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "Like cartoonists, some painters seek to communicate character $BLANK, but this economy of means is not artistic shallowness.",
+        "question": "Like cartoonists, some painters seek to communicate character BLANK, but this economy of means is not artistic shallowness.",
         "candidates": ["precociously",
             "ludicrously",
             "sinuously",
