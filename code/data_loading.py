@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import spacy
 from spacy.tokenizer import Tokenizer
+import nltk.data
 import os
 import re
 import glob
@@ -31,18 +32,11 @@ class MSR:
         self.TEST_DEV_SPLIT = 0.6
         self.punctuation_table = str.maketrans({key: None for key in string.punctuation})
         nlp = spacy.load('en_core_web_sm')
-        self.tokenizer = Tokenizer(nlp.vocab)
+        self.spacy_tokenizer = Tokenizer(nlp.vocab)
+        self.nltk_tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
         
-    def vocab(self, MAX_VOCAB_SIZE):
-        word_counts = defaultdict(int)
-        reverse_vocab = defaultdict(lambda: None)
-        
-        # Word Count
-        for path in tqdm(self.train_files):
-            doc = self.load_document(path)
-            for token in doc:
-                if not (token.is_punct or token.is_space):
-                    word_counts[token.norm_] += 1
+    def vocab(self, MAX_VOCAB_SIZE, use_spacy_norm=True):
+        word_counts = self.word_count(use_spacy_norm=use_spacy_norm)
                 
         # Order by count
         wc_sorted = sorted(word_counts.items(), key=operator.itemgetter(1), reverse=True)
@@ -51,17 +45,37 @@ class MSR:
         print("Top 10 vocab words: {}".format(vocab[:10]))
         
         # Create reverse_vocab for fast lookup
+        reverse_vocab = defaultdict(lambda: None)
         for i, word in enumerate(vocab):
             reverse_vocab[word] = i
             
         return vocab, reverse_vocab
+
+    def word_count(self, use_spacy_norm=True):
+        word_counts = defaultdict(int)
+        reverse_vocab = defaultdict(lambda: None)
         
-    def load_document(self, path, verbose=False):
-        doc = []
+        for path in tqdm(self.train_files):
+            doc = self.load_document(path, split_by_sentence=(not use_spacy_norm))
+            if use_spacy_norm:
+                for token in doc:
+                    if not token.is_space:
+                        word_counts[token.norm_] += 1
+            else:
+                for s in doc:
+                    for w in s.split():
+                        word_counts[w] += 1
+        return word_counts
+
+    def load_document(self, path, verbose=False, split_by_sentence=False):
         with open(path) as f:
             full_text = f.read()
+        if split_by_sentence:  # Return doc as a list of sentences
+            sentences = self.nltk_tokenizer.tokenize(full_text)
+            doc = [s.translate(self.punctuation_table).lower() for s in sentences]
+        else:
             full_text = full_text.translate(self.punctuation_table)  # Strip punctuation
-            doc = self.tokenizer(full_text)  # Use spacy
+            doc = self.spacy_tokenizer(full_text)
         return doc
     
     def test(self):
@@ -84,11 +98,14 @@ class MSR:
 
     # Returns a word-word co-occurence matrix
     # Caches each new matrix once it has been computed, to save time in the future
-    # TODO: Try dividing context by sentence instead of by window size!
-    def train_word_word_cooccurence(self, window=5, vocab_size=10000, load=True, save=True):
-        # Load co-occurence matrix if it already exists
-        file_name = "gutenberg{}_{}.csv.gz".format(window, vocab_size)
+    def train_word_word_cooccurence(self, window=5, vocab_size=10000, decay=False, load=True, save=True):
+        if decay:
+            file_name = "gutenberg{}d_{}.csv.gz".format(window, vocab_size)
+        else:
+            file_name = "gutenberg{}_{}.csv.gz".format(window, vocab_size)
         file_path = os.path.join(self.root_path, file_name)
+
+        # Load co-occurence matrix if it already exists
         if os.path.isfile(file_path) and load:
             print("Loading existing co-occurence matrix")
             return pd.read_csv(file_path, index_col=0, compression='gzip')
@@ -97,7 +114,10 @@ class MSR:
         vocab, reverse_vocab = self.vocab(vocab_size)
         
         print('Generating matrix')
-        matrix = np.zeros((vocab_size, vocab_size), dtype=np.uint32)
+        if decay:
+            matrix = np.zeros((vocab_size, vocab_size))  # The counts will be decimals/floats
+        else:
+            matrix = np.zeros((vocab_size, vocab_size), dtype=np.uint32)  # The counts will be integers
         for path in tqdm(self.train_files):
             doc = self.load_document(path, verbose=False)
             for i in range(len(doc)):  # Iterate over words in document
@@ -110,9 +130,48 @@ class MSR:
                     index_j = reverse_vocab[doc[j].norm_]
                     if index_j is None:  # Skip if j is not in vocab.
                         continue
-                    matrix[index_i, index_j] += 1
+                    matrix[index_i, index_j] += 1 / (j - i) if decay else 1
                     if index_i != index_j:  # Dont double count along diag
-                        matrix[index_j, index_i] += 1
+                        matrix[index_j, index_i] += 1 / (j - i) if decay else 1
+
+        df = pd.DataFrame(matrix, index=vocab, columns=vocab)
+        del matrix  # An attempt to save memory to potentially speed up saving.
+
+        if save:  # Save co-occurence matrix
+            print("Saving co-occurence matrix to {}".format(file_path))
+            df.to_csv(file_path, compression='gzip')
+            print("Successfully saved co-occurence matrix")
+        return df
+
+    # Word - Context (sentence) coocurence.
+    def train_word_context_cooccurence(self, vocab_size=10000, load=True, save=True):
+        # Load co-occurence matrix if it already exists
+        file_name = "gutenberg_sent_{}.csv.gz".format(vocab_size)
+        file_path = os.path.join(self.root_path, file_name)
+        if os.path.isfile(file_path) and load:
+            print("Loading existing co-occurence matrix")
+            return pd.read_csv(file_path, index_col=0, compression='gzip')
+
+        print('Loading vocab')
+        vocab, reverse_vocab = self.vocab(vocab_size, use_spacy_norm=False)
+        
+        print('Generating matrix')
+        matrix = np.zeros((vocab_size, vocab_size), dtype=np.uint32)
+        for path in tqdm(self.train_files):
+            doc = self.load_document(path, verbose=False, split_by_sentence=True)
+            for sentence in doc:  # For each sentence
+                sentence = sentence.split()
+                for i in range(len(sentence)):  # For each word
+                    index_i = reverse_vocab[sentence[i]]
+                    if index_i is None:  # i is not in the vocab
+                        continue
+                    for j in range(i + 1, len(sentence)):  # For each other word
+                        index_j = reverse_vocab[sentence[j]]
+                        if index_j is None:  # Skip if j is not in vocab.
+                            continue
+                        matrix[index_i, index_j] += 1
+                        if index_i != index_j:  # Dont double count along diag
+                            matrix[index_j, index_i] += 1
 
         df = pd.DataFrame(matrix, index=vocab, columns=vocab)
         del matrix  # An attempt to save memory to potentially speed up saving.
@@ -171,14 +230,10 @@ class GRE:
 
 
 class SAT:
-    def __init__(self, path=SAT_path, train_data_name='Holmes_Training_Data', seed=345):
+    def __init__(self, path=data_path, seed=345):
         self.root_path = path
 
-        self.train_path = os.path.join(path, train_data_name)
-        #self.test_path = os.path.join(path, 'testing_data.txt')
-        self.train_files = glob.glob(os.path.join(self.train_path, '*.TXT'))
-
-        self.sentence_completion_path = os.path.join(path, 'SAT-sentence-completion.json')
+        self.sentence_completion_path = os.path.join(path, 'SAT', 'SAT-sentence-completion.json')
         self.seed = seed
         self.TEST_DEV_SPLIT = 0.6
 
@@ -224,15 +279,9 @@ class SAT:
         dataset['solution_index'] = dataset['solution_index'].apply(lambda x: x[0])
         test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
         return dev
-        # print(dataset.head().columns)
-        # print(dataset.head())
-        # print(dataset["num_blanks"].max())
-        # for _, question in dataset.head().iterrows():
-        #     print(question['question'])
-        #     print(question['candidates'])
+
 
     def test(self):
-        dataset = pd.read_json(self.sentence_completion_path)
         dataset = pd.read_json(self.sentence_completion_path)
         dataset['solution_index'] = dataset['solution_index'].apply(lambda x: x[0])
         test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
@@ -242,10 +291,10 @@ class SAT:
     # Returns a word-word co-occurence matrix
     # Caches each new matrix once it has been computed, to save time in the future
     # TODO: Try dividing context by sentence instead of by window size!
-    def train_word_word_cooccurence(self, window=5, vocab_size=10000, load=True, save=True):
+    def train_word_word_cooccurence(self, window=5, vocab_size=15000, load=True, save=True):
         # Load co-occurence matrix if it already exists
-        file_name = "gutenberg{}_{}.csv.gz".format(window, vocab_size)
-        file_path = os.path.join(self.root_path, file_name)
+        file_name = "nyt{}_{}.csv.gz".format(window, vocab_size)
+        file_path = os.path.join(self.root_path, 'GIGA', file_name)
         if os.path.isfile(file_path) and load:
             print("Loading existing co-occurence matrix")
             return pd.read_csv(file_path, index_col=0, compression='gzip')

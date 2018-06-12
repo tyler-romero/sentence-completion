@@ -1,5 +1,7 @@
 from nltk.corpus import wordnet
+import numpy as np
 import spacy
+from vsm import observed_over_expected
 from collections import defaultdict
 
 nlp = spacy.load(
@@ -33,31 +35,34 @@ def spacy_to_wn_tag(spacy_tag):
     return tag_dict.get(spacy_tag)
 
 
-def get_synonyms(word, pos=None):
-    synonyms = []
+def get_synonyms(word, pos=None, word_counts=None):
+    synonyms = set()
     for syn in wordnet.synsets(word, pos):
         for l in syn.lemmas():
-            synonyms.append(l.name())
-    # if not synonyms:
-    #     print("No synonyms found for '{}' with pos={}".format(word, pos))
-    return synonyms
+            synonyms.add(l.name())
+
+    if word_counts is not None:  # Order by word_counts
+        synonyms = sorted(synonyms, reverse=True, key=lambda x: word_counts[x])
+
+    return list(synonyms)
 
 
-def get_hypernyms(word, pos=None):
-    hypernym_words = []
+def get_hypernyms(word, pos=None, word_counts=None):
+    hypernyms = set()
     for syn in wordnet.synsets(word, pos):
         for h in syn.hypernyms():
             for l in h.lemmas():
-                hypernym_words.append(l.name())
-    # if not hypernym_words:
-    #     print("No hypernyms found for '{}' with pos={}".format(word, pos))
-    
-    return hypernym_words
+                hypernyms.add(l.name())
+
+    if word_counts is not None:  # Order by word_counts
+        hypernyms = sorted(hypernyms, reverse=True, key=lambda x: word_counts[x])
+
+    return list(hypernyms)
 
 
-def get_alternate_words(word, pos=None):
-    syn = get_synonyms(word, pos)
-    hyp = get_hypernyms(word, pos)
+def get_alternate_words(word, pos=None, word_counts=None):
+    syn = get_synonyms(word, pos, word_counts)
+    hyp = get_hypernyms(word, pos, word_counts)
     # if not syn and not hyp:
     #     print("No alternate words found for '{}' with pos={}".format(word, pos))
     return [word] + syn + hyp
@@ -88,15 +93,42 @@ def get_token(doc, word):
 #     return spacy_doc[token_index].pos_
 
 
-def get_ancestors_of_word(spacy_doc, token_index):
-    token = spacy_doc[token_index]
+def get_ancestors_of_word(token):
     return [ancestor for ancestor in token.ancestors]
 
 
-def get_children_of_word(spacy_doc, token_index):
-    token = spacy_doc[token_index]
+def get_children_of_word(token):
     return [child for child in token.children]
 
 
-# def remove_stop_words(sentence):
-#     pass
+def dpmi(df, positive=True):
+    def discount(df):
+        # Calcualte mincontext
+        col_totals = df.sum(axis=0)
+        row_totals = df.sum(axis=1)
+        mincontext = np.minimum.outer(col_totals, row_totals)
+
+        # Calcualte discount
+        discount = df / (df + 1) * mincontext / (mincontext + 1)
+        return discount
+
+    # Calculate PMI
+    pmi = observed_over_expected(df)
+    with np.errstate(divide='ignore'):
+        pmi = np.log(pmi)
+    pmi[np.isinf(pmi)] = 0.0  # log(0) = 0
+    # Convert to PPMI
+    if positive:
+        pmi[pmi < 0] = 0.0
+    # Convert to dPPMI
+    pmi *= discount(df)
+    return pmi
+
+
+
+
+    # mincontext = np.zeros_like(df)
+    # n, _ = df.shape
+    # for i in range(n):
+    #     for j in range(n):
+    #         mincontext[i, j] = np.min([col_totals[i], row_totals[j]])
