@@ -311,7 +311,10 @@ class GIGA:
         # Order by count
         wc_sorted = sorted(word_counts.items(), key=operator.itemgetter(1), reverse=True)
         vocab = [word for word, count in wc_sorted]
-        vocab = vocab[:MAX_VOCAB_SIZE]
+
+        if len(vocab) > MAX_VOCAB_SIZE:
+            vocab = vocab[:MAX_VOCAB_SIZE]
+
         print("Top 10 vocab words: {}".format(vocab[:10]))
         
         # Create reverse_vocab for fast lookup
@@ -382,6 +385,103 @@ class GIGA:
             print("Successfully saved co-occurence matrix")
         return df
 
+
+class GIGA_TRAIN:
+    def __init__(self, train_file_paths, save_file_path, seed=345):
+        
+        self.train_files = train_file_paths
+        self.save_file = save_file_path
+        self.seed = seed
+        self.punctuation_table = str.maketrans({key: None for key in string.punctuation if key != '-'})
+        nlp = spacy.load('en_core_web_sm')
+        self.tokenizer = Tokenizer(nlp.vocab)
+        
+    def vocab(self, MAX_VOCAB_SIZE):
+        word_counts = defaultdict(int)
+        reverse_vocab = defaultdict(lambda: None)
+        
+        # Word Count
+        for path in tqdm(self.train_files):
+            doc = self.load_document(path)
+            for token in doc:
+                if not (token.is_punct or token.is_space):
+                    word_counts[token.norm_] += 1
+                
+        # Order by count
+        wc_sorted = sorted(word_counts.items(), key=operator.itemgetter(1), reverse=True)
+        vocab = [word for word, count in wc_sorted]
+
+        if len(vocab) > MAX_VOCAB_SIZE:
+            vocab = vocab[:MAX_VOCAB_SIZE]
+            
+        print("Top 10 vocab words: {}".format(vocab[:10]))
+        
+        # Create reverse_vocab for fast lookup
+        for i, word in enumerate(vocab):
+            reverse_vocab[word] = i
+            
+        return vocab, reverse_vocab
+        
+    def load_document(self, path, verbose=False):
+        doc = []
+        with open(path) as f:
+            full_text = f.read()
+
+            # Remove all markdown tags and whatever is in dateline, if it exists
+            full_text = re.sub('<DATELINE>\n.+\n</DATELINE>', '', full_text)
+            full_text = re.sub('<.?DOC.*>', '', full_text)
+            full_text = re.sub('<.?HEADLINE>', '', full_text)
+            full_text = re.sub('<.?TEXT>', '', full_text)
+            full_text = re.sub('<.?P>', '', full_text)
+
+
+            full_text = full_text.translate(self.punctuation_table)  # Strip punctuation
+
+            print (full_text)
+
+            doc = self.tokenizer(full_text)  # Use spacy
+        return doc
+
+
+    # Returns a word-word co-occurence matrix
+    # Caches each new matrix once it has been computed, to save time in the future
+    # TODO: Try dividing context by sentence instead of by window size!
+    def train_word_word_cooccurence(self, window=5, vocab_size=10000, load=True, save=True):
+        # Load co-occurence matrix if it already exists
+        file_path = self.save_file
+        if os.path.isfile(file_path) and load:
+            print("Loading existing co-occurence matrix")
+            return pd.read_csv(file_path, index_col=0, compression='gzip')
+
+        print('Loading vocab')
+        vocab, reverse_vocab = self.vocab(vocab_size)
+        
+        print('Generating matrix')
+        matrix = np.zeros((vocab_size, vocab_size), dtype=np.uint32)
+        for path in tqdm(self.train_files):
+            doc = self.load_document(path, verbose=False)
+            for i in range(len(doc)):  # Iterate over words in document
+                index_i = reverse_vocab[doc[i].norm_]  # Get vocab index for the word in doc at index i
+                if index_i is None:  # i is not in the vocab
+                    continue
+                for j in range(i + 1, i + window + 1):  # Iterate over a FORWARD window for word i
+                    if j > len(doc) - 1:  # Dont let j go out of bounds
+                        continue
+                    index_j = reverse_vocab[doc[j].norm_]
+                    if index_j is None:  # Skip if j is not in vocab.
+                        continue
+                    matrix[index_i, index_j] += 1
+                    if index_i != index_j:  # Dont double count along diag
+                        matrix[index_j, index_i] += 1
+
+        df = pd.DataFrame(matrix, index=vocab, columns=vocab)
+        del matrix  # An attempt to save memory to potentially speed up saving.
+
+        if save:  # Save co-occurence matrix
+            print("Saving co-occurence matrix to {}".format(file_path))
+            df.to_csv(file_path, compression='gzip')
+            print("Successfully saved co-occurence matrix")
+        return df
 
 
 
