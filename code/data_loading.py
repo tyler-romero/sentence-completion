@@ -462,6 +462,8 @@ class GIGA_TRAIN:
 
         if len(vocab) > MAX_VOCAB_SIZE:
             vocab = vocab[:MAX_VOCAB_SIZE]
+
+        print("Vocab size: {}".format(len(vocab)))
             
         print("Top 10 vocab words: {}".format(vocab[:10]))
         
@@ -486,8 +488,6 @@ class GIGA_TRAIN:
 
             full_text = full_text.translate(self.punctuation_table)  # Strip punctuation
 
-            print (full_text)
-
             doc = self.tokenizer(full_text)  # Use spacy
         return doc
 
@@ -506,7 +506,7 @@ class GIGA_TRAIN:
         vocab, reverse_vocab = self.vocab(vocab_size)
         
         print('Generating matrix')
-        matrix = np.zeros((vocab_size, vocab_size), dtype=np.uint32)
+        matrix = np.zeros((len(vocab), len(vocab)), dtype=np.uint32)
         for path in tqdm(self.train_files):
             doc = self.load_document(path, verbose=False)
             for i in range(len(doc)):  # Iterate over words in document
@@ -532,5 +532,112 @@ class GIGA_TRAIN:
             print("Successfully saved co-occurence matrix")
         return df
 
+
+
+    # Word - Context (sentence) coocurence.
+    def train_word_context_cooccurence(self, vocab_size=10000, load=True, save=True):
+        # Load co-occurence matrix if it already exists
+        file_path = self.save_file
+        if os.path.isfile(file_path) and load:
+            print("Loading existing co-occurence matrix")
+            return pd.read_csv(file_path, index_col=0, compression='gzip')
+
+        print('Loading vocab')
+        vocab, reverse_vocab = self.vocab(vocab_size, use_spacy_norm=False)
+        
+        print('Generating matrix')
+        matrix = np.zeros((len(vocab), len(vocab)), dtype=np.uint32)
+        for path in tqdm(self.train_files):
+            doc = self.load_document(path, verbose=False, split_by_sentence=True)
+            for sentence in doc:  # For each sentence
+                sentence = sentence.split()
+                for i in range(len(sentence)):  # For each word
+                    index_i = reverse_vocab[sentence[i]]
+                    if index_i is None:  # i is not in the vocab
+                        continue
+                    for j in range(i + 1, len(sentence)):  # For each other word
+                        index_j = reverse_vocab[sentence[j]]
+                        if index_j is None:  # Skip if j is not in vocab.
+                            continue
+                        matrix[index_i, index_j] += 1
+                        if index_i != index_j:  # Dont double count along diag
+                            matrix[index_j, index_i] += 1
+
+        df = pd.DataFrame(matrix, index=vocab, columns=vocab)
+        del matrix  # An attempt to save memory to potentially speed up saving.
+
+        if save:  # Save co-occurence matrix
+            print("Saving co-occurence matrix to {}".format(file_path))
+            df.to_csv(file_path, compression='gzip')
+            print("Successfully saved co-occurence matrix")
+        return df
+
+
+def combine_cooccurence_matrices(df1_file_path, df2_file_path, save_file):
+    """
+    Matrices should both be pandas dataframes, don't have to have the same indices or column names
+    NOTE: this assumes that each df internally has the same column names as index names, however
+    """
+
+    print ("Loading matrices")
+    df1 = pd.read_csv(df1_file_path, index_col=0, compression='gzip')
+    df2 = pd.read_csv(df2_file_path, index_col=0, compression='gzip')
+
+    print ("Creating set of vocab words for both matrices")
+    column_names = sorted(list(set(np.append(df1.columns.values, df2.columns.values))))
+    index_names = list(column_names)
+    combined20 = pd.DataFrame(columns=column_names, index=index_names)
+    combined20 = combined20.fillna(0)
+
+    all_words = set(column_names) # Column names and index names are identical sets
+    sorted_words = list(column_names)
+
+    df1_augmented = df1.copy(deep=True)
+    df2_augmented = df2.copy(deep=True)
+
+    final_augmented = []
+
+    print ("Beginning work on combining matrices\n")
+    for i, (df, df_augmented) in enumerate([(df1, df1_augmented), (df2, df2_augmented)]):
+        for word in all_words.difference(df.columns.values):
+            df_augmented[word] = [0]*len(df.index.values)
+        df_augmented = df_augmented[sorted_words]
+        if df_augmented.isnull().values.any():
+            print("ERROR: some values were null when they shouldn't be")
+
+        print("Done with df {} columns".format(i))
+
+        words_to_append = all_words.difference(df.index.values)
+        diff_len = len(words_to_append)
+        to_append = pd.DataFrame(np.zeros((diff_len, len(df_augmented.columns.values))), columns=sorted_words, index=words_to_append)
+        # print (to_append.isnull().values.any())
+        df_augmented = df_augmented.append(to_append)
+        # print (giga20_augmented.isnull().values.any())
+
+        print ("Size of augmented matrix {}: {} by {}".format(i, len(df_augmented.index.values), len(df_augmented.columns.values)))
+        print ("Starting index sort")
+        df_augmented.sort_index(inplace=True, kind='mergesort') # Chose mergesort because data is already mostly sorted
+        
+        final_augmented.append(df_augmented)
+        print('Done with df {}\n'.format(i))
+
+    df1_augmented = final_augmented[0]
+    df2_augmented = final_augmented[1]
+
+    print ("Size of augmented matries: ")
+    print (len(df1_augmented.index.values), len(df1_augmented.columns.values))
+    print (len(df2_augmented.index.values), len(df2_augmented.columns.values))
+    print ("")
+
+
+    df1_array = np.array(df1_augmented)
+    df2_array = np.array(df2_augmented)
+    combined_array = df1_array + df2_array
+    combined_df = pd.DataFrame(combined_array, columns=sorted_words, index=sorted_words)
+
+
+    print("Saving co-occurence matrix to {}".format(save_file))
+    combined_df.to_csv(save_file, compression='gzip')
+    print("Successfully saved co-occurence matrix")
 
 
