@@ -35,19 +35,19 @@ def spacy_to_wn_tag(spacy_tag):
     return tag_dict.get(spacy_tag)
 
 
-def get_synonyms(word, pos=None, word_counts=None):
+def get_synonyms(word, pos=None, word_counts=None, reverse=False):
     synonyms = set()
     for syn in wordnet.synsets(word, pos):
         for l in syn.lemmas():
             synonyms.add(l.name())
 
     if word_counts is not None:  # Order by word_counts
-        synonyms = sorted(synonyms, reverse=True, key=lambda x: word_counts[x])
+        synonyms = sorted(synonyms, reverse=reverse, key=lambda x: word_counts[x])
 
     return list(synonyms)
 
 
-def get_hypernyms(word, pos=None, word_counts=None):
+def get_hypernyms(word, pos=None, word_counts=None, reverse=False):
     hypernyms = set()
     for syn in wordnet.synsets(word, pos):
         for h in syn.hypernyms():
@@ -55,14 +55,15 @@ def get_hypernyms(word, pos=None, word_counts=None):
                 hypernyms.add(l.name())
 
     if word_counts is not None:  # Order by word_counts
-        hypernyms = sorted(hypernyms, reverse=True, key=lambda x: word_counts[x])
+        hypernyms = sorted(hypernyms, reverse=reverse, key=lambda x: word_counts[x])
 
     return list(hypernyms)
 
 
-def get_alternate_words(word, pos=None, word_counts=None):
-    syn = get_synonyms(word, pos, word_counts)
-    hyp = get_hypernyms(word, pos, word_counts)
+# Reverse = False sorts words from least frequent to most frequent
+def get_alternate_words(word, pos=None, word_counts=None, reverse=False):
+    syn = get_synonyms(word, pos, word_counts, reverse=reverse)
+    hyp = get_hypernyms(word, pos, word_counts, reverse=reverse)
     # if not syn and not hyp:
     #     print("No alternate words found for '{}' with pos={}".format(word, pos))
     return [word] + syn + hyp
