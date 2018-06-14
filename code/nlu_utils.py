@@ -94,13 +94,22 @@ def get_token(doc, word):
 #     return spacy_doc[token_index].pos_
 
 
-def get_ancestors_of_word(token):
-    return [ancestor for ancestor in token.ancestors]
+def get_ancestors_of_word(token, pos_to_remove=[]):
+    if pos_to_remove:
+        return [ancestor for ancestor in token.ancestors if ancestor.pos_ not in pos_to_remove]
+    else:
+        return [ancestor for ancestor in token.ancestors]
+    
+    
 
+def get_children_of_word(token, pos_to_remove=[]):
+    if pos_to_remove:
+        return [child for child in token.children if child.pos_ not in pos_to_remove]
+    else:
+        return [child for child in token.children]
 
-def get_children_of_word(token):
-    return [child for child in token.children]
-
+    
+    
 
 def dpmi(df, positive=True):
     def discount(df):
