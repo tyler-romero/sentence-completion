@@ -1,0 +1,382 @@
+PPMI: ppmi_ww_12 | Reverse synonyms: False | Remove POS: True | Include ancestors: False | Include children: False
+194it [01:19,  2.43it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.26288659793814434
+
+Correct num_blanks counts: {1: 36, 2: 15}
+Correct difficulty counts: {5: 8, 1: 13, 4: 8, 3: 16, 2: 6}
+
+Inorrect num_blanks counts: {2: 71, 1: 72}
+Inorrect difficulty counts: {1: 33, 4: 19, 5: 34, 3: 42, 2: 15}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: False | Remove POS: True | Include ancestors: False | Include children: True
+194it [01:27,  2.22it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.25773195876288657
+
+Correct num_blanks counts: {1: 39, 2: 11}
+Correct difficulty counts: {5: 8, 1: 14, 3: 17, 4: 8, 2: 3}
+
+Inorrect num_blanks counts: {2: 75, 1: 69}
+Inorrect difficulty counts: {1: 32, 4: 19, 5: 34, 3: 41, 2: 18}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: False | Remove POS: True | Include ancestors: True | Include children: False
+194it [01:46,  1.82it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.27835051546391754
+
+Correct num_blanks counts: {1: 39, 2: 15}
+Correct difficulty counts: {5: 8, 1: 14, 4: 10, 3: 16, 2: 6}
+
+Inorrect num_blanks counts: {2: 71, 1: 69}
+Inorrect difficulty counts: {1: 32, 4: 17, 5: 34, 3: 42, 2: 15}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: False | Remove POS: True | Include ancestors: True | Include children: True
+194it [02:00,  1.61it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.27835051546391754
+
+Correct num_blanks counts: {1: 41, 2: 13}
+Correct difficulty counts: {5: 8, 1: 14, 3: 17, 4: 10, 2: 5}
+
+Inorrect num_blanks counts: {2: 73, 1: 67}
+Inorrect difficulty counts: {1: 32, 4: 17, 5: 34, 3: 41, 2: 16}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: False | Remove POS: False | Include ancestors: False | Include children: False
+194it [01:53,  1.72it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.28350515463917525
+
+Correct num_blanks counts: {1: 39, 2: 16}
+Correct difficulty counts: {5: 10, 1: 15, 4: 9, 3: 16, 2: 5}
+
+Inorrect num_blanks counts: {2: 70, 1: 69}
+Inorrect difficulty counts: {1: 31, 4: 18, 5: 32, 3: 42, 2: 16}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: False | Remove POS: False | Include ancestors: False | Include children: True
+194it [01:47,  1.81it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.28350515463917525
+
+Correct num_blanks counts: {1: 39, 2: 16}
+Correct difficulty counts: {5: 11, 1: 14, 3: 16, 4: 9, 2: 5}
+
+Inorrect num_blanks counts: {2: 70, 1: 69}
+Inorrect difficulty counts: {1: 32, 4: 18, 5: 31, 3: 42, 2: 16}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: False | Remove POS: False | Include ancestors: True | Include children: False
+194it [01:45,  1.83it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.30412371134020616
+
+Correct num_blanks counts: {1: 40, 2: 19}
+Correct difficulty counts: {5: 10, 1: 15, 4: 11, 3: 17, 2: 6}
+
+Inorrect num_blanks counts: {2: 67, 1: 68}
+Inorrect difficulty counts: {1: 31, 4: 16, 5: 32, 3: 41, 2: 15}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: False | Remove POS: False | Include ancestors: True | Include children: True
+194it [01:53,  1.70it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.29896907216494845
+
+Correct num_blanks counts: {1: 41, 2: 17}
+Correct difficulty counts: {5: 11, 1: 15, 3: 16, 4: 11, 2: 5}
+
+Inorrect num_blanks counts: {2: 69, 1: 67}
+Inorrect difficulty counts: {1: 31, 4: 16, 5: 31, 3: 42, 2: 16}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: True | Remove POS: True | Include ancestors: False | Include children: False
+194it [01:43,  1.88it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.26288659793814434
+
+Correct num_blanks counts: {1: 36, 2: 15}
+Correct difficulty counts: {5: 8, 1: 13, 4: 8, 3: 16, 2: 6}
+
+Inorrect num_blanks counts: {2: 71, 1: 72}
+Inorrect difficulty counts: {1: 33, 4: 19, 5: 34, 3: 42, 2: 15}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: True | Remove POS: True | Include ancestors: False | Include children: True
+194it [01:53,  1.71it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.25773195876288657
+
+Correct num_blanks counts: {1: 39, 2: 11}
+Correct difficulty counts: {5: 8, 1: 14, 3: 17, 4: 8, 2: 3}
+
+Inorrect num_blanks counts: {2: 75, 1: 69}
+Inorrect difficulty counts: {1: 32, 4: 19, 5: 34, 3: 41, 2: 18}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: True | Remove POS: True | Include ancestors: True | Include children: False
+194it [02:06,  1.54it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.27835051546391754
+
+Correct num_blanks counts: {1: 39, 2: 15}
+Correct difficulty counts: {5: 8, 1: 14, 4: 10, 3: 16, 2: 6}
+
+Inorrect num_blanks counts: {2: 71, 1: 69}
+Inorrect difficulty counts: {1: 32, 4: 17, 5: 34, 3: 42, 2: 15}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: True | Remove POS: True | Include ancestors: True | Include children: True
+194it [02:00,  1.61it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.27835051546391754
+
+Correct num_blanks counts: {1: 41, 2: 13}
+Correct difficulty counts: {5: 8, 1: 14, 3: 17, 4: 10, 2: 5}
+
+Inorrect num_blanks counts: {2: 73, 1: 67}
+Inorrect difficulty counts: {1: 32, 4: 17, 5: 34, 3: 41, 2: 16}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: True | Remove POS: False | Include ancestors: False | Include children: False
+194it [04:13,  1.31s/it]
+0it [00:00, ?it/s]
+Accuracy: 0.28350515463917525
+
+Correct num_blanks counts: {1: 39, 2: 16}
+Correct difficulty counts: {5: 10, 1: 15, 4: 9, 3: 16, 2: 5}
+
+Inorrect num_blanks counts: {2: 70, 1: 69}
+Inorrect difficulty counts: {1: 31, 4: 18, 5: 32, 3: 42, 2: 16}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: True | Remove POS: False | Include ancestors: False | Include children: True
+194it [02:21,  1.38it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.28350515463917525
+
+Correct num_blanks counts: {1: 39, 2: 16}
+Correct difficulty counts: {5: 11, 1: 14, 3: 16, 4: 9, 2: 5}
+
+Inorrect num_blanks counts: {2: 70, 1: 69}
+Inorrect difficulty counts: {1: 32, 4: 18, 5: 31, 3: 42, 2: 16}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: True | Remove POS: False | Include ancestors: True | Include children: False
+194it [02:08,  1.51it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.30412371134020616
+
+Correct num_blanks counts: {1: 40, 2: 19}
+Correct difficulty counts: {5: 10, 1: 15, 4: 11, 3: 17, 2: 6}
+
+Inorrect num_blanks counts: {2: 67, 1: 68}
+Inorrect difficulty counts: {1: 31, 4: 16, 5: 32, 3: 41, 2: 15}
+-------------------------------------------------------------------------------------------------
+
+PPMI: ppmi_ww_12 | Reverse synonyms: True | Remove POS: False | Include ancestors: True | Include children: True
+194it [02:03,  1.57it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.29896907216494845
+
+Correct num_blanks counts: {1: 41, 2: 17}
+Correct difficulty counts: {5: 11, 1: 15, 3: 16, 4: 11, 2: 5}
+
+Inorrect num_blanks counts: {2: 69, 1: 67}
+Inorrect difficulty counts: {1: 31, 4: 16, 5: 31, 3: 42, 2: 16}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: False | Remove POS: True | Include ancestors: False | Include children: False
+194it [01:38,  1.98it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.27319587628865977
+
+Correct num_blanks counts: {1: 37, 2: 16}
+Correct difficulty counts: {5: 7, 1: 13, 3: 17, 4: 9, 2: 7}
+
+Inorrect num_blanks counts: {2: 70, 1: 71}
+Inorrect difficulty counts: {1: 33, 4: 18, 5: 35, 3: 41, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: False | Remove POS: True | Include ancestors: False | Include children: True
+194it [01:41,  1.92it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.29381443298969073
+
+Correct num_blanks counts: {1: 40, 2: 17}
+Correct difficulty counts: {5: 7, 1: 15, 3: 19, 4: 9, 2: 7}
+
+Inorrect num_blanks counts: {2: 69, 1: 68}
+Inorrect difficulty counts: {1: 31, 4: 18, 5: 35, 3: 39, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: False | Remove POS: True | Include ancestors: True | Include children: False
+194it [01:52,  1.72it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.29381443298969073
+
+Correct num_blanks counts: {1: 40, 2: 17}
+Correct difficulty counts: {5: 7, 1: 14, 4: 11, 3: 18, 2: 7}
+
+Inorrect num_blanks counts: {2: 69, 1: 68}
+Inorrect difficulty counts: {1: 32, 4: 16, 5: 35, 3: 40, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: False | Remove POS: True | Include ancestors: True | Include children: True
+194it [02:10,  1.48it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.30927835051546393
+
+Correct num_blanks counts: {1: 43, 2: 17}
+Correct difficulty counts: {5: 7, 1: 16, 3: 19, 4: 11, 2: 7}
+
+Inorrect num_blanks counts: {2: 69, 1: 65}
+Inorrect difficulty counts: {1: 30, 4: 16, 5: 35, 3: 39, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: False | Remove POS: False | Include ancestors: False | Include children: False
+194it [01:39,  1.95it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.27835051546391754
+
+Correct num_blanks counts: {1: 37, 2: 17}
+Correct difficulty counts: {5: 8, 1: 14, 3: 16, 4: 9, 2: 7}
+
+Inorrect num_blanks counts: {2: 69, 1: 71}
+Inorrect difficulty counts: {1: 32, 4: 18, 5: 34, 3: 42, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: False | Remove POS: False | Include ancestors: False | Include children: True
+194it [01:47,  1.81it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.28865979381443296
+
+Correct num_blanks counts: {1: 39, 2: 17}
+Correct difficulty counts: {5: 9, 1: 15, 3: 17, 4: 9, 2: 6}
+
+Inorrect num_blanks counts: {2: 69, 1: 69}
+Inorrect difficulty counts: {1: 31, 4: 18, 5: 33, 3: 41, 2: 15}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: False | Remove POS: False | Include ancestors: True | Include children: False
+194it [02:01,  1.60it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.28865979381443296
+
+Correct num_blanks counts: {1: 40, 2: 16}
+Correct difficulty counts: {5: 7, 1: 14, 4: 11, 3: 17, 2: 7}
+
+Inorrect num_blanks counts: {2: 70, 1: 68}
+Inorrect difficulty counts: {1: 32, 4: 16, 5: 35, 3: 41, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: False | Remove POS: False | Include ancestors: True | Include children: True
+194it [02:02,  1.58it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.30927835051546393
+
+Correct num_blanks counts: {1: 43, 2: 17}
+Correct difficulty counts: {5: 8, 1: 16, 3: 18, 4: 11, 2: 7}
+
+Inorrect num_blanks counts: {2: 69, 1: 65}
+Inorrect difficulty counts: {1: 30, 4: 16, 5: 34, 3: 40, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: True | Remove POS: True | Include ancestors: False | Include children: False
+194it [01:38,  1.98it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.27319587628865977
+
+Correct num_blanks counts: {1: 37, 2: 16}
+Correct difficulty counts: {5: 7, 1: 13, 3: 17, 4: 9, 2: 7}
+
+Inorrect num_blanks counts: {2: 70, 1: 71}
+Inorrect difficulty counts: {1: 33, 4: 18, 5: 35, 3: 41, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: True | Remove POS: True | Include ancestors: False | Include children: True
+194it [01:41,  1.92it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.29381443298969073
+
+Correct num_blanks counts: {1: 40, 2: 17}
+Correct difficulty counts: {5: 7, 1: 15, 3: 19, 4: 9, 2: 7}
+
+Inorrect num_blanks counts: {2: 69, 1: 68}
+Inorrect difficulty counts: {1: 31, 4: 18, 5: 35, 3: 39, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: True | Remove POS: True | Include ancestors: True | Include children: False
+194it [01:58,  1.64it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.29381443298969073
+
+Correct num_blanks counts: {1: 40, 2: 17}
+Correct difficulty counts: {5: 7, 1: 14, 4: 11, 3: 18, 2: 7}
+
+Inorrect num_blanks counts: {2: 69, 1: 68}
+Inorrect difficulty counts: {1: 32, 4: 16, 5: 35, 3: 40, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: True | Remove POS: True | Include ancestors: True | Include children: True
+194it [01:53,  1.71it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.30927835051546393
+
+Correct num_blanks counts: {1: 43, 2: 17}
+Correct difficulty counts: {5: 7, 1: 16, 3: 19, 4: 11, 2: 7}
+
+Inorrect num_blanks counts: {2: 69, 1: 65}
+Inorrect difficulty counts: {1: 30, 4: 16, 5: 35, 3: 39, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: True | Remove POS: False | Include ancestors: False | Include children: False
+194it [01:39,  1.96it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.27835051546391754
+
+Correct num_blanks counts: {1: 37, 2: 17}
+Correct difficulty counts: {5: 8, 1: 14, 3: 16, 4: 9, 2: 7}
+
+Inorrect num_blanks counts: {2: 69, 1: 71}
+Inorrect difficulty counts: {1: 32, 4: 18, 5: 34, 3: 42, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: True | Remove POS: False | Include ancestors: False | Include children: True
+194it [01:44,  1.86it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.28865979381443296
+
+Correct num_blanks counts: {1: 39, 2: 17}
+Correct difficulty counts: {5: 9, 1: 15, 3: 17, 4: 9, 2: 6}
+
+Inorrect num_blanks counts: {2: 69, 1: 69}
+Inorrect difficulty counts: {1: 31, 4: 18, 5: 33, 3: 41, 2: 15}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: True | Remove POS: False | Include ancestors: True | Include children: False
+194it [02:01,  1.60it/s]
+0it [00:00, ?it/s]
+Accuracy: 0.28865979381443296
+
+Correct num_blanks counts: {1: 40, 2: 16}
+Correct difficulty counts: {5: 7, 1: 14, 4: 11, 3: 17, 2: 7}
+
+Inorrect num_blanks counts: {2: 70, 1: 68}
+Inorrect difficulty counts: {1: 32, 4: 16, 5: 35, 3: 41, 2: 14}
+-------------------------------------------------------------------------------------------------
+
+PPMI: dppmi_ww_12 | Reverse synonyms: True | Remove POS: False | Include ancestors: True | Include children: True
+194it [02:05,  1.54it/s]
+Accuracy: 0.30927835051546393
+
+Correct num_blanks counts: {1: 43, 2: 17}
+Correct difficulty counts: {5: 8, 1: 16, 3: 18, 4: 11, 2: 7}
+
+Inorrect num_blanks counts: {2: 69, 1: 65}
+Inorrect difficulty counts: {1: 30, 4: 16, 5: 34, 3: 40, 2: 14}
+-------------------------------------------------------------------------------------------------
