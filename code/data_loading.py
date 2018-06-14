@@ -443,23 +443,18 @@ class GIGA_TRAIN:
         self.seed = seed
         self.punctuation_table = str.maketrans({key: None for key in string.punctuation if key != '-'})
         nlp = spacy.load('en_core_web_sm')
-        self.tokenizer = Tokenizer(nlp.vocab)
+        self.spacy_tokenizer = Tokenizer(nlp.vocab)
+        self.nltk_tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
         
-    def vocab(self, MAX_VOCAB_SIZE):
-        word_counts = defaultdict(int)
-        reverse_vocab = defaultdict(lambda: None)
-        
-        # Word Count
-        for path in tqdm(self.train_files):
-            doc = self.load_document(path)
-            for token in doc:
-                if not (token.is_punct or token.is_space):
-                    word_counts[token.norm_] += 1
+
+
+    def vocab(self, MAX_VOCAB_SIZE, use_spacy_norm=True):
+        word_counts = self.word_count(use_spacy_norm=use_spacy_norm)
                 
         # Order by count
         wc_sorted = sorted(word_counts.items(), key=operator.itemgetter(1), reverse=True)
         vocab = [word for word, count in wc_sorted]
-
+        
         if len(vocab) > MAX_VOCAB_SIZE:
             vocab = vocab[:MAX_VOCAB_SIZE]
 
@@ -468,12 +463,33 @@ class GIGA_TRAIN:
         print("Top 10 vocab words: {}".format(vocab[:10]))
         
         # Create reverse_vocab for fast lookup
+        reverse_vocab = defaultdict(lambda: None)
         for i, word in enumerate(vocab):
             reverse_vocab[word] = i
             
         return vocab, reverse_vocab
+
+
+
+    def word_count(self, use_spacy_norm=True):
+        word_counts = defaultdict(int)
         
-    def load_document(self, path, verbose=False):
+        for path in tqdm(self.train_files):
+            doc = self.load_document(path, split_by_sentence=(not use_spacy_norm))
+            if use_spacy_norm:
+                for token in doc:
+                    if not token.is_space:
+                        word_counts[token.norm_] += 1
+            else:
+                for s in doc:
+                    for w in s.split():
+                        word_counts[w] += 1
+        return word_counts
+
+
+    
+        
+    def load_document(self, path, verbose=False, split_by_sentence=False):
         doc = []
         with open(path) as f:
             full_text = f.read()
@@ -486,9 +502,13 @@ class GIGA_TRAIN:
             full_text = re.sub('<.?P>', '', full_text)
 
 
-            full_text = full_text.translate(self.punctuation_table)  # Strip punctuation
+            if split_by_sentence:  # Return doc as a list of sentences
+                sentences = self.nltk_tokenizer.tokenize(full_text)
+                doc = [s.translate(self.punctuation_table).lower() for s in sentences]
+            else:
+                full_text = full_text.translate(self.punctuation_table)  # Strip punctuation
+                doc = self.spacy_tokenizer(full_text)
 
-            doc = self.tokenizer(full_text)  # Use spacy
         return doc
 
 
@@ -563,7 +583,13 @@ class GIGA_TRAIN:
                         if index_i != index_j:  # Dont double count along diag
                             matrix[index_j, index_i] += 1
 
-        df = pd.DataFrame(matrix, index=vocab, columns=vocab)
+            # Save after each document
+            df = pd.DataFrame(matrix, index=vocab, columns=vocab)
+            if save:  # Save co-occurence matrix
+                print("Saving co-occurence matrix to {}".format(file_path))
+                df.to_csv(file_path, compression='gzip')
+                print("Successfully saved co-occurence matrix")
+
         del matrix  # An attempt to save memory to potentially speed up saving.
 
         if save:  # Save co-occurence matrix
@@ -573,7 +599,7 @@ class GIGA_TRAIN:
         return df
 
 
-def combine_cooccurence_matrices(df1_file_path, df2_file_path, save_file):
+def combine_cooccurrence_matrices(df1_file_path, df2_file_path, save_file):
     """
     Matrices should both be pandas dataframes, don't have to have the same indices or column names
     NOTE: this assumes that each df internally has the same column names as index names, however
@@ -612,7 +638,7 @@ def combine_cooccurence_matrices(df1_file_path, df2_file_path, save_file):
         to_append = pd.DataFrame(np.zeros((diff_len, len(df_augmented.columns.values))), columns=sorted_words, index=words_to_append)
         # print (to_append.isnull().values.any())
         df_augmented = df_augmented.append(to_append)
-        # print (giga20_augmented.isnull().values.any())
+        # print (df_augmented.isnull().values.any())
 
         print ("Size of augmented matrix {}: {} by {}".format(i, len(df_augmented.index.values), len(df_augmented.columns.values)))
         print ("Starting index sort")
@@ -624,7 +650,7 @@ def combine_cooccurence_matrices(df1_file_path, df2_file_path, save_file):
     df1_augmented = final_augmented[0]
     df2_augmented = final_augmented[1]
 
-    print ("Size of augmented matries: ")
+    print ("Size of augmented matrices: ")
     print (len(df1_augmented.index.values), len(df1_augmented.columns.values))
     print (len(df2_augmented.index.values), len(df2_augmented.columns.values))
     print ("")
@@ -634,10 +660,29 @@ def combine_cooccurence_matrices(df1_file_path, df2_file_path, save_file):
     df2_array = np.array(df2_augmented)
     combined_array = df1_array + df2_array
     combined_df = pd.DataFrame(combined_array, columns=sorted_words, index=sorted_words)
+    
+    
+    
+    # Sort by word frequency again
+    print ("Sorting by word frequency")
+    word_counts = np.sum(combined_array, axis=0)
+    with_words = [(column_names[i], count) for i, count in enumerate(word_counts)]
+    sorted_by_freq = sorted(with_words, key=lambda x: x[1], reverse=True)
+    freq_sorted_words = [s[0] for s in sorted_by_freq]
+    
+    # Rearrange by word frequency
+    combined_df = combined_df[freq_sorted_words]
+    combined_df = combined_df.reindex(freq_sorted_words)
 
 
     print("Saving co-occurence matrix to {}".format(save_file))
     combined_df.to_csv(save_file, compression='gzip')
     print("Successfully saved co-occurence matrix")
+
+    return combined_df
+
+
+if __name__ == '__main__':
+    main()
 
 
