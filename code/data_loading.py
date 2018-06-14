@@ -81,8 +81,8 @@ class MSR:
     def test(self):
         questions_path = os.path.join(self.root_path, 'testing_data.csv')
         answers_path = os.path.join(self.root_path, 'test_answer.csv')
-        questions = pd.read_csv(questions_path)
-        answers = pd.read_csv(answers_path)
+        questions = pd.read_csv(questions_path, index_col='id')
+        answers = pd.read_csv(answers_path, index_col='id')
         dataset = questions.join(answers)
         test, dev = train_test_split(dataset, test_size=self.TEST_DEV_SPLIT, random_state=self.seed)
         return test
