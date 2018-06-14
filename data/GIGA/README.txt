@@ -10,6 +10,8 @@
 
 - batch_01_ww_15000_*.csv.gz: Word-word co-occurrence matrices from the first batch of the NYT data, 15,000-word vocabulary. This program was saving periodically but the code had a small bug so the files are named manually and it's unclear exactly which files were finished and saved. At most the first 4 files from the first batch were saved. I kept all files in case one or more of them caused problems. Any of these files can be combined with the batch_0 file because they will be disjoint, but these files should not be combined with each other because they do overlap.
 
+- combined_batch_0_1-4_ww_15000.csv.gz: I'm really starting to hate these file names, but this word-word co-occurrence matrix combines the results from batch_0 and batch_01_..._4, just to be as meticulous as possible. So it contains information from at least the first 12 documents in the NYT corpus, and at most the first 13 documents.
+
 - nyt5_15000.csv.gz: Run on the first 6 files of the NYT data, shouldn't combine with other files because it's not disjoint, but could use on its own for comparison
 
 
