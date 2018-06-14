@@ -1278,7 +1278,7 @@
     {
         "id": "None",
         "num_blanks": 1,
-        "question": "The simple and direct images in Dorothea Lange's photographs provide reflection of a bygone social milieu.",
+        "question": "The simple and direct images in Dorothea Lange's photographs provide BLANK reflection of a bygone social milieu.",
         "candidates": ["an intricate",
             "a candid",
             "an ostentatious",
@@ -1584,7 +1584,7 @@
             "concise, elaborate",
             "comprehensive, edifying",
             "succinct, enlightening",
-            "provocatiev, technical"],
+            "provocative, technical"],
         "solution_index": [3],
         "source": "SAT 7-01 Section 7 Q3",
         "URL": "",
@@ -2627,7 +2627,7 @@
 
     {
         "id": "None",
-        "num_blanks": 2,
+        "num_blanks": 1,
         "question": "The award-winning novel is such BLANK tale that its very intricacy has a daunting effect on readers.",
         "candidates": ["a convoluted",
             "a culpable",
